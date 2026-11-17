@@ -167,8 +167,9 @@ class Grounder:
             if prefix:
                 params["ontology"] = "ncbitaxon" if prefix == "NCBITAXON" else prefix.lower()
             docs = requests.get(f"{OLS}/search", params=params, headers=UA, timeout=30).json()["response"]["docs"]
-            docs = [d for d in docs if d.get("obo_id") and (not prefix or d["obo_id"].upper().startswith(prefix + ":"))
-                    and d.get("is_defining_ontology", True)]
+            docs = [d for d in docs if d.get("obo_id") and d.get("is_defining_ontology", True)
+                    and (d["obo_id"].upper().startswith(prefix + ":") if prefix
+                         else d["obo_id"].split(":")[0].upper() in PREFIXES)]
             return canon(docs[0]["obo_id"]) if docs else ""
         return self._memo(f"label:{prefix}:{label.lower()}", f) or None
 
