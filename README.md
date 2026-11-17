@@ -47,7 +47,7 @@ These routes are tried in order, and the route used is recorded per paper in `fu
 4. **Unpaywall** (optional).
 5. **The DOI target**, used only if it serves a PDF directly.
 
-No route impersonates a browser or works around a publisher's access controls. A paper with no route is extracted from its abstract only, every statistic is marked `full_text_unavailable`, and it is listed in `runs/access_queue.csv` for people with library access (UMD, UK DRI) to fetch and rerun. *Per run: count by route, and the proportion abstract-only.*
+No route impersonates a browser or works around a publisher's access controls. A paper with no route is extracted from its abstract only, every statistic is marked `full_text_unavailable`, and it is listed in `runs/access_queue.csv` for collaborators with library access to fetch and rerun. *Per run: count by route, and the proportion abstract-only.*
 
 ## 5. What a human checked
 
