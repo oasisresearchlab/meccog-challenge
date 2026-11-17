@@ -1,0 +1,138 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "NO EFFECT: Rab5a immunolabeling of cingulate cortex neurons showed no difference in early endosome number, size or area fraction between APOE4/4 and APOE3/3 mice at 6 or 12 months. This is class 5 because endosome morphology is not pH; it is relevant to the non-aged context.",
+  "description": "APOE4/4 vs APOE3/3 targeted-replacement mice, approximately equal males and females; 6 months (48 vs 52 neurons, 4 mice per genotype) and 12 months (115 vs 88 neurons, 8 mice per genotype); Rab5a immunofluorescence in cingulate cortex neurons, ImageJ particle analysis, Student's t-test. Caveat: mouse neurons, not human astrocytes; morphology, not pH.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "early endosome",
+      "entityType": "measured (other)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005769"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "cingulate cortex",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/UBERON_0003027"
+    },
+    {
+      "name": "neuron",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000540"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "While no differences were seen in early endosome size, number or area fraction at 6 or 12 months of age, an increase in mean early endosome number (an increase of 30.5 ± 4.0%; Figure 5B), size (33.5 ± 8.0%; Figure 5C), and area fraction (70.1 ± 4.8%; Figure 5D) was seen in the 18 month-old APOE4/4 mice as compared to APOE3/3 controls",
+    "anchorLocations": [
+      {
+        "page": 8,
+        "boxes": [
+          {
+            "x": 195,
+            "y": 486,
+            "w": 84,
+            "h": 10
+          },
+          {
+            "x": 279,
+            "y": 484,
+            "w": 11,
+            "h": 9
+          },
+          {
+            "x": 45,
+            "y": 497,
+            "w": 18,
+            "h": 9
+          },
+          {
+            "x": 69,
+            "y": 497,
+            "w": 139,
+            "h": 10
+          },
+          {
+            "x": 208,
+            "y": 496,
+            "w": 11,
+            "h": 9
+          },
+          {
+            "x": 219,
+            "y": 497,
+            "w": 22,
+            "h": 9
+          },
+          {
+            "x": 247,
+            "y": 497,
+            "w": 43,
+            "h": 10
+          },
+          {
+            "x": 45,
+            "y": 509,
+            "w": 245,
+            "h": 9
+          },
+          {
+            "x": 45,
+            "y": 520,
+            "w": 70,
+            "h": 9
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "split"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "no_effect",
+    "directness-5"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 3,
+    "summary": "(APOE3/3 -> APOE4/4, young/middle-aged) -> (no change in neuronal early endosome morphology) [NO EFFECT]",
+    "relevance": "0.3",
+    "dataLocation": "Fig 5B-D",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "not_found_in_source",
+    "pValue": "N/A",
+    "pValueProvenance": "not_found_in_source",
+    "sampleSize": "8-16",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "5",
+    "directnessStrength": "5",
+    "direction": "no_effect",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "directness class 5: description should say why no class fits"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE4/4 vs APOE3/3 genotype at 6 and 12 months",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Rab5a-positive early endosome number, size and area fraction per neuron",
+      "mapsTo": "other"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

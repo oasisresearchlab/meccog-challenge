@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.opposes",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kzo6t22",
+    "cid": "bafyreiegqrcnr75jfbud6j6cikhdo4y3eeufu77hjrt7nu2ljyc3fzweja"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "moderate",
+  "warrant": "Directness class 3 (indirect output), strength d=3 (moderate). Perturbed APOE genotype: human APOE4 vs APOE3 targeted-replacement (knock-in) mouse primary cultures (A); measured Total LysoTracker Red spot intensity per neuronal cell body (acidic compartment signal), live-cell imaging (B_surrogate).",
+  "description": "(APOE3 -> APOE4) -> (lower LysoTracker intensity in neuronal acidic compartments, i.e. reduced acidification, at 25-26 DIV) [CONTRADICTS]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.supports",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l5aep22",
+    "cid": "bafyreif3fc5uuapvr7gdr65cv6xhl4q7lm55p3o6r7rmlgpx7ntsxt4nu4"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "strong",
+  "warrant": "Directness class 1 (direct), strength d=1 (very strong). Perturbed APOE4 vs APOE3 astrocytes (A); measured endosomal acidification (endosomal pH) (B).",
+  "description": "(APOE3 -> APOE4) -> (increased endosomal acidification / lower endosomal pH in astrocytes)",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

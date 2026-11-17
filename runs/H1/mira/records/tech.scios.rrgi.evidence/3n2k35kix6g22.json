@@ -1,0 +1,115 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "CONTRADICTING: ApoE4 particles reduced the number of LysoTracker-positive acidic puncta in astrocytes compared with untreated and ApoE3-treated cells, while ApoE3 (and ApoE2) particles had no effect. This indicates fewer acidic late endosome/lysosome compartments with ApoE4, not more acidification.",
+  "description": "Primary hippocampal astrocytes from P0-P1 wild-type Sprague-Dawley rats (expressing rat ApoE), DIV 6-9. Treated with 50 µg/ml recombinant human ApoE2, ApoE3 or ApoE4/POPC particles in HBSS (starvation) for 4 h, with 50 nM LysoTracker Red DND-99 for the last 30 min. Fixed and imaged by Airyscan; puncta per nucleus counted. n = 4 independent experiments (unit: independent cultures; 10 images per coverslip). Caveat: rat astrocytes, not human; exogenous ApoE particles rather than cell genotype; LysoTracker puncta count is a surrogate for acidification, not a pH measurement, and compartments are late endosome/lysosome rather than endosome specifically.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "late endosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005770"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "LysoTracker Red DND-99",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/CHEBI_52117"
+    },
+    {
+      "name": "Rattus norvegicus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    },
+    {
+      "name": "hippocampus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/UBERON_0002421"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "We found that ApoE4 particles decreased the number of LysoTracker-positive puncta, while ApoE2 and ApoE3 particles had no effect (Figures 3A and 3B).",
+    "anchorLocations": [
+      {
+        "page": 4,
+        "boxes": [
+          {
+            "x": 126,
+            "y": 583,
+            "w": 417,
+            "h": 13
+          },
+          {
+            "x": 72,
+            "y": 597,
+            "w": 328,
+            "h": 13
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4 particles) -> (fewer LysoTracker-positive acidic late endosome/lysosome puncta in astrocytes) [CONTRADICTS]",
+    "relevance": "0.7",
+    "dataLocation": "Fig 3A-B",
+    "effectSize": "~30%",
+    "effectSizeProvenance": "estimated_from_figure",
+    "pValue": "N/A",
+    "pValueProvenance": "ambiguous_panel",
+    "sampleSize": "4",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "3",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "extracted from the preprint: check panels and numbers against the published paper"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "Exogenous recombinant human ApoE4 vs ApoE3 (and ApoE2) lipoprotein-like particles (POPC), 50 µg/ml for 4 h",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Number of LysoTracker Red-positive (acidic) puncta per cell",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "plotReading": true,
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

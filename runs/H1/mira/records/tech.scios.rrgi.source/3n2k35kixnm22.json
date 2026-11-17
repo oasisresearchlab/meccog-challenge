@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Tcw J, Qian L, Pipalia NH, Chao MJ, Liang SA, Shi Y, Jain BR, Bertelsen SE, Kapoor M, Marcora E, Sikora E, Andrews EJ, Martini AC, Karch CM, Head E, Holtzman DM, Zhang B, Wang M, Maxfield FR, Poon WW, (2022). Cholesterol and matrisome pathways dysregulated in astrocytes and microglia.. Cell",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "35750033",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "abstract_only",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1016/j.cell.2022.05.017",
+  "url": "https://doi.org/10.1016/j.cell.2022.05.017",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

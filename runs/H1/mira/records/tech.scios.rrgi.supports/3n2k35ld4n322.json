@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.supports",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l726r22",
+    "cid": "bafyreibfjdyssc7vyeevt77qxfmiakycd3dezegjflxqoxxudnplwc64p4"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "strong",
+  "warrant": "Directness class 3 (indirect output), strength d=2 (strong). Perturbed APOE4 vs APOE3 genotype (homozygous human APOE targeted replacement) (A); measured lysosomal pH (LysoSensor Green DND-189 flow cytometry) (B_surrogate).",
+  "description": "(APOE3 -> APOE4) -> (lower lysosomal pH in microglia at baseline)",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

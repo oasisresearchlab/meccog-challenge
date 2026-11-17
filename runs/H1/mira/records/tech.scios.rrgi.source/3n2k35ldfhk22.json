@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Larramona-Arcas R, González-Arias C, Perea G, Gutiérrez A, Vitorica J, García-Barrera T, Gómez-Ariza JL, Pascua-Maestro R, Ganfornina MD, Kara E, Hudry E, Martinez-Vicente M, Vila M, Galea E, Masgrau  (2020). Sex-dependent calcium hyperactivity due to lysosomal-related dysfunction in astrocytes from APOE4 versus APOE3 gene targeted replacement mice.. Molecular neurodegeneration",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "32517777",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "pmc_s3",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1186/s13024-020-00382-8",
+  "url": "https://doi.org/10.1186/s13024-020-00382-8",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

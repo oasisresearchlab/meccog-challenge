@@ -1,0 +1,82 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "N/A",
+  "description": "Human iPSC-derived astrocytes, isogenic APOE4 vs APOE3 lines; endocytosis assay not specified (abstract-only). Caveat: abstract-only. Endocytosis is not endosomal pH. iPSC-derived astrocytes rather than primary brain astrocytes.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "endocytosis",
+      "entityType": "measured (other)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0006897"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "We investigate the cellular consequences of APOE4 in human iPSC-derived astrocytes, observing an endocytic defect in APOE4 astrocytes compared with their isogenic APOE3 counterparts."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "mixed",
+    "directness-5",
+    "audit-dropped"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) -> (endocytic defect in iPSC-derived astrocytes); endosomal pH not measured",
+    "relevance": "0.3",
+    "dataLocation": "Abstract (full text unavailable)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "full_text_unavailable",
+    "pValue": "N/A",
+    "pValueProvenance": "full_text_unavailable",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "full_text_unavailable",
+    "directnessClass": "5",
+    "directnessStrength": "5",
+    "direction": "mixed",
+    "audit": {
+      "status": "dropped",
+      "errors": [
+        "description is empty"
+      ],
+      "warnings": [
+        "directness class 5: description should say why no class fits"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE genotype (isogenic APOE4 vs APOE3) in iPSC-derived astrocytes",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "endocytosis (endocytic function); assay not specified in the abstract",
+      "mapsTo": "other"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

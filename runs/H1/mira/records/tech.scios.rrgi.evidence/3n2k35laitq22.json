@@ -1,0 +1,82 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "CONTRADICTING: APOE44 iPSC-derived human microglia showed impaired lysosomal acidification (less acidic lysosomes) and reduced degradation capacity compared with the control genotype, the opposite direction to the hypothesized increased acidification, though measured in lysosomes rather than endosomes.",
+  "description": "Human iPSC-derived microglia, APOE44 versus comparison genotype (likely APOE33; not stated in the abstract). The acidification assay is not described. Abstract-only. Caveat: microglia, not astrocytes; lysosomes, not endosomes; iPSC-derived cells.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "lysosomal lumen acidification",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0007042"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "microglial cell",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000129"
+    },
+    {
+      "name": "induced pluripotent stem cell-derived microglia",
+      "entityType": "experimental system"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "APOE44 microglia exhibit impaired lysosomal acidification and degradation capacity."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) -> (impaired lysosomal acidification, i.e. higher lysosomal pH, in iPSC-derived microglia) [CONTRADICTS]",
+    "relevance": "0.55",
+    "dataLocation": "Abstract (full text unavailable)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "full_text_unavailable",
+    "pValue": "N/A",
+    "pValueProvenance": "full_text_unavailable",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "full_text_unavailable",
+    "directnessClass": "3",
+    "directnessStrength": "3",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE genotype in iPSC-derived microglia (APOE44 vs control genotype, presumably APOE33)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "lysosomal acidification and degradation capacity",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

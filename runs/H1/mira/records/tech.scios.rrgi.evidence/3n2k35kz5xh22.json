@@ -1,0 +1,87 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "Neurons exposed to ApoE4-containing lipoprotein particles showed endolysosomal dysfunction driven by peroxidated lipids, relative to other ApoE isoforms. The abstract does not state whether endosomal pH is lower or higher, so the direction relative to H1's reduced-pH claim is undetermined.",
+  "description": "Abstract-only. Lipoprotein particles containing different ApoE isoforms applied to neurons in vitro and to intact rodent hippocampi (ApoE4 hippocampi mentioned). Cell source, species and assays are not specified. Caveat: neurons rather than astrocytes; likely rodent rather than human; the endolysosomal readout may not be endosomal pH.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "endosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005768"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "neuron",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000540"
+    },
+    {
+      "name": "hippocampal formation",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/UBERON_0002421"
+    },
+    {
+      "name": "Rodentia",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9989"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "ApoE4 particles, on the other hand, exacerbate the effects of these toxic lipids leading to endolysosomal dysfunction."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "mixed",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4 lipoprotein particles) -> (more peroxidated lipid burden in neurons) -> (endolysosomal dysfunction; pH direction unspecified)",
+    "relevance": "0.3",
+    "dataLocation": "Abstract (full text unavailable)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "full_text_unavailable",
+    "pValue": "N/A",
+    "pValueProvenance": "full_text_unavailable",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "full_text_unavailable",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "mixed",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "ApoE isoform carried on lipoprotein particles applied to neurons (ApoE4 vs other isoforms, including ApoE3)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Endolysosomal function (unspecified readout; pH not stated in the abstract)",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

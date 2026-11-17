@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.supports",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kmky222",
+    "cid": "bafyreieepvwjj6q3v35656pg3jjmwllex5hf4iifvmkpstlg5tijokrrhi"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "moderate",
+  "warrant": "Directness class 2 (indirect input), strength d=3 (moderate). Perturbed histone deacetylase inhibitor treatment restoring NHE6 expression in ApoE4 astrocytes (reversal of the APOE4 effect) (A_surrogate); measured endosomal pH (B).",
+  "description": "(APOE4 + HDAC inhibitor -> restored NHE6) -> (normalized endosomal pH, reversal of APOE4 hyperacidification)",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

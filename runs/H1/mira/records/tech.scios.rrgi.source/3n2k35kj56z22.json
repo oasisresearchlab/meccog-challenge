@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Prasad H, Rao R. (2018). Amyloid clearance defect in ApoE4 astrocytes is reversed by epigenetic correction of endosomal pH.. Proceedings of the National Academy of Sciences of the United States of America",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "29946028",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "abstract_only",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1073/pnas.1801612115",
+  "url": "https://doi.org/10.1073/pnas.1801612115",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

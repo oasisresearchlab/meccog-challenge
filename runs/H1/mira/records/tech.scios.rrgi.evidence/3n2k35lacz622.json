@@ -1,0 +1,167 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "CONTRADICTING: In a second (female, UCI5) isogenic pair, debris-challenged APOE44 iMG late endosomes/lysosomes did not acidify and instead shifted toward alkalinization (higher pH), while APOE33 acidified (reported: 0.15 pH units (APOE44+debris ~5.40 vs APOE33+debris ~5.24)).",
+  "description": "Isogenic APOE33/APOE44 UCI5 (UCI ADRC, female) human iPSC-derived microglia, untreated or treated with organoid debris. Ratiometric ApHID/Alexa647 dextran LE/Ly pH imaging. n=3 wells per condition, 25 frames per well; unpaired two-tailed t-test. Caveat: microglia, not astrocytes; late endosome/lysosome compartment.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "endosome",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005768"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "regulation of intracellular pH",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0051453"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "microglial cell",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000129"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Upon challenge with organoid debris, UCI5 APOE44 iMG lysosomes failed to mount an adaptive acidification response and instead shifted toward alkalinization (Figure 7M).",
+    "anchorLocations": [
+      {
+        "page": 8,
+        "boxes": [
+          {
+            "x": 201,
+            "y": 661,
+            "w": 342,
+            "h": 11
+          },
+          {
+            "x": 72,
+            "y": 672,
+            "w": 30,
+            "h": 11
+          },
+          {
+            "x": 107,
+            "y": 672,
+            "w": 14,
+            "h": 11
+          },
+          {
+            "x": 125,
+            "y": 672,
+            "w": 41,
+            "h": 11
+          },
+          {
+            "x": 170,
+            "y": 672,
+            "w": 55,
+            "h": 11
+          },
+          {
+            "x": 230,
+            "y": 672,
+            "w": 44,
+            "h": 11
+          },
+          {
+            "x": 278,
+            "y": 672,
+            "w": 20,
+            "h": 11
+          },
+          {
+            "x": 302,
+            "y": 672,
+            "w": 35,
+            "h": 11
+          },
+          {
+            "x": 342,
+            "y": 672,
+            "w": 32,
+            "h": 11
+          },
+          {
+            "x": 379,
+            "y": 672,
+            "w": 33,
+            "h": 11
+          },
+          {
+            "x": 416,
+            "y": 672,
+            "w": 60,
+            "h": 11
+          },
+          {
+            "x": 481,
+            "y": 672,
+            "w": 35,
+            "h": 11
+          },
+          {
+            "x": 520,
+            "y": 672,
+            "w": 20,
+            "h": 11
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-1"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 3,
+    "summary": "(APOE3 -> APOE4) + organoid debris challenge -> alkalinization (higher pH) of late endosomes/lysosomes in iPSC-derived microglia [CONTRADICTS]",
+    "relevance": "0.8",
+    "dataLocation": "Fig 7M",
+    "effectSize": "qualitative",
+    "effectSizeProvenance": "visual_only",
+    "pValue": "N/A",
+    "pValueProvenance": "ambiguous_panel",
+    "sampleSize": "3",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "1",
+    "directnessStrength": "2",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "effect size '~0.15 pH units (APOE44+debris ~5.40 vs APOE33+debris ~5.24)' has no accepted form: recorded as qualitative, numbers kept in description"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE44 vs APOE33 genotype (second isogenic pair UCI5, female iPSC-derived microglia), challenged with organoid debris",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Late endosomal/lysosomal luminal pH (ratiometric ApHID dextran) after debris challenge",
+      "mapsTo": "B"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

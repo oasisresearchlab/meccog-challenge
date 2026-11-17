@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Guo JL, Braun D, Fitzgerald GA, Hsieh YT, Rougé L, Litvinchuk A, Steffek M, Propson NE, Heffner CM, Discenza C, Han SJ, Rana A, Skuja LL, Lin BQ, Sun EW, Davis SS, Balasundar S, Becerra I, Dugas JC, H (2025). Decreased lipidated ApoE-receptor interactions confer protection against pathogenicity of ApoE and its lipid cargoes in lysosomes.. Cell",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "39532095",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "abstract_only",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1016/j.cell.2024.10.027",
+  "url": "https://doi.org/10.1016/j.cell.2024.10.027",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

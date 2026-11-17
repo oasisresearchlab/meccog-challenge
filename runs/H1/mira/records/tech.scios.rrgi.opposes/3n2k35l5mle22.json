@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.opposes",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35lanb222",
+    "cid": "bafyreibzmxfnxhunclhtd2ut3kxjcznmgyrq7eajy235t6dqtdldajz5ta"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "weak",
+  "warrant": "Directness class 4 (indirect input and output), strength d=4 (weak). Perturbed siRNA knockdown of Lgals3bp in HsAPOE3 Neuro-2a cells (mimicking the APOE4-associated lysosomal LGALS3BP depletion) (A_surrogate); measured Relative lysosomal pH (OregonGreen-dextran ratio), lysosomal density and LysoTracker staining (B_surrogate).",
+  "description": "(APOE4 -> lysosomal LGALS3BP depletion); LGALS3BP knockdown -> (modest lysosomal alkalinization + halved lysosomal density) [CONTRADICTS]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

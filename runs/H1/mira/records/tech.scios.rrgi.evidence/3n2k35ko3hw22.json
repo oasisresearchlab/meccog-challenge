@@ -1,0 +1,86 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "NO EFFECT: In iPSC-derived astrocytes, LysoTracker-labelled lysosomes did not differ significantly at baseline between ApoE4/4 (AD donor) and ApoE3/3 (normal-aging donor) cells.",
+  "description": "Human iPSC-derived astrocytes. Lines came from an ApoE4/4 AD subject and an ApoE3/3 normal-aging subject; they are not isogenic. NPCs were MACS-purified and differentiated to astrocytes, then stained with LysoTracker red and imaged by confocal microscopy. N = 4-5/condition per Methods. Caveat: lysosomal size/number, not endosomal pH. Genotype is confounded with AD status and donor. Data are shown only in supplementary figures (S6D-E) and stated in text without statistics.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "lysosome organization",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0007040"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    },
+    {
+      "name": "induced pluripotent stem cell-derived astrocyte",
+      "entityType": "experimental system"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "However, no significant differences were seen in lysosomes of ApoE4+/+ astrocytes with miR-195 treatment when compared to control, or between ApoE4+/+ versus ApoE3+/+ astrocytes at baseline."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "no_effect",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) -> (no change in LysoTracker-labelled lysosome size/number in human iPSC-derived astrocytes) [NO EFFECT]",
+    "relevance": "0.4",
+    "dataLocation": "Results text, p. 11 (Supplementary Fig S6D-E)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "not_found_in_source",
+    "pValue": "N/A",
+    "pValueProvenance": "not_found_in_source",
+    "sampleSize": "4-5",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "no_effect",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE genotype of iPSC donor (ApoE4/4 AD subject vs ApoE3/3 normal-aging subject); astrocytes",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "LysoTracker-labelled lysosome phenotypes (size, diameter distribution) in iPSC-derived astrocytes",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

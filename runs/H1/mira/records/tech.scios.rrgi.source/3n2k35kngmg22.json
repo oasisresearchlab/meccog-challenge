@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Prasad H, Rao R. (2018). Histone deacetylase-mediated regulation of endolysosomal pH.. The Journal of biological chemistry",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "29567836",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "abstract_only",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1074/jbc.ra118.002025",
+  "url": "https://doi.org/10.1074/jbc.ra118.002025",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

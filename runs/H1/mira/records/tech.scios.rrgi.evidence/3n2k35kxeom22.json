@@ -1,0 +1,139 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "Immortalized APOE4 astrocytes expressed more V-ATPase subunit V0D1 protein than APOE3 astrocytes. This is a step that could favour organelle acidification, although measured organelle pH was not lower.",
+  "description": "Immortalized astrocytes from human APOE3- and APOE4-targeted-replacement mice, cultured with 10% FBS. Western blot used anti-V0D1 (ab56441), normalized to β-actin. N = 4. Caveat: mouse immortalized astrocytes, not human. V0D1 level is a proxy for pump abundance, not for endosomal pH. Bafilomycin experiments in the paper suggest greater V-ATPase activity, but the authors infer the extra protons are exchanged for Ca2+ via CAX, so pH is not lowered.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "proton-transporting V-type ATPase complex",
+      "entityType": "measured (intermediate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0033176"
+    },
+    {
+      "name": "ATP6V0D1",
+      "entityType": "measured (intermediate)",
+      "uri": "https://identifiers.org/hgnc:13724"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Indeed, the expression of V-ATPase subunit V0D1, which is highly expressed in astrocytes [61], was higher in APOE4 cells than in APOE3 cells (Fig. 4f).",
+    "anchorLocations": [
+      {
+        "page": 11,
+        "boxes": [
+          {
+            "x": 209,
+            "y": 604,
+            "w": 82,
+            "h": 10
+          },
+          {
+            "x": 57,
+            "y": 616,
+            "w": 113,
+            "h": 10
+          },
+          {
+            "x": 170,
+            "y": 620,
+            "w": 4,
+            "h": 7
+          },
+          {
+            "x": 173,
+            "y": 616,
+            "w": 7,
+            "h": 10
+          },
+          {
+            "x": 181,
+            "y": 620,
+            "w": 4,
+            "h": 7
+          },
+          {
+            "x": 184,
+            "y": 616,
+            "w": 106,
+            "h": 10
+          },
+          {
+            "x": 57,
+            "y": 628,
+            "w": 234,
+            "h": 10
+          },
+          {
+            "x": 57,
+            "y": 639,
+            "w": 85,
+            "h": 10
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "supports",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 2,
+    "summary": "(APOE3 -> APOE4) -> (higher V-ATPase V0D1 protein) -> [expected greater proton pumping into acidic organelles; measured pH not lower]",
+    "relevance": "0.45",
+    "dataLocation": "Fig 4F",
+    "effectSize": "~1.25x",
+    "effectSizeProvenance": "estimated_from_figure",
+    "pValue": "<0.05",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "4",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "supports",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE4 vs APOE3 genotype (immortalized astrocytes from human APOE targeted-replacement mice)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "protein level of V-ATPase subunit V0D1 (vacuolar proton pump), western blot normalized to β-actin",
+      "mapsTo": "intermediate"
+    }
+  },
+  "plotReading": true,
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

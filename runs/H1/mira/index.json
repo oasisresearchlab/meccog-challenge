@@ -1,0 +1,2295 @@
+{
+ "_meta": {
+  "createdAt": "2026-11-17T22:18:44.000Z",
+  "did": "did:web:example.org"
+ },
+ "src:10.1101_2025.03.05.641722": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35l5yth22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35l5yth22",
+  "cid": "bafyreidi4g2x6autbdmczq6f6qy6lg3dh4rgiw2vugfcqxbtlup5tqjaki",
+  "fingerprint": "bafyreidi4g2x6autbdmczq6f6qy6lg3dh4rgiw2vugfcqxbtlup5tqjaki"
+ },
+ "src:10.1101_243097": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35l6fes22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35l6fes22",
+  "cid": "bafyreiamm3jfjyvxurirer6c25dgctvzplgm7ja34zckvqtmqjo5sazz4i",
+  "fingerprint": "bafyreiamm3jfjyvxurirer6c25dgctvzplgm7ja34zckvqtmqjo5sazz4i"
+ },
+ "src:10.1101_252122": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kw2nt22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kw2nt22",
+  "cid": "bafyreie453qfhhgmsegl4b3zbuqf6rwb7f7wro6y5mrlqjdxvgw5opr44u",
+  "fingerprint": "bafyreie453qfhhgmsegl4b3zbuqf6rwb7f7wro6y5mrlqjdxvgw5opr44u"
+ },
+ "src:10.64898_2026.05.12.724612": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35lfr5x22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35lfr5x22",
+  "cid": "bafyreidg3exc5ztkc43rswu2trt5ecvjk5k7y2mgzt4if5a3wo5ldpqtc4",
+  "fingerprint": "bafyreidg3exc5ztkc43rswu2trt5ecvjk5k7y2mgzt4if5a3wo5ldpqtc4"
+ },
+ "src:10.64898_2026.09.01.748585": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35lamho22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35lamho22",
+  "cid": "bafyreig4exyby2uepdw6o7qevn5js7hqfik5t6kid5hkfws76x4ivo37ma",
+  "fingerprint": "bafyreig4exyby2uepdw6o7qevn5js7hqfik5t6kid5hkfws76x4ivo37ma"
+ },
+ "src:11162242": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kyzuk22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kyzuk22",
+  "cid": "bafyreiglqt6awbvsjjrfh6lxzl3mqw4nnfghjzriuhf3l5m6z6ekkotmlm",
+  "fingerprint": "bafyreiglqt6awbvsjjrfh6lxzl3mqw4nnfghjzriuhf3l5m6z6ekkotmlm"
+ },
+ "src:20547867": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kunuf22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kunuf22",
+  "cid": "bafyreic6rugxhfzkb2k2tuxwrjmb2gotnl37dm5owu2f6zceqbtbly7rga",
+  "fingerprint": "bafyreic6rugxhfzkb2k2tuxwrjmb2gotnl37dm5owu2f6zceqbtbly7rga"
+ },
+ "src:28957663": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kkrl522",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kkrl522",
+  "cid": "bafyreiaqigw6csdilututsb4ektzo2aqiueumih4xjubg44k3bkuxawfqu",
+  "fingerprint": "bafyreiaqigw6csdilututsb4ektzo2aqiueumih4xjubg44k3bkuxawfqu"
+ },
+ "src:29311783": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kudew22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kudew22",
+  "cid": "bafyreia24v2kmkga5bqdzs72s2elmoxjtb3tf72vquvyazziyeg4w4y6hi",
+  "fingerprint": "bafyreia24v2kmkga5bqdzs72s2elmoxjtb3tf72vquvyazziyeg4w4y6hi"
+ },
+ "src:29567836": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kngmg22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kngmg22",
+  "cid": "bafyreica57hbjqwysdcwpyqazew5v6on6n4n2nt4mw5mkkvfncldnk4sre",
+  "fingerprint": "bafyreica57hbjqwysdcwpyqazew5v6on6n4n2nt4mw5mkkvfncldnk4sre"
+ },
+ "src:29861287": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kqbuo22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kqbuo22",
+  "cid": "bafyreihjtxinwxjtaywn4da7sawem7ziosnhie5lfasy6v2v6uolx3gq7a",
+  "fingerprint": "bafyreihjtxinwxjtaywn4da7sawem7ziosnhie5lfasy6v2v6uolx3gq7a"
+ },
+ "src:29946028": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kj56z22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kj56z22",
+  "cid": "bafyreifjowgjdjni2245745wtk6tffunb775jhvr45dok7jsb24ngnttki",
+  "fingerprint": "bafyreifjowgjdjni2245745wtk6tffunb775jhvr45dok7jsb24ngnttki"
+ },
+ "src:30375977": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35lcgu522",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35lcgu522",
+  "cid": "bafyreidjlvwlhpq2yxn6iljy4ltvisoe237uoz5coiiv6d26gut44hrouq",
+  "fingerprint": "bafyreidjlvwlhpq2yxn6iljy4ltvisoe237uoz5coiiv6d26gut44hrouq"
+ },
+ "src:31641056": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kmyef22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kmyef22",
+  "cid": "bafyreia3mk3ffc4banwfpk35fkym5bxicrrx7i3stzon42flcpmw7aogkq",
+  "fingerprint": "bafyreia3mk3ffc4banwfpk35fkym5bxicrrx7i3stzon42flcpmw7aogkq"
+ },
+ "src:32517777": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35ldfhk22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35ldfhk22",
+  "cid": "bafyreifqvwa5xos4npq3hqxrhg7fsbkfzcke2ypi76k3sui4h53vwqzyfe",
+  "fingerprint": "bafyreifqvwa5xos4npq3hqxrhg7fsbkfzcke2ypi76k3sui4h53vwqzyfe"
+ },
+ "src:32632205": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kv4m322",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kv4m322",
+  "cid": "bafyreibqwqdg4w2dec4r4w7bwgtpytnwmdcckicpg26xbfxufsjcm4l5nq",
+  "fingerprint": "bafyreibqwqdg4w2dec4r4w7bwgtpytnwmdcckicpg26xbfxufsjcm4l5nq"
+ },
+ "src:33027662": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kstrw22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kstrw22",
+  "cid": "bafyreibgt4wotaizoocr3fneacpr6bwuy6gkix623oqpnbjzrn34ez3uha",
+  "fingerprint": "bafyreibgt4wotaizoocr3fneacpr6bwuy6gkix623oqpnbjzrn34ez3uha"
+ },
+ "src:34617884": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kohnd22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kohnd22",
+  "cid": "bafyreihwsmifpthpqicvb3mxu7cpvrxjgy4bpd6pmjvpwye2vqeyigrvga",
+  "fingerprint": "bafyreihwsmifpthpqicvb3mxu7cpvrxjgy4bpd6pmjvpwye2vqeyigrvga"
+ },
+ "src:34919811": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35lhzwe22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35lhzwe22",
+  "cid": "bafyreien7yu53fcce747yogwaq456muvxqtw4bcwmklpyl7rgdgnwxwevi",
+  "fingerprint": "bafyreien7yu53fcce747yogwaq456muvxqtw4bcwmklpyl7rgdgnwxwevi"
+ },
+ "src:34982109": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35l6xfn22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35l6xfn22",
+  "cid": "bafyreihrudmy6o6ehemmxlsdvurfuhbyxofjxtdikq3pfgoqvdrnq737ky",
+  "fingerprint": "bafyreihrudmy6o6ehemmxlsdvurfuhbyxofjxtdikq3pfgoqvdrnq737ky"
+ },
+ "src:35031484": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35l4tfe22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35l4tfe22",
+  "cid": "bafyreidgmubugpfidnb5yrbvakvtb74csqysbpc4u7zke77netohb4c57e",
+  "fingerprint": "bafyreidgmubugpfidnb5yrbvakvtb74csqysbpc4u7zke77netohb4c57e"
+ },
+ "src:35750033": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kixnm22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kixnm22",
+  "cid": "bafyreid6qmfeh5xpe7gybruojmvzvvpequgnj4wzza7hbb37kwlk24y6cq",
+  "fingerprint": "bafyreid6qmfeh5xpe7gybruojmvzvvpequgnj4wzza7hbb37kwlk24y6cq"
+ },
+ "src:36825945": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35lebze22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35lebze22",
+  "cid": "bafyreifhauvtjb4wvntr47y6w5bwii7x3yartzlbqrnr5y7ci63zq2xxpm",
+  "fingerprint": "bafyreifhauvtjb4wvntr47y6w5bwii7x3yartzlbqrnr5y7ci63zq2xxpm"
+ },
+ "src:37668005": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kspg322",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kspg322",
+  "cid": "bafyreidppv5sezyf5y4qqvtwoto4hdjvk5j5gywtei2rap7uu6r4aj7pee",
+  "fingerprint": "bafyreidppv5sezyf5y4qqvtwoto4hdjvk5j5gywtei2rap7uu6r4aj7pee"
+ },
+ "src:38217595": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35l3wpq22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35l3wpq22",
+  "cid": "bafyreidq6fodjljp6wlijlzdu2snn5elkcqyeiyajnei5tg56udmgvpcgu",
+  "fingerprint": "bafyreidq6fodjljp6wlijlzdu2snn5elkcqyeiyajnei5tg56udmgvpcgu"
+ },
+ "src:38912292": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35koz5r22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35koz5r22",
+  "cid": "bafyreianlcyz7xduip5xpg5bxhi3ceodtivl772sx6qchyf7sir5pdsupi",
+  "fingerprint": "bafyreianlcyz7xduip5xpg5bxhi3ceodtivl772sx6qchyf7sir5pdsupi"
+ },
+ "src:39532095": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kzauc22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kzauc22",
+  "cid": "bafyreifoceml7xhw2sbvubkfnav44to7vtucoeuo4osn6crowgk7g54oqi",
+  "fingerprint": "bafyreifoceml7xhw2sbvubkfnav44to7vtucoeuo4osn6crowgk7g54oqi"
+ },
+ "src:40457456": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35lclhd22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35lclhd22",
+  "cid": "bafyreihdcfsy36q3gjeohvedp43mr2n64uieltpbzjej5qfsmj3asesfyu",
+  "fingerprint": "bafyreihdcfsy36q3gjeohvedp43mr2n64uieltpbzjej5qfsmj3asesfyu"
+ },
+ "src:40675218": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35ldhc622",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35ldhc622",
+  "cid": "bafyreih7dvcn332r2yb2ug2uwzlssfcx4h6xr53gvmivahsrzxwgp4a7nq",
+  "fingerprint": "bafyreih7dvcn332r2yb2ug2uwzlssfcx4h6xr53gvmivahsrzxwgp4a7nq"
+ },
+ "src:40845853": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35l2tmi22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35l2tmi22",
+  "cid": "bafyreiahxl44acnnzjyb22r44643tmci2dydjnd6d5ntjip3ios2f7wdtq",
+  "fingerprint": "bafyreiahxl44acnnzjyb22r44643tmci2dydjnd6d5ntjip3ios2f7wdtq"
+ },
+ "src:41102453": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35lbpgp22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35lbpgp22",
+  "cid": "bafyreigmclraykxcqrf3jvkoc7znxpsq7nbezmsjsx6rvulym4hevrtmiu",
+  "fingerprint": "bafyreigmclraykxcqrf3jvkoc7znxpsq7nbezmsjsx6rvulym4hevrtmiu"
+ },
+ "src:41103078": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kxqam22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kxqam22",
+  "cid": "bafyreidr4ncsp7qducrvd3htwaka6xdzzdhx5y3ck2az5xcycypogowvnu",
+  "fingerprint": "bafyreidr4ncsp7qducrvd3htwaka6xdzzdhx5y3ck2az5xcycypogowvnu"
+ },
+ "src:42182449": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kmd7t22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kmd7t22",
+  "cid": "bafyreifgb6ftv4566n5mwdpivn5gocokjchchbjsrskjo23bbd2ziqmy5e",
+  "fingerprint": "bafyreifgb6ftv4566n5mwdpivn5gocokjchchbjsrskjo23bbd2ziqmy5e"
+ },
+ "src:42239208": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35kodau22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kodau22",
+  "cid": "bafyreigcmo5mmeuwlzlsjyke6pfi5teitfb3ewgtzhqjkcyqn45tezwchi",
+  "fingerprint": "bafyreigcmo5mmeuwlzlsjyke6pfi5teitfb3ewgtzhqjkcyqn45tezwchi"
+ },
+ "src:42636814": {
+  "nsid": "tech.scios.rrgi.source",
+  "rkey": "3n2k35l4zgq22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35l4zgq22",
+  "cid": "bafyreidutpbqf7p7tigwm7ooqld6kjr3nwybgdrcthaixi4opdljmh4f6a",
+  "fingerprint": "bafyreidutpbqf7p7tigwm7ooqld6kjr3nwybgdrcthaixi4opdljmh4f6a"
+ },
+ "ent:10.64898_2026.09.01.748585:Figure 3, panel A-B": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35lbgn222",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35lbgn222",
+  "cid": "bafyreibz437hdtmnpkspqcyxnhfbufwupcpedqk7wmqi5bjce4qwzrultu",
+  "fingerprint": "bafyreieiadlcpyuh4kcxiwpym5cippiap2wzn6p5rg2yzvkibtavnoerum"
+ },
+ "ent:10.64898_2026.09.01.748585:Figure 3, panel C": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35laeaz22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35laeaz22",
+  "cid": "bafyreihz7cj27tnjn52srrvmoxqz4aoaxmf4vsiylbjamnhgzw6amm4d6q",
+  "fingerprint": "bafyreihktefv6ph2kic4kz26pzhhwkd357lumcyaojzqbajcstz3zarpei"
+ },
+ "ent:10.64898_2026.09.01.748585:Figure 5, panel A-D": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kswvu22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kswvu22",
+  "cid": "bafyreieiknuhffu2vrqylmuq3aofynlpdwt646rylcnd3kjsx6utvwj344",
+  "fingerprint": "bafyreie7jgn5wmc3kizb6i4secg365bp66u35rch46o4nnjvilsok2imlq"
+ },
+ "ent:10.64898_2026.09.01.748585:Figure S3, panel A": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kw45w22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kw45w22",
+  "cid": "bafyreibdlbszzxcdxu6i7vvnhususgpuiio4qfvnohij4xzl2ulbunzhxe",
+  "fingerprint": "bafyreih3qhhpqlassnmlnr3jq2irczpcjebkhj6bicjezzamqsf7ux7xha"
+ },
+ "ent:10.64898_2026.09.01.748585:Figure S5, panel A-B": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35knuj722",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35knuj722",
+  "cid": "bafyreiahwubjucdowpscmfam2l6nyuwlqwkaxbo5er4xrtyua3ndjoz2ny",
+  "fingerprint": "bafyreic7nf3ruxxpa5slvyxdw3obgormvyzxnw2dxsjimnjvhbwglilnge"
+ },
+ "ent:29311783:Figure 2": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35lh46722",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35lh46722",
+  "cid": "bafyreih3uccsaym2obxkm5ya7j2jxgyejlhveunvgopge6lwsyi67gxwwq",
+  "fingerprint": "bafyreidbtjjv4fmquo2dxron3i3idgprqlbmiqverswywkxzp2ppfw67ru"
+ },
+ "ent:29311783:Figure 3, panel A": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kwykx22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kwykx22",
+  "cid": "bafyreicyem3k4odhj7xdyrvbxvlwasad2cudfkppelpcqwd2qtykbpcojm",
+  "fingerprint": "bafyreieipur2q2vj7issjk3v7hjgzr624ag5pwvbns3gegnvo4ozo6exwe"
+ },
+ "ent:29311783:Figure 4, panel B-D": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35ktjdc22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35ktjdc22",
+  "cid": "bafyreid3q7khdoosivz5drfkot52iavp4sglpqj433wewo3c7penwmtijy",
+  "fingerprint": "bafyreidffkhdn2esgqxpwx3wsnolzomkfvus3cy5f7p656yefzk7vzyx4q"
+ },
+ "ent:29311783:Figure 5, panel B-D": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35ld6aw22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35ld6aw22",
+  "cid": "bafyreibwys4rzeu65s6znvq5w7qgksevkcoaiiczpaw5xf74cnufv7jcm4",
+  "fingerprint": "bafyreif6bgaj3iiebv4axri36st4k3jiudubxlmbhow6gutw44cfwcscla"
+ },
+ "ent:29311783:Table 1": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35l2dfk22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35l2dfk22",
+  "cid": "bafyreic2hh2xkm7ikjn5l2dpbgku22stdd5xoxt7smdtkuhovtsu7dxldu",
+  "fingerprint": "bafyreiawdbgbth2qwso4bwuc2x63bkfcohjnv4ob5ndzyi4gdyj563wtxm"
+ },
+ "ent:29311783:Table S1": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kxmea22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kxmea22",
+  "cid": "bafyreiahhmufzij35jx2e6tejce6ksqdhkvhnbdb4iosplkvihnoqkqqfu",
+  "fingerprint": "bafyreie4ssbfeykpex7gokpc2ih6cd2o2gdxgqzsdfvmu6muybs3g2umr4"
+ },
+ "ent:29311783:Table S2": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35lg7bx22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35lg7bx22",
+  "cid": "bafyreieeadpvro74tvsljuc7gsmbk76huklgfitquwmleyvh7uwha4l3nu",
+  "fingerprint": "bafyreigttme3kbib4m2ojmd34dwjnbcvyujo644sy4j5vzo4xhu7easple"
+ },
+ "ent:32517777:Figure 4, panel F": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35lgc4322",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35lgc4322",
+  "cid": "bafyreigeejnyzbzzd5ftwm2cqa7zmxjg2t4ajndlghy62ye2yl25d2nwv4",
+  "fingerprint": "bafyreihyauei5xbctt4csjciz3baojal3m2r6bkk6o7gip35nvc45qleuy"
+ },
+ "ent:32517777:Figure 4, panel G": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kzqij22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kzqij22",
+  "cid": "bafyreihfiwqnfclfcbhisgwewuxu7rybe4el26pg44rgihyqxzv35n3rqu",
+  "fingerprint": "bafyreiawpuqchtthcokhrixq56sqthc6wbk5ewjwtcqv4r6v4pr75lfp6y"
+ },
+ "ent:32632205:Figure 5, panel A-C": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35lec2m22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35lec2m22",
+  "cid": "bafyreia3xnld77yatgprzx7n4pkjkw7dtsif7g2xmui73sda6xruskzkmq",
+  "fingerprint": "bafyreidpwjldelcq6kspipodmist2pui2guzgn3v3fu2zo2bmq5cgna5ey"
+ },
+ "ent:32632205:Figure S6, panel D-E": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kjkyo22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kjkyo22",
+  "cid": "bafyreic3dvxhozn5aj7n6f6hffpwzvomhoy6wiqajtryfmdxtgcezoxjki",
+  "fingerprint": "bafyreiboppcby77bhzzvvjkr3bdizb7v5geprt2q3wacnu2h3aioiiv2ou"
+ },
+ "ent:34617884:Figure 4, panel C-F": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35krqg422",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35krqg422",
+  "cid": "bafyreihsx57mq4wpcbykllmgvkgtekxbqvfrkcnozvwxmxy2g4zaihvuui",
+  "fingerprint": "bafyreick35zh5m5jwrwmmheovce75gpjjoxild64unggn7775palmg5vze"
+ },
+ "ent:34617884:Figure 5, panel A": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kxs2o22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kxs2o22",
+  "cid": "bafyreicg4siqcmqrhuq5f7mtqafmz3keckolwmnr63om46lowp73ehht3q",
+  "fingerprint": "bafyreihmvmxampyxhl527epwoyoseoviypmkojzx5hsr5wcjoyog3wzmou"
+ },
+ "ent:34919811:Figure 4, panel A": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35lcpcq22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35lcpcq22",
+  "cid": "bafyreicmo2kzkoueyaapd3ggvnmx45y7wsfrapqhhn3yf4xg55kr5us7ui",
+  "fingerprint": "bafyreihc4bsnj6y47bzqk34rhkbowezifjqalgleid5hms73tfkumhsgw4"
+ },
+ "ent:34919811:Figure 4, panel B": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35ky36b22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35ky36b22",
+  "cid": "bafyreiezg6ghi2gzzaj4oi3b2ljvrixh2y4j2y7dnj6lwipuj37d2yx5wq",
+  "fingerprint": "bafyreicz6tgddcr7n3t2hq5zkxg4mjwdwg3c3sirjs6jticoxq5rtty3je"
+ },
+ "ent:34919811:Figure 4, panel F": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35l2irs22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35l2irs22",
+  "cid": "bafyreic5ulc3uotmjtft5hgcndsbb5upt2dcivnjazljcp5lmxs55hrpze",
+  "fingerprint": "bafyreiew4fe4i5qqqonuzfcycrs7cdpvfh4kxt32jj4us4vguunntw4riu"
+ },
+ "ent:35031484:Figure 1, panel F": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kw36n22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kw36n22",
+  "cid": "bafyreibbdeaywgncunjhfh5py6gghpfe75l6fay3w3wfh5tguj42lghdsi",
+  "fingerprint": "bafyreibn562lszrsfkh4wzp6shx4amnbmup74g5avs6dqxqmg52fwwpn6m"
+ },
+ "ent:35031484:Figure 3, panel F": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35ky2zm22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35ky2zm22",
+  "cid": "bafyreibuckpywtypbsn4fxljdwwht3wpqvzkt7nlwomzk2vr4e2ahfbqqu",
+  "fingerprint": "bafyreibeyas66w24ffvck6ocq5y64muw7jhegv3rp6xq3ngnglvyviy6xi"
+ },
+ "ent:35031484:Figure S3": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35laq5t22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35laq5t22",
+  "cid": "bafyreiaerjgmkgvtmbwxhw6fx3bm7wdqv3qmnqanrxzqb5jxo2brwl3t74",
+  "fingerprint": "bafyreiasfp2pflht45or5juy54p7yvhonrfez5bwc3cjvhbdivvmeqouqe"
+ },
+ "ent:38217595:Figure 5, panel B": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35leuqs22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35leuqs22",
+  "cid": "bafyreiadv5cqowhfeldmnleinrgpjmbdkgx253otvwxx3qsc77a4bjcj44",
+  "fingerprint": "bafyreidxwhx7li4y4xf4ri2z5ey2lyjm5ppvd5qe547omlbxqqoduszpxi"
+ },
+ "ent:38217595:Figure 7, panel A": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35lg3up22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35lg3up22",
+  "cid": "bafyreiebtulo7cemmqfunfxdpxqpgpbtvlky6hs363cyirzrpwafffiv3a",
+  "fingerprint": "bafyreihnbu3pla5r7ybp5jflefkx4znhtzwjtuyrkwr2swxq4skz2xa2x4"
+ },
+ "ent:38217595:Figure 8, panel B": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kzbiz22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kzbiz22",
+  "cid": "bafyreieyw4nnfxliftp3vizpxzwy77l7mxzsh3pwirjx7r4tsj63fntvci",
+  "fingerprint": "bafyreiagc3efkpjvn6tiw2vqzqcydo7zh4jlbxnz4ecyqsnthmn2rvm25e"
+ },
+ "ent:38912292:Figure 1": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kt3qa22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kt3qa22",
+  "cid": "bafyreicdejcjrkleqamqnsmprmfy6hbvpbfy32q24q2caroibjt5ywm5rm",
+  "fingerprint": "bafyreiebrptomrpm74fgkrpl3pyzr2lvvro52qar7wb2xn7e6bjrvae2o4"
+ },
+ "ent:40457456:Figure 1, panel G": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kpdj422",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kpdj422",
+  "cid": "bafyreiaoukuvnhvsj3fvk7ptg7dtbww7dh6sufd7gixv4lh2ljudgmus7u",
+  "fingerprint": "bafyreifvy3i57qna5nnwebrhwv4hnj4nd6dkagwvjwvs7ws67t6bsbrdtm"
+ },
+ "ent:40457456:Figure 1, panel H": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kyuvf22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kyuvf22",
+  "cid": "bafyreihvhf4svjfd4h6n7z5ma2ayyiagy3czzrhp4ii6xoktxnazkl7v44",
+  "fingerprint": "bafyreiayhjpgzexlord47yfxm2egw25kfr2xi3hzdxturvbtasyzynhu7q"
+ },
+ "ent:40457456:Figure 1, panel K": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35li7zl22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35li7zl22",
+  "cid": "bafyreifc3kofcmvyl3ez3plrghvxg6qfrrjefj5nspnrcmfvkfb2lvl244",
+  "fingerprint": "bafyreifsaynttw536yluyjjhvmwgmkbq5dzva222ad22jz26teibi67rea"
+ },
+ "ent:40457456:Figure 1, panel L": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35l7chq22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35l7chq22",
+  "cid": "bafyreidupkwn4uabc47qty5djnegptpq6kstzzvoz6k47y32cgsxx6arkm",
+  "fingerprint": "bafyreidzpgoay3dflzmwq667kzns7apr2tvyjdpqqlj4lyby4ee66clxwa"
+ },
+ "ent:40457456:Figure 3, panel G": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35l2okf22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35l2okf22",
+  "cid": "bafyreiasc6x5t7xvon6mytnxtvh7ydgarcclez36wi2dnb45fewwi5khia",
+  "fingerprint": "bafyreie6s5jveumer5xs55gqccmimmdg635r2ppl7tsvjimp5wl4licnja"
+ },
+ "ent:40457456:Figure 3, panel H": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kkur522",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kkur522",
+  "cid": "bafyreifucudkwrznkwvlvdoo6jimhzqcdy6btnprv5smsfbts2nzwubzum",
+  "fingerprint": "bafyreigq4t6g63b45plhdvmri5cki2hwf7tvk2frfkgr7n2bxf3v3xbise"
+ },
+ "ent:40675218:Figure 4, panel J": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kygff22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kygff22",
+  "cid": "bafyreia7jgquitsptqdu7mfgbcqnurzqpwx6iwy4o3hsqyafachylv47ne",
+  "fingerprint": "bafyreiafmwoed7shtyf57c44elk4flpz6vfchlk7y7kanrvuthra6kru6e"
+ },
+ "ent:40675218:Figure 4, panel K": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kz3zi22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kz3zi22",
+  "cid": "bafyreiclncy3afontvmsl6pwicy3ofcxbjzoqraeyrwu5pjju3nxriy73a",
+  "fingerprint": "bafyreifykdiphjozaom3fj7ikccy2nodhcgqw3fy346suythyen7suqgq4"
+ },
+ "ent:40845853:Figure 5, panel E-F": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kk5vc22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kk5vc22",
+  "cid": "bafyreichjcapb5jhavoratxlnqos5j5rhihfbdbueuu4c5jnvqij5bhhxm",
+  "fingerprint": "bafyreiafa5wggixx6rduoytbhb5lb3odyutc2krdmwwk34fnnhzj4y7h4q"
+ },
+ "ent:41103078:Figure 1, panel A-B": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35ko3a522",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35ko3a522",
+  "cid": "bafyreidnzqwagsanq2w2mxg6dn4njoumbotw72nfikoatkemwpfnjtyhie",
+  "fingerprint": "bafyreifhlrpfqoer347nrbyc4zwjhllfimijrud6zodrt6p34fxm3jjvj4"
+ },
+ "ent:41103078:Figure 1, panel C-E": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kpa6x22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kpa6x22",
+  "cid": "bafyreifmvntu3racigmuvjkpm5r7pr3heb6wktnjovalxdwq4vmsn46uh4",
+  "fingerprint": "bafyreihjtj63asgng5beorh3ncxxmbdzczqrabscbsazr4iqi6naks45ei"
+ },
+ "ent:41103078:Figure 1, panel F-G": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kzh5u22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kzh5u22",
+  "cid": "bafyreifhc7wznexbnmzj5otpwjz6rfd44ditrptbz3rswryk6qboex6zwm",
+  "fingerprint": "bafyreiebx2v5cygbozlynbpfvf7qe5nwlwkymv44warrc3eq5mema7qap4"
+ },
+ "ent:41103078:Figure 4, panel A-E": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35laqlg22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35laqlg22",
+  "cid": "bafyreiegnye2vb6rumjzrfejks4hxcunlwu5igeglqnag7qjcpypt774vi",
+  "fingerprint": "bafyreihoboqilcys5u4p5gqqzqyodt4smozjqcn6y2hvsqhvteqzu6ujci"
+ },
+ "ent:41103078:Figure 4, panel H-I": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35ky2it22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35ky2it22",
+  "cid": "bafyreihtjozmz64r3pplutqp763t74vaoul6uf437kmhwurfkoj7ufv3zu",
+  "fingerprint": "bafyreifszc4triuzyitjycihhqn3o7vvrhnvl2lacrwf2a5xnmvzzydvpa"
+ },
+ "ent:41103078:Figure 5, panel A-G": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kpac222",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kpac222",
+  "cid": "bafyreidjg3dha4hfrqcu5tj5n6pdmvodkoskut7nlj4boevy625hhe7slm",
+  "fingerprint": "bafyreihgbayggcbgn7s6oq6g3e3szb633nspnudpc6cubacha2ckrdvrqa"
+ },
+ "ent:41103078:Figure 5, panel J-M": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kp5ww22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kp5ww22",
+  "cid": "bafyreiessl6c2z6ppfub255pjymsuv3iuhygisfc77yumtlwtdwe4oyl6a",
+  "fingerprint": "bafyreihnk4vbb75f2eytntmv3irfia5tw3emfos2wt5pr3t7ag64jnazdu"
+ },
+ "ent:41103078:Figure 6, panel B-C": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35ldwwy22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35ldwwy22",
+  "cid": "bafyreiffrcu63qf3x63cpexnjjv5hlmbyxtvj6hpob7x6ff32pyl754s4q",
+  "fingerprint": "bafyreiagxypfno7uz7nvjc4xly2f54ceyswtcn4a42k4mbpwe5v2zafjmm"
+ },
+ "ent:41103078:Figure S1, panel B-C": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kyplp22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kyplp22",
+  "cid": "bafyreiav5hp646w7dctyvzssdzsvbmdrzld4vldeipjy6qc6aaukfxjyia",
+  "fingerprint": "bafyreigmsjfflplrocezur6gcqgnwpfndhxtizu2n7bzj6cv3sjphe4be4"
+ },
+ "ent:42182449:Figure 3, panel G": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35ld53c22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35ld53c22",
+  "cid": "bafyreickxe5ijzuav5t6l3toa4oyr377lcvcmpyght2uvwjfebfxfjen54",
+  "fingerprint": "bafyreibv6fg5fykiyiwvg4mm3quyj6aybrbrpjsjtvw5q7q77mag3v5fd4"
+ },
+ "ent:42182449:Figure 7, panel M": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35l3ptd22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35l3ptd22",
+  "cid": "bafyreic6ovkdi5h3r32zj6nhcvn6iolzjlfhz2cxfj6pmur2j747gl2roi",
+  "fingerprint": "bafyreievx5ya4aqvquach4afnf7uwxkwt6d4pv2pet42umh7qmrljbuemy"
+ },
+ "ent:42182449:Figure S3, panel D": {
+  "nsid": "tech.scios.rrgi.entity",
+  "rkey": "3n2k35kz6xm22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.entity/3n2k35kz6xm22",
+  "cid": "bafyreifpzzgyrdu4j7tuhxpeecsfvfquejzsc35ehd363acwkx4l7ao77u",
+  "fingerprint": "bafyreie4qpfacjsteygui7ocihhe6cfnih3gv4biec3e6e4tbhtmvy3qvm"
+ },
+ "evd:10.1101_2025.03.05.641722:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kz5xh22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kz5xh22",
+  "cid": "bafyreigiw55mz3xxvce67qyvbf32voa3d5mfojxx6lh5kefift6bfs5xmu",
+  "fingerprint": "bafyreigiw55mz3xxvce67qyvbf32voa3d5mfojxx6lh5kefift6bfs5xmu"
+ },
+ "evd:10.1101_243097:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35lcq7l22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35lcq7l22",
+  "cid": "bafyreic6sudmpqkaxy7mbgngwtayok64gkvdtk2aidqevf4duz3fy5z7pu",
+  "fingerprint": "bafyreic6sudmpqkaxy7mbgngwtayok64gkvdtk2aidqevf4duz3fy5z7pu"
+ },
+ "evd:10.1101_243097:F2": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35knvvt22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35knvvt22",
+  "cid": "bafyreihf734mvdhkbgwtfnodwfxw2qsrpwjtybqqxeit72btjkkbqc6bba",
+  "fingerprint": "bafyreihf734mvdhkbgwtfnodwfxw2qsrpwjtybqqxeit72btjkkbqc6bba"
+ },
+ "evd:10.1101_243097:F3": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kmky222",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kmky222",
+  "cid": "bafyreieepvwjj6q3v35656pg3jjmwllex5hf4iifvmkpstlg5tijokrrhi",
+  "fingerprint": "bafyreieepvwjj6q3v35656pg3jjmwllex5hf4iifvmkpstlg5tijokrrhi"
+ },
+ "evd:10.1101_252122:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35l6loe22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l6loe22",
+  "cid": "bafyreicuqwvz2e7cpcp4svxoyq6xcs6aegk5cstgc2obblhfecmiwafl6m",
+  "fingerprint": "bafyreicuqwvz2e7cpcp4svxoyq6xcs6aegk5cstgc2obblhfecmiwafl6m"
+ },
+ "evd:10.64898_2026.05.12.724612:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35laitq22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35laitq22",
+  "cid": "bafyreib4prvfhvy7ddilkmxzzzgx7j6o3s5akirr6x3akawovgcmnp4ezu",
+  "fingerprint": "bafyreib4prvfhvy7ddilkmxzzzgx7j6o3s5akirr6x3akawovgcmnp4ezu"
+ },
+ "evd:10.64898_2026.09.01.748585:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kix6g22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kix6g22",
+  "cid": "bafyreidme2th3pryqvqak33di55e5bkz7ey4aqrth7pvz7eepwydxarupu",
+  "fingerprint": "bafyreidme2th3pryqvqak33di55e5bkz7ey4aqrth7pvz7eepwydxarupu"
+ },
+ "evd:10.64898_2026.09.01.748585:F2": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35lgc5522",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35lgc5522",
+  "cid": "bafyreiau7t4wq23njpglhlczywdn2jcips4rqgmsighpxeplhatgwxek3e",
+  "fingerprint": "bafyreiau7t4wq23njpglhlczywdn2jcips4rqgmsighpxeplhatgwxek3e"
+ },
+ "evd:10.64898_2026.09.01.748585:F3": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kvt3w22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kvt3w22",
+  "cid": "bafyreie447j7irhyeaj3qhpgbxsmoyagg7isj6nhsj5quemhewivlx43jq",
+  "fingerprint": "bafyreie447j7irhyeaj3qhpgbxsmoyagg7isj6nhsj5quemhewivlx43jq"
+ },
+ "evd:10.64898_2026.09.01.748585:F4": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35km2xc22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35km2xc22",
+  "cid": "bafyreifn3sxeq4qmtluyipufnuhjof2vwxfhtwmdobs2lvurf447e54nja",
+  "fingerprint": "bafyreifn3sxeq4qmtluyipufnuhjof2vwxfhtwmdobs2lvurf447e54nja"
+ },
+ "evd:20547867:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kqsvh22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kqsvh22",
+  "cid": "bafyreihz7kwefigcb5xjcybt5ai2f6cmtjwvmtxacsxacufevchgy25caa",
+  "fingerprint": "bafyreihz7kwefigcb5xjcybt5ai2f6cmtjwvmtxacsxacufevchgy25caa"
+ },
+ "evd:29311783:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35ktytu22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35ktytu22",
+  "cid": "bafyreiewnp3mramykfff5nwwhuoj4zbel4wfkydggmg7wmtxgzvisid5ge",
+  "fingerprint": "bafyreiewnp3mramykfff5nwwhuoj4zbel4wfkydggmg7wmtxgzvisid5ge"
+ },
+ "evd:29311783:F2": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kjfbt22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kjfbt22",
+  "cid": "bafyreibmsssyz7il7ka3gfbmlt7wylo5uwgvddvyl2ag2wjrk53fat4k5e",
+  "fingerprint": "bafyreibmsssyz7il7ka3gfbmlt7wylo5uwgvddvyl2ag2wjrk53fat4k5e"
+ },
+ "evd:29311783:F3": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35lheig22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35lheig22",
+  "cid": "bafyreigkykonyglvohfikahw3sqez3lo4duhxilmivhdqtnnnv4w44ovqa",
+  "fingerprint": "bafyreigkykonyglvohfikahw3sqez3lo4duhxilmivhdqtnnnv4w44ovqa"
+ },
+ "evd:29311783:F4": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35klbyw22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35klbyw22",
+  "cid": "bafyreiaimvfvsubxnq75sadldgofhd3qtkwxbgdcheiesb5bfbq73iusl4",
+  "fingerprint": "bafyreiaimvfvsubxnq75sadldgofhd3qtkwxbgdcheiesb5bfbq73iusl4"
+ },
+ "evd:29311783:F5": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kkzga22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kkzga22",
+  "cid": "bafyreib4kbwwspxqdllduj4ddfdmvambyfnwsxg6sclmtfgqlwmbp5bjye",
+  "fingerprint": "bafyreib4kbwwspxqdllduj4ddfdmvambyfnwsxg6sclmtfgqlwmbp5bjye"
+ },
+ "evd:29567836:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35lhf2x22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35lhf2x22",
+  "cid": "bafyreifqj7gt4dcmbko7vjov5ynza7ck5xiqzzbu5xzf66py5m24voop4m",
+  "fingerprint": "bafyreifqj7gt4dcmbko7vjov5ynza7ck5xiqzzbu5xzf66py5m24voop4m"
+ },
+ "evd:29861287:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35ks5nt22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35ks5nt22",
+  "cid": "bafyreibippjhzthlx2ltip3572skkpqrcltsxzsf56pmkftsrbf6a7n2hu",
+  "fingerprint": "bafyreibippjhzthlx2ltip3572skkpqrcltsxzsf56pmkftsrbf6a7n2hu"
+ },
+ "evd:29946028:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35l5aep22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l5aep22",
+  "cid": "bafyreif3fc5uuapvr7gdr65cv6xhl4q7lm55p3o6r7rmlgpx7ntsxt4nu4",
+  "fingerprint": "bafyreif3fc5uuapvr7gdr65cv6xhl4q7lm55p3o6r7rmlgpx7ntsxt4nu4"
+ },
+ "evd:29946028:F2": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kxeao22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kxeao22",
+  "cid": "bafyreif5vshtqqri5k3jv6ppiodhoua7rvs4km6ksrowbmtvbzh4dmmi6q",
+  "fingerprint": "bafyreif5vshtqqri5k3jv6ppiodhoua7rvs4km6ksrowbmtvbzh4dmmi6q"
+ },
+ "evd:29946028:F3": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35l23ih22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l23ih22",
+  "cid": "bafyreiehk4ugdbxnenvtwbe4flirp5ihnrvsotfsrz6qp2fpowd7maobia",
+  "fingerprint": "bafyreiehk4ugdbxnenvtwbe4flirp5ihnrvsotfsrz6qp2fpowd7maobia"
+ },
+ "evd:29946028:F4": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kkow622",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kkow622",
+  "cid": "bafyreihlw3nvgb4gekpia2pioniw5ufeo3f65fvwd3h5jgbm47t3odtk7e",
+  "fingerprint": "bafyreihlw3nvgb4gekpia2pioniw5ufeo3f65fvwd3h5jgbm47t3odtk7e"
+ },
+ "evd:32517777:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35l2fxd22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l2fxd22",
+  "cid": "bafyreidtrvav5ipvvzv2zwqmwyl4gw27l3hkjfpj4tvhtzocldc6ddytzi",
+  "fingerprint": "bafyreidtrvav5ipvvzv2zwqmwyl4gw27l3hkjfpj4tvhtzocldc6ddytzi"
+ },
+ "evd:32517777:F2": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kxeom22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kxeom22",
+  "cid": "bafyreiekts6ypkrgv3o6qwo3bo744r7mxmli2ugqfwygs57n3c3vjjolvi",
+  "fingerprint": "bafyreiekts6ypkrgv3o6qwo3bo744r7mxmli2ugqfwygs57n3c3vjjolvi"
+ },
+ "evd:32632205:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35ko3hw22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35ko3hw22",
+  "cid": "bafyreie5r3cwtdqba7whfuezgm757lttfnzvtye5aakwuvpsvszsiyjomq",
+  "fingerprint": "bafyreie5r3cwtdqba7whfuezgm757lttfnzvtye5aakwuvpsvszsiyjomq"
+ },
+ "evd:32632205:F2": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35knvrd22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35knvrd22",
+  "cid": "bafyreihkbf7e2rsv5uqzjgcp6uen2daqy5z7fzlpraxd6areeugjys7r4m",
+  "fingerprint": "bafyreihkbf7e2rsv5uqzjgcp6uen2daqy5z7fzlpraxd6areeugjys7r4m"
+ },
+ "evd:33027662:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kme6422",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kme6422",
+  "cid": "bafyreieo5ceghtdvfzvxpmoqxo2r3d4niwh2dfrrxrav43axkqmvztpia4",
+  "fingerprint": "bafyreieo5ceghtdvfzvxpmoqxo2r3d4niwh2dfrrxrav43axkqmvztpia4"
+ },
+ "evd:34617884:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35ksocw22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35ksocw22",
+  "cid": "bafyreiabkctydabdyfihqtqig3utqu7sq2o6dfb3mkfx4h3flyuqc3gria",
+  "fingerprint": "bafyreiabkctydabdyfihqtqig3utqu7sq2o6dfb3mkfx4h3flyuqc3gria"
+ },
+ "evd:34617884:F2": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35li6hm22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35li6hm22",
+  "cid": "bafyreie7px7zzpauoqxg3qimn56lwa27rjajrg7vswewrewi4f7vnkoo7a",
+  "fingerprint": "bafyreie7px7zzpauoqxg3qimn56lwa27rjajrg7vswewrewi4f7vnkoo7a"
+ },
+ "evd:34919811:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kow2j22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kow2j22",
+  "cid": "bafyreidyzxqxhbsbni5nrp7h6vbopooeqlevvxae743meauth3lqxvanx4",
+  "fingerprint": "bafyreidyzxqxhbsbni5nrp7h6vbopooeqlevvxae743meauth3lqxvanx4"
+ },
+ "evd:34919811:F2": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kxsdc22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kxsdc22",
+  "cid": "bafyreifidss5dwxsm4ir4u323bbqj4f2x45mx6ipz4tqejn4kpnhtrhswi",
+  "fingerprint": "bafyreifidss5dwxsm4ir4u323bbqj4f2x45mx6ipz4tqejn4kpnhtrhswi"
+ },
+ "evd:34919811:F3": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kr7lo22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kr7lo22",
+  "cid": "bafyreiczyokvafwlu7dpgt4fta3o27atdnx33ox7q37e37hv3fzcbzgcbq",
+  "fingerprint": "bafyreiczyokvafwlu7dpgt4fta3o27atdnx33ox7q37e37hv3fzcbzgcbq"
+ },
+ "evd:34982109:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35l27r522",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l27r522",
+  "cid": "bafyreief3lvh6oo4u7bv7ixlsm35r627s4rxdn3u2lr3wajpnlcghdehoq",
+  "fingerprint": "bafyreief3lvh6oo4u7bv7ixlsm35r627s4rxdn3u2lr3wajpnlcghdehoq"
+ },
+ "evd:35031484:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35l726r22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l726r22",
+  "cid": "bafyreibfjdyssc7vyeevt77qxfmiakycd3dezegjflxqoxxudnplwc64p4",
+  "fingerprint": "bafyreibfjdyssc7vyeevt77qxfmiakycd3dezegjflxqoxxudnplwc64p4"
+ },
+ "evd:35031484:F2": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35lhe6a22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35lhe6a22",
+  "cid": "bafyreigpdte4zjhkrpjzxyya4jmguu4kl3jw7stgbxkjbfvwzkcynb6qiu",
+  "fingerprint": "bafyreigpdte4zjhkrpjzxyya4jmguu4kl3jw7stgbxkjbfvwzkcynb6qiu"
+ },
+ "evd:35031484:F3": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35ksord22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35ksord22",
+  "cid": "bafyreif3sjiijrn3htr3kkllquqtl6nxhmd42swhkhdvszmcjjlgkd2eba",
+  "fingerprint": "bafyreif3sjiijrn3htr3kkllquqtl6nxhmd42swhkhdvszmcjjlgkd2eba"
+ },
+ "evd:35031484:F4": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35l4odn22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l4odn22",
+  "cid": "bafyreid3jkwnuywa5qbqnloabgu6iez63k3ifjuqvk5tms46e3bnjpnopa",
+  "fingerprint": "bafyreid3jkwnuywa5qbqnloabgu6iez63k3ifjuqvk5tms46e3bnjpnopa"
+ },
+ "evd:36825945:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35ler6f22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35ler6f22",
+  "cid": "bafyreiatx6owzzmxuw6rltst76giq6v7tdjydownh7q4yd3xsvasveflny",
+  "fingerprint": "bafyreiatx6owzzmxuw6rltst76giq6v7tdjydownh7q4yd3xsvasveflny"
+ },
+ "evd:38217595:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35l643p22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l643p22",
+  "cid": "bafyreicesrsm72qinh5ijhg6u3bjedc7dfjcgmzcld23vudv6p7trouwai",
+  "fingerprint": "bafyreicesrsm72qinh5ijhg6u3bjedc7dfjcgmzcld23vudv6p7trouwai"
+ },
+ "evd:38217595:F2": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35lhdaa22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35lhdaa22",
+  "cid": "bafyreihefsz4c7ivmz26kiut4ug4wohwz2s52ypzrqhdoq4ougf2zzfbcu",
+  "fingerprint": "bafyreihefsz4c7ivmz26kiut4ug4wohwz2s52ypzrqhdoq4ougf2zzfbcu"
+ },
+ "evd:38912292:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kiukd22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kiukd22",
+  "cid": "bafyreicgf7o75uswrlt7snychrr7elldztdts5geim52l4a6bdj5gtqevq",
+  "fingerprint": "bafyreicgf7o75uswrlt7snychrr7elldztdts5geim52l4a6bdj5gtqevq"
+ },
+ "evd:38912292:F2": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kuqtt22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kuqtt22",
+  "cid": "bafyreia5luj4omhgn5e3awmtqfrp2nmubjxdmq4bolph7eadmnm77w7jwq",
+  "fingerprint": "bafyreia5luj4omhgn5e3awmtqfrp2nmubjxdmq4bolph7eadmnm77w7jwq"
+ },
+ "evd:40457456:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35l6idg22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l6idg22",
+  "cid": "bafyreibhw4yrpkae2g2wyrnrhdowukfqfrayr47pk33twfsx654qd3y2xq",
+  "fingerprint": "bafyreibhw4yrpkae2g2wyrnrhdowukfqfrayr47pk33twfsx654qd3y2xq"
+ },
+ "evd:40457456:F2": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35l2sn322",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l2sn322",
+  "cid": "bafyreig327fcefqwk2pxsweedj6xxwbqkz5imlk4vlp34hl4hf3mlvzzty",
+  "fingerprint": "bafyreig327fcefqwk2pxsweedj6xxwbqkz5imlk4vlp34hl4hf3mlvzzty"
+ },
+ "evd:40457456:F3": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35l634a22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l634a22",
+  "cid": "bafyreibfwmfvzh7gbklr6qytvkqm7wsmnk73mgly7kx2o47s2trnpgwsye",
+  "fingerprint": "bafyreibfwmfvzh7gbklr6qytvkqm7wsmnk73mgly7kx2o47s2trnpgwsye"
+ },
+ "evd:40675218:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kzo6t22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kzo6t22",
+  "cid": "bafyreiegqrcnr75jfbud6j6cikhdo4y3eeufu77hjrt7nu2ljyc3fzweja",
+  "fingerprint": "bafyreiegqrcnr75jfbud6j6cikhdo4y3eeufu77hjrt7nu2ljyc3fzweja"
+ },
+ "evd:40675218:F2": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35ks3kj22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35ks3kj22",
+  "cid": "bafyreiezim4bckc73fld2mxn2ysec2v3bqs5vg2yo3hhifywjgcdcuelni",
+  "fingerprint": "bafyreiezim4bckc73fld2mxn2ysec2v3bqs5vg2yo3hhifywjgcdcuelni"
+ },
+ "evd:40845853:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35krg5422",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35krg5422",
+  "cid": "bafyreih4zjypbdwnt43sa4vpiohbx5fqxnewaqru7hr746nhg4646wfd5a",
+  "fingerprint": "bafyreih4zjypbdwnt43sa4vpiohbx5fqxnewaqru7hr746nhg4646wfd5a"
+ },
+ "evd:41103078:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35ksgyn22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35ksgyn22",
+  "cid": "bafyreieq7kqzx7ic2ldzxg7e7ltkanwaajmkgpjmzvdqi53jtaakvl3p4q",
+  "fingerprint": "bafyreieq7kqzx7ic2ldzxg7e7ltkanwaajmkgpjmzvdqi53jtaakvl3p4q"
+ },
+ "evd:41103078:F2": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35lhzkh22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35lhzkh22",
+  "cid": "bafyreigjqccnvy6chfytogfjx6zr2hyd354frk5hak4ue7vrn27ot7zkyy",
+  "fingerprint": "bafyreigjqccnvy6chfytogfjx6zr2hyd354frk5hak4ue7vrn27ot7zkyy"
+ },
+ "evd:41103078:F3": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35l7n4i22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l7n4i22",
+  "cid": "bafyreicwlkaximpuwjhd23r2urc5iwgbddsafoak5us5ep6f5wocjkfmu4",
+  "fingerprint": "bafyreicwlkaximpuwjhd23r2urc5iwgbddsafoak5us5ep6f5wocjkfmu4"
+ },
+ "evd:41103078:F4": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kjkxj22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kjkxj22",
+  "cid": "bafyreiakufguovtvn2dru2qbcbk5io75cedjhohuxqujgntq7njqpv3fky",
+  "fingerprint": "bafyreiakufguovtvn2dru2qbcbk5io75cedjhohuxqujgntq7njqpv3fky"
+ },
+ "evd:41103078:F5": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kztyr22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kztyr22",
+  "cid": "bafyreiew4kwaoxxtgv2wsvdv7qgi5nqwsh5egwzf4li7xiiuvsurrtgjta",
+  "fingerprint": "bafyreiew4kwaoxxtgv2wsvdv7qgi5nqwsh5egwzf4li7xiiuvsurrtgjta"
+ },
+ "evd:41103078:F6": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kvvsc22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kvvsc22",
+  "cid": "bafyreifoijc3fv3h73fbohrnldi2saigm7kwcdfbgwpa5qburepyjxhc64",
+  "fingerprint": "bafyreifoijc3fv3h73fbohrnldi2saigm7kwcdfbgwpa5qburepyjxhc64"
+ },
+ "evd:41103078:F7": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35l4otm22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l4otm22",
+  "cid": "bafyreif6x2lr7hxre5ar5z3cgrizebi43fkh55cg5filvgbblwz37hjkbm",
+  "fingerprint": "bafyreif6x2lr7hxre5ar5z3cgrizebi43fkh55cg5filvgbblwz37hjkbm"
+ },
+ "evd:41103078:F8": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35lanb222",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35lanb222",
+  "cid": "bafyreibzmxfnxhunclhtd2ut3kxjcznmgyrq7eajy235t6dqtdldajz5ta",
+  "fingerprint": "bafyreibzmxfnxhunclhtd2ut3kxjcznmgyrq7eajy235t6dqtdldajz5ta"
+ },
+ "evd:42182449:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35l54mn22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l54mn22",
+  "cid": "bafyreibns5yqdjkmwvcdznm5lrcjlbkb7lragrcowfkooafzugwosmox6y",
+  "fingerprint": "bafyreibns5yqdjkmwvcdznm5lrcjlbkb7lragrcowfkooafzugwosmox6y"
+ },
+ "evd:42182449:F2": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35kposm22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kposm22",
+  "cid": "bafyreiamvo5zsvygusyl37rb53m7ppdfh3qemrh2bommtozl7hlzlo7qkq",
+  "fingerprint": "bafyreiamvo5zsvygusyl37rb53m7ppdfh3qemrh2bommtozl7hlzlo7qkq"
+ },
+ "evd:42182449:F3": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35lacz622",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35lacz622",
+  "cid": "bafyreiaraoqbmgmxrghlbqyideyf5kypnjzj2i6fpv45yqmekmzktyzhie",
+  "fingerprint": "bafyreiaraoqbmgmxrghlbqyideyf5kypnjzj2i6fpv45yqmekmzktyzhie"
+ },
+ "evd:42182449:F4": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35l7r3522",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l7r3522",
+  "cid": "bafyreicsxr2qyhdqoukhzfnkwgo5mo7xeauaiuo3f6x5t47ocx3a6b2rhq",
+  "fingerprint": "bafyreicsxr2qyhdqoukhzfnkwgo5mo7xeauaiuo3f6x5t47ocx3a6b2rhq"
+ },
+ "evd:42636814:F1": {
+  "nsid": "tech.scios.rrgi.evidence",
+  "rkey": "3n2k35lhnez22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35lhnez22",
+  "cid": "bafyreienmmjabitj2opd3yeofiihzlt6g7zrcedjs3yftd73ajdvkm3b6m",
+  "fingerprint": "bafyreienmmjabitj2opd3yeofiihzlt6g7zrcedjs3yftd73ajdvkm3b6m"
+ },
+ "hyp": {
+  "nsid": "tech.scios.rrgi.claim",
+  "rkey": "3n2k35knffp22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+  "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64",
+  "fingerprint": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+ },
+ "protocol": {
+  "nsid": "tech.scios.rrgi.protocol",
+  "rkey": "3n2k35kocwc22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.protocol/3n2k35kocwc22",
+  "cid": "bafyreif7socutj2qdp32ud7vtut2ni7fozkeqvc5dnv327p25c4rs66ioq",
+  "fingerprint": "bafyreif7socutj2qdp32ud7vtut2ni7fozkeqvc5dnv327p25c4rs66ioq"
+ },
+ "sourceDocument:evd:10.1101_2025.03.05.641722:F1->src:10.1101_2025.03.05.641722": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35lcjfw22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35lcjfw22",
+  "cid": "bafyreihj52f6rxsebnm65cxi6ldn55m6r5xctbk6aqswo2roxxscmr4iam",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:10.1101_243097:F1->src:10.1101_243097": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kv42p22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kv42p22",
+  "cid": "bafyreiexoz37qafpckvcmolsri4xqlbamgc2tav3662qrls4bdncwfy6ri",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:10.1101_243097:F2->src:10.1101_243097": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35l5azw22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35l5azw22",
+  "cid": "bafyreiefzfh32ksuwr2oz2tqqtnei4okukbm76ezzimsoudbr55pifsg4y",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:10.1101_243097:F3->src:10.1101_243097": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35ksax522",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35ksax522",
+  "cid": "bafyreieyzdz2vwicachcpjdgmz7k7ix5o7auq67os7g4epf6ibzmhqvrfe",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:10.1101_252122:F1->src:10.1101_252122": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35lhzml22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35lhzml22",
+  "cid": "bafyreibop4wcjdvaab6iysndkytkk7gj3tqpq2szjalh3cjyrx6ygwheja",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:10.64898_2026.05.12.724612:F1->src:10.64898_2026.05.12.724612": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35lfmbp22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35lfmbp22",
+  "cid": "bafyreia47rhhk4iwaxukph33vdz6jtpazktcjq5xeiofkgup527uaroima",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:10.64898_2026.09.01.748585:F1->src:10.64898_2026.09.01.748585": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35lbgeh22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35lbgeh22",
+  "cid": "bafyreihppvctvp3kh6fcyee42otkki2qossd5mgh37gneamjfqemu66yae",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:10.64898_2026.09.01.748585:F1->ent:10.64898_2026.09.01.748585:Figure 3, panel A-B": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35lfnjy22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35lfnjy22",
+  "cid": "bafyreiaxdvumnscivzqkje6fsza6xo4cavcknee5loiqr6lzbrqr3q5shu",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:10.64898_2026.09.01.748585:F2->src:10.64898_2026.09.01.748585": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35l43lr22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35l43lr22",
+  "cid": "bafyreibg4fsvue5xgrwvxdksulalowofc3ufs4qupbxxl2i4w32tf4kjny",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:10.64898_2026.09.01.748585:F2->ent:10.64898_2026.09.01.748585:Figure 3, panel C": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kombt22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kombt22",
+  "cid": "bafyreighzb7fmmtkh6ei3opvcxgogsvc33mqnchfwj7dvfirdrrxdqbixy",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:10.64898_2026.09.01.748585:F3->src:10.64898_2026.09.01.748585": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kqj4a22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kqj4a22",
+  "cid": "bafyreibe2ybqr3ksdncia3mcjzlvxxszovvqdgluvizzvdymgqboresp64",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:10.64898_2026.09.01.748585:F3->ent:10.64898_2026.09.01.748585:Figure 5, panel A-D": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35lfole22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35lfole22",
+  "cid": "bafyreic2dfdqfjqzckf4tq24yngu5jzyk4wwsi62q5omcsqy6ordl7ovcy",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "observationBase:evd:10.64898_2026.09.01.748585:F3->ent:10.64898_2026.09.01.748585:Figure S5, panel A-B": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35l2btb22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35l2btb22",
+  "cid": "bafyreihdwfvtzljyihvrntnnlqdup7soiwaoozuq2pst7yy36ml7ldoa3m",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:10.64898_2026.09.01.748585:F4->src:10.64898_2026.09.01.748585": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35klznn22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35klznn22",
+  "cid": "bafyreicwu3axi5aw34whog3f4mh5kjukcp6alqv65fudpbi7w57rm5kkka",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:10.64898_2026.09.01.748585:F4->ent:10.64898_2026.09.01.748585:Figure S3, panel A": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35l37wv22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35l37wv22",
+  "cid": "bafyreihid6y5da32mm4odrptqarffaw6rxyhmo5dxs7cr2pcmq7jo4pgka",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:20547867:F1->src:20547867": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35klav622",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35klav622",
+  "cid": "bafyreiatvwkoki5elymlayp3mbr4uxbnkyvwcyp3qrch4om5zpug22p7bm",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:29311783:F1->src:29311783": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kxt5h22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kxt5h22",
+  "cid": "bafyreib4sxese3c5smpvnwrbvpdzgqt2fjxwjdpean6nnuvzzsv7l5msqu",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:29311783:F1->ent:29311783:Figure 3, panel A": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35l3ayi22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35l3ayi22",
+  "cid": "bafyreiagzsnvapurdviurluux47lvahyny5d6xjpuy2upw3ypzlro3lowa",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "observationBase:evd:29311783:F1->ent:29311783:Figure 2": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35krmaj22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35krmaj22",
+  "cid": "bafyreig5wfs5ggyfyzbpgft3y3dzbh7wdkjtlil3akyogp46d2haa537pi",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "observationBase:evd:29311783:F1->ent:29311783:Table 1": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kyz2l22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kyz2l22",
+  "cid": "bafyreieee5xconcgf5kflekhq3wqczm3ynrhclslawkupqmckpo7jittni",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "observationBase:evd:29311783:F1->ent:29311783:Table S1": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35lidtp22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35lidtp22",
+  "cid": "bafyreign6qzulqumphtfbmrwyazdjickyvyjoeem5hp27u4gbma7qylhya",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:29311783:F2->src:29311783": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35klh7m22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35klh7m22",
+  "cid": "bafyreiduxobqr7hal3ihuydjmvxc36mqojxt4rzmvyg6zctsohnmfuwbyu",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:29311783:F2->ent:29311783:Table S2": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kzm2y22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kzm2y22",
+  "cid": "bafyreicxkn4dddqxhurywzhcpn2pmnuncxalb2lvhjt52xrj3c73fel2cy",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:29311783:F3->src:29311783": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35l77b322",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35l77b322",
+  "cid": "bafyreibkuqaiawzotlwdmesxgnu5jwgzmxkcxmymm2kcwkm432fa6mfaai",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:29311783:F3->ent:29311783:Figure 5, panel B-D": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kwu6s22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kwu6s22",
+  "cid": "bafyreigksmg7ts55sq2coehxnplvmy4qi4rmnkyiu6cwfhrzhozqs5l44q",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:29311783:F4->src:29311783": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35lbnvu22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35lbnvu22",
+  "cid": "bafyreib4cyfbqazx6i64yupzwlljbqxjoyyixvaufflcztvjjemldp3cbq",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:29311783:F4->ent:29311783:Figure 4, panel B-D": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35l2z5g22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35l2z5g22",
+  "cid": "bafyreigu5ifpw3kpginbquds3k7ke5y5r33a3lfgtkp3bh6igbvakr647q",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:29311783:F5->src:29311783": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kwogo22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kwogo22",
+  "cid": "bafyreiebr4skireqdjkjohkykvmqpttiigzvzreftic2v35naxnqeaic5q",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:29311783:F5->ent:29311783:Figure 5, panel B-D": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35l23ku22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35l23ku22",
+  "cid": "bafyreiamvumj74zzbk5tfncu5r2iot2obkgb7tj2siwts44iyl37drbjyq",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:29567836:F1->src:29567836": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kk53622",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kk53622",
+  "cid": "bafyreigtffhv6v6bsv3ypenlvft72qgjjk5w7p52jkydmy7wjnlrwvq23m",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:29861287:F1->src:29861287": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kqsr522",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kqsr522",
+  "cid": "bafyreib6bdev5juq6ox65dc33bc7oflv2v7weewfinkgxnngxly4sgra3i",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:29946028:F1->src:29946028": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35ldotv22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35ldotv22",
+  "cid": "bafyreieqcnemyklfqhr7pqreb6lzmptowspgbz5uxkj4va43xhlbgq2w54",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:29946028:F2->src:29946028": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35lbq5f22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35lbq5f22",
+  "cid": "bafyreidbjrdt5jzmgii6mfkzs4ju3dxkbmt4xgdk3inigiabta5vrd6rxi",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:29946028:F3->src:29946028": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35l2s6r22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35l2s6r22",
+  "cid": "bafyreici27ayguukp5pybmcqdcvrntvme6eqisxpyue6m5zfveyxphkdiu",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:29946028:F4->src:29946028": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35laqpn22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35laqpn22",
+  "cid": "bafyreidv3y3jtyimhss2vruksns3a7gywtf5sk2l7th6etmnphjlenikfy",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:32517777:F1->src:32517777": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35lhdg722",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35lhdg722",
+  "cid": "bafyreiawqkj3eo3tqvpp5fm7xenr2cbd4u4ujmwymopjgp3vb3hdyeleyy",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:32517777:F1->ent:32517777:Figure 4, panel G": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35li6my22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35li6my22",
+  "cid": "bafyreibx2rxn54otvarse45xyjkweekcosq65r32ccqkxff4v6g7ehghla",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:32517777:F2->src:32517777": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kotfi22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kotfi22",
+  "cid": "bafyreiekl2bzlvdoi6ikijm5qw4xfkv32olekivwf35apq6flwwpq4unjy",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:32517777:F2->ent:32517777:Figure 4, panel F": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35koutd22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35koutd22",
+  "cid": "bafyreih7q35ierqk4ylpwvkqwubkqwt2d23ud36mdbaj7sbg54zrdwrdum",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:32632205:F1->src:32632205": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kinr222",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kinr222",
+  "cid": "bafyreifwdu7yjt6tmda2bkddzkhamn5bhafq7rlz2nbjzv3miv7q7puske",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:32632205:F1->ent:32632205:Figure S6, panel D-E": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kqwml22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kqwml22",
+  "cid": "bafyreiatspjkyvk45y2d5uxxaxgrqqcgmi7rzk5csisaywwemdfnsc2jmy",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:32632205:F2->src:32632205": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kyjhs22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kyjhs22",
+  "cid": "bafyreihj5xqhggbiq7ybfpaisrcudewp6ykkbxhckqygl42goomrozkxpm",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:32632205:F2->ent:32632205:Figure 5, panel A-C": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35la57o22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35la57o22",
+  "cid": "bafyreifpqm7yxvu5ie4in46z5mse3q36bf2nhjzaa5pkf373attq2vybae",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:33027662:F1->src:33027662": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kobqa22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kobqa22",
+  "cid": "bafyreiddffh3a6qvkyp72zeuxkf7vniglmpktmhgwp2ywlac3uycfiuojq",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:34617884:F1->src:34617884": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kl6v322",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kl6v322",
+  "cid": "bafyreib232wpmhhahrdd7z4f3axofzkjkbeluntbcolqiq5p7ctsqvrndy",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:34617884:F1->ent:34617884:Figure 4, panel C-F": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35ksw4y22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35ksw4y22",
+  "cid": "bafyreifjrmvqkdfefx4ql5rg3fklmo3qkby2x3meahi3sd7asdrnhgyswy",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:34617884:F2->src:34617884": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35ld2i622",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35ld2i622",
+  "cid": "bafyreidfexdjaool4ihvox6nawa5fuhwo67pnkzre7tuq6labi7v2cuxbq",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:34617884:F2->ent:34617884:Figure 5, panel A": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35l2gao22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35l2gao22",
+  "cid": "bafyreibh3c7mzjf7x6ewni5jds225fzilwoaw5ezjaeagvz2woxhw6xabm",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:34919811:F1->src:34919811": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35knwjy22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35knwjy22",
+  "cid": "bafyreichxkk5bbiqu4vzgb4cw74wvaolk6husd3242efujm75sfnip34wy",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:34919811:F1->ent:34919811:Figure 4, panel A": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kpfvy22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kpfvy22",
+  "cid": "bafyreicy4gpw4gkwxopewybjlkuyvvv5yberzzy53auweohzebipmk2x7a",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:34919811:F2->src:34919811": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kl4ek22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kl4ek22",
+  "cid": "bafyreiba7mxipxcui7ogcecfrwy53xj6vlasnjbscurxqqc73ki7ecu2ui",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:34919811:F2->ent:34919811:Figure 4, panel F": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kyklz22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kyklz22",
+  "cid": "bafyreifgyxnecophpq24hxh34sq2fo5zvokdmvsbhrvxwdcslvknsre7eu",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:34919811:F3->src:34919811": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35l6mih22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35l6mih22",
+  "cid": "bafyreihapznhvfw74vk575f65jovledcw5avu3txtqdmhwakxsa72iuewy",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:34919811:F3->ent:34919811:Figure 4, panel B": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kvkz222",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kvkz222",
+  "cid": "bafyreib5ff6bor7oskbndbxrvtnecjotvtebmcaw6xq72pwfk5n7cai2ua",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:34982109:F1->src:34982109": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kofmk22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kofmk22",
+  "cid": "bafyreicdydt3ns52eriob2bzthnfsnc6un4t2zc6gp6no4zvti5wpjqvzq",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:35031484:F1->src:35031484": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35ko64m22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35ko64m22",
+  "cid": "bafyreiau7ghab7arcit2xqyahwewte7gyhhaixnbs2qelbxvy2pk4u5fk4",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:35031484:F1->ent:35031484:Figure S3": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kokfo22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kokfo22",
+  "cid": "bafyreibt5lnmghlbge2mkzvmm46z6756n2xhw6b6dcewyjkjrsdpwgwwvq",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:35031484:F2->src:35031484": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kvtec22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kvtec22",
+  "cid": "bafyreici3y5jssja7fkiod54t7dhnyfylvzfbst6fcbuivwfet7mbkbgce",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:35031484:F2->ent:35031484:Figure S3": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35ldyj422",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35ldyj422",
+  "cid": "bafyreie7rl2gilbs2c3ecmebj5byzrnvvbwk6bxuzwfgdmb63qgz4w7ipi",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:35031484:F3->src:35031484": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kmw2f22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kmw2f22",
+  "cid": "bafyreiasffwyulzuhvzrnrozmla452eq2nubppdpx3oixcb2llf476jpwe",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:35031484:F3->ent:35031484:Figure 1, panel F": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kt5mp22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kt5mp22",
+  "cid": "bafyreigv4zqcfkiyiurpoalldoqtlbtcdyh3apqxofpu2t2fhm3fnwahe4",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:35031484:F4->src:35031484": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35li4i422",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35li4i422",
+  "cid": "bafyreihrfrhz6ea3fteojnqnkiv4ikpxormyrw4f2vpmo6w2jlbclcweym",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:35031484:F4->ent:35031484:Figure 3, panel F": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35lfnjw22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35lfnjw22",
+  "cid": "bafyreihldfei2bns3z2qbqjdpv6jf5jalu3qscjswmdzlhwy5xfwsbtlsy",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:36825945:F1->src:36825945": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kmnol22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kmnol22",
+  "cid": "bafyreiafcu73o3p5r7wmjaqzacgabprgtxgoujemnk72uddzgpyfa6ci3a",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:38217595:F1->src:38217595": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35l2mmn22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35l2mmn22",
+  "cid": "bafyreihorbjn2lkuzndbuyijw5d6ywqfxgt6fp6ghfh7um7ecxt2pwjxxm",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:38217595:F1->ent:38217595:Figure 5, panel B": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kqg6w22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kqg6w22",
+  "cid": "bafyreihd6olnvnlrgvsgzwied5emilms47jkuhn3afnppnogwv4da3pwwi",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "observationBase:evd:38217595:F1->ent:38217595:Figure 8, panel B": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35ku23d22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35ku23d22",
+  "cid": "bafyreifroaq5q5xi7wejdbzmrg73lod6frtmmfuvpvfd22b24bu5bkunka",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:38217595:F2->src:38217595": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35ldp5l22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35ldp5l22",
+  "cid": "bafyreibqt4hlkrxzwlsmxeutvdztjr6ysnphobqizcumtqq3pno3qnq25q",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:38217595:F2->ent:38217595:Figure 7, panel A": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kpajv22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kpajv22",
+  "cid": "bafyreie6muxufvf3wtgfs6i36wnidlhdxcndpqksyniu26ils27t2t5nlq",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:38912292:F1->src:38912292": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35l5ffs22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35l5ffs22",
+  "cid": "bafyreihyiju7ck7xz4ed27xg7jnnaficp5b2z42ugkrbpdnuz2a6xx2n5u",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:38912292:F1->ent:38912292:Figure 1": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kpk5v22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kpk5v22",
+  "cid": "bafyreietcmycwmxl5zj4ogqrh3cuygk54s5hc347ee34s6kbcymqqq67xa",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:38912292:F2->src:38912292": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35krobn22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35krobn22",
+  "cid": "bafyreibau7vjrmxgnnlixzpx6uehzogrjrgjpszgexjkeazf3fs25bjqu4",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "sourceDocument:evd:40457456:F1->src:40457456": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kra5m22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kra5m22",
+  "cid": "bafyreigvgkiwuvo2vtg4jssy6pgj3subfqddi56cul7fwxsuidj4czmvcu",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:40457456:F1->ent:40457456:Figure 1, panel K": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kqgxl22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kqgxl22",
+  "cid": "bafyreib4q3ryjnafjwor374afpddmewn55qdzz2tsy54kcyf5sl652a47u",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "observationBase:evd:40457456:F1->ent:40457456:Figure 1, panel L": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kzgjw22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kzgjw22",
+  "cid": "bafyreiaszdirli3cro7wisyxxbeb5y2fgbpprmrm7piqcfmjsxkjnplzvm",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:40457456:F2->src:40457456": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kse5w22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kse5w22",
+  "cid": "bafyreib4rbklksl7oe2lt7zc3dkjksidhr4gmaevqsu7l3e5chuo6jloq4",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:40457456:F2->ent:40457456:Figure 1, panel G": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35lfuht22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35lfuht22",
+  "cid": "bafyreifp2lvm63attiin6ro6g3ocfvnazbhez3bkjwlrmvtpq5gm35me74",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "observationBase:evd:40457456:F2->ent:40457456:Figure 1, panel H": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35lhofa22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35lhofa22",
+  "cid": "bafyreia2zgkjbh4fywm6cm3sstpi3lxmyajcngzuiyz53h3ym47gxr3zmq",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:40457456:F3->src:40457456": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kkbnb22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kkbnb22",
+  "cid": "bafyreieig3aknyxqqcpl4atvsfdwyv2vwjtysrpuxdnaleamq3szmrt54y",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:40457456:F3->ent:40457456:Figure 3, panel G": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kkodd22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kkodd22",
+  "cid": "bafyreiat4digva572xiccnpgh6fmwwqqwhealbmczamb4g4bgorbhak33a",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "observationBase:evd:40457456:F3->ent:40457456:Figure 3, panel H": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35l4lbf22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35l4lbf22",
+  "cid": "bafyreid2vdectrkkznwla5atwoepfo3647uzyppn2ulrlmsz4mrmm5ikye",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:40675218:F1->src:40675218": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35la45x22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35la45x22",
+  "cid": "bafyreibow7acjqhv4fmdrqggml6w7bqkuyamj5ueqcwhg23kakdivvnz2e",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:40675218:F1->ent:40675218:Figure 4, panel J": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35l35er22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35l35er22",
+  "cid": "bafyreide2tdrz3djqnbgos4zbxtzyey36om2wid3s57xtto5ek5nc6nedy",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:40675218:F2->src:40675218": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kxw7222",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kxw7222",
+  "cid": "bafyreih2ajuee6ds7srhabqmrqj5sgzz6dktmdd2oqnsp56als5bhbloyi",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:40675218:F2->ent:40675218:Figure 4, panel K": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kkt5722",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kkt5722",
+  "cid": "bafyreidm2zl3sw3f5nmcruh2d4ae4weqitscymlm2654i57wekbceuowd4",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:40845853:F1->src:40845853": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kprv422",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kprv422",
+  "cid": "bafyreigotg3l6wdij5xrjlaysuple3ua5aevdiuahvsmuuy6g7th5wkmmu",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:40845853:F1->ent:40845853:Figure 5, panel E-F": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kinyg22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kinyg22",
+  "cid": "bafyreicbrrabcjwawbdt4iemt4piqcehpgj47ql3asqinxjcpaob7ut3xa",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:41103078:F1->src:41103078": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kxhcc22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kxhcc22",
+  "cid": "bafyreibbsm24yeutk2vlduqjpkqoyj2ocrrxj4tuw7pgbmwb5js664v2ju",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:41103078:F1->ent:41103078:Figure 1, panel C-E": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35lgkc622",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35lgkc622",
+  "cid": "bafyreihsbvdzxmqj5237k3xhllgaifspj4cvzd53qzdfcnqcuczz6jgfbq",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:41103078:F2->src:41103078": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35klc7j22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35klc7j22",
+  "cid": "bafyreiarqd7h7dgcuxxzc2sdtyr3rpxeocxtjhgseu3rs4ymm4chkx2vbi",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:41103078:F2->ent:41103078:Figure 1, panel A-B": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35l54qt22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35l54qt22",
+  "cid": "bafyreiheph7qfnlqm37v4uw7cshp6wuc77q4vyka4vtm2y6jc5l6cqahla",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:41103078:F3->src:41103078": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kkntv22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kkntv22",
+  "cid": "bafyreiazueitnpqpr36guegs5ylvhvsg7jx6msr4a2fddw326fvlwvrtpi",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:41103078:F3->ent:41103078:Figure S1, panel B-C": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kqbbb22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kqbbb22",
+  "cid": "bafyreicyexvcwcl4uuj4ig7wcbwmykl4cpfbkpj7m7jhs6li2pjg5dptii",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:41103078:F4->src:41103078": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35lbhwo22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35lbhwo22",
+  "cid": "bafyreiehgaufvakgi6ymvi2ey34wemyatis7wmuwsn7qqsntymh4ci4jju",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:41103078:F4->ent:41103078:Figure 1, panel F-G": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35lfyei22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35lfyei22",
+  "cid": "bafyreicvos4pow623hrath5ydgrv4nhr3xwn65rbcyaci5dohaelmyi7cy",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:41103078:F5->src:41103078": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kpzfj22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kpzfj22",
+  "cid": "bafyreidtceyk55afswflv5bhlsq5jlwz42rmrn7nlh7dkvpdfsddoinr4q",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:41103078:F5->ent:41103078:Figure 6, panel B-C": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35l673d22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35l673d22",
+  "cid": "bafyreifo2ptirjp4poyfjgr27z4p3owkcbv5usflt4qjmidyshl4hsqnfm",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:41103078:F6->src:41103078": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35klega22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35klega22",
+  "cid": "bafyreihnpyz6t2moclvo45mum6xbhuyjjwnhd646kl65wk5pgzakpettsa",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:41103078:F6->ent:41103078:Figure 5, panel A-G": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35knfnc22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35knfnc22",
+  "cid": "bafyreif37jmq3r6xb2jdhf2lurnehtm2qeiasrisr5ia4tzqhlkmuos474",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:41103078:F7->src:41103078": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kr63d22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kr63d22",
+  "cid": "bafyreicb5lqt77ewzirehrblbvzs2btpjhiipqi6tqxtyypcfpswursxfe",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:41103078:F7->ent:41103078:Figure 5, panel J-M": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kqlrs22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kqlrs22",
+  "cid": "bafyreihdiqoxanrufbyzcwiyuc2d6achnam6bqbev2euvcsrg42gawhr3q",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:41103078:F8->src:41103078": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kwwq422",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kwwq422",
+  "cid": "bafyreiakuljg7wyttxcvruyj5p7vww2jhvc3cac6xxnwqdxbajew7doj44",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:41103078:F8->ent:41103078:Figure 4, panel A-E": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kzegs22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kzegs22",
+  "cid": "bafyreide7lwsnrx5xcaeoibhynqpr2v6aij3v5mqdqr6qxi5qwci4v452a",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "observationBase:evd:41103078:F8->ent:41103078:Figure 4, panel H-I": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35ldlgc22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35ldlgc22",
+  "cid": "bafyreievss63357bk2tufyk2qyiy32pglupmhuwrnadbmk5jz2fpijgsce",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:42182449:F1->src:42182449": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kuul522",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kuul522",
+  "cid": "bafyreig3hxgfkm2y7rijqbvgfnwqhsqo3onwavmn2txj5aknfiwykz7ixy",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:42182449:F1->ent:42182449:Figure 3, panel G": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35l5csd22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35l5csd22",
+  "cid": "bafyreib4j4la2prcyky5hsfhnaq5fpddeuvl4uc5f3465ldj5tr4lsnbde",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:42182449:F2->src:42182449": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kts7f22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kts7f22",
+  "cid": "bafyreigr6c52wz6wjyunbx2vberknrdzxuopzld4ui5n2odmko46hmijeq",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:42182449:F2->ent:42182449:Figure 3, panel G": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35komzm22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35komzm22",
+  "cid": "bafyreig3pq42yeknoekkjon3dhcvzr6eesjer2n265fjxkmord4uwxgjpm",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:42182449:F3->src:42182449": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35ksmxu22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35ksmxu22",
+  "cid": "bafyreicrwtkkct7lio6ptgvxvb4guqqz46fzko4543zqioia3uc2pdcaf4",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:42182449:F3->ent:42182449:Figure 7, panel M": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35labmi22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35labmi22",
+  "cid": "bafyreifc5fwfhneg2bz6flwyov7gxw3dtcf3mpuo7hkkkg35iuq7bgh7hy",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:42182449:F4->src:42182449": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35kjua522",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35kjua522",
+  "cid": "bafyreictyeurrds6jv5vlxmu65h6acrlauxskf3ld364rusylripr6g3bm",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "observationBase:evd:42182449:F4->ent:42182449:Figure S3, panel D": {
+  "nsid": "tech.scios.rrgi.observationBase",
+  "rkey": "3n2k35kpqqm22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.observationBase/3n2k35kpqqm22",
+  "cid": "bafyreihhtycb6fuzdb2rrapn4ffsa6au2p7wmbs4yfwslu2nytzmdd2vju",
+  "fingerprint": "bafyreia3wa5ocrcio7dj222uqr3ly5c6srnwvbeslulkhf3ayrfky7vjme"
+ },
+ "sourceDocument:evd:42636814:F1->src:42636814": {
+  "nsid": "tech.scios.rrgi.sourceDocument",
+  "rkey": "3n2k35l2cot22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.sourceDocument/3n2k35l2cot22",
+  "cid": "bafyreih3bgxflwos5hk7ipo57fn3se2f7p2z7jxkhmv2amyykebx6hrfle",
+  "fingerprint": "bafyreihaawkpxbqzihi3qr3afjethtkzpp2zca2rj2uq43utnzulgei47m"
+ },
+ "supports:evd:10.1101_2025.03.05.641722:F1->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35l6jhy22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35l6jhy22",
+  "cid": "bafyreig55q4try5sf7h2ldmusats6c4anl52jglul7o7mva2x3wpa6ldfu",
+  "fingerprint": "bafyreihk6kue2qtzbdpukx6llasxxytkb4m545wnnjrdwyvshljqpdljeu"
+ },
+ "opposes:evd:10.1101_2025.03.05.641722:F1->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35l455o22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35l455o22",
+  "cid": "bafyreihneruxalc3hlrqvrualyg4xifaeldto5tq3m5dz6ot3y3bp7aiuq",
+  "fingerprint": "bafyreidaarb44revsvikca6fc6ulhjx57z4mbhqvcpw5v3swupyv3dcn4e"
+ },
+ "supports:evd:10.1101_243097:F1->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35lecub22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35lecub22",
+  "cid": "bafyreiawm2d24eggzjuozpsggil4tguipfond3e77kp2ve7pcbpttkmfqi",
+  "fingerprint": "bafyreia7shat54wbtul5xn625m3ztjf2vjckwhy3w5yrxy6ivnzmmngx5e"
+ },
+ "supports:evd:10.1101_243097:F2->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35kio5522",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35kio5522",
+  "cid": "bafyreig3ytahap4ppznubl2pvahw72mpm5cn4jkmlet5qggf6z4bk3uqnu",
+  "fingerprint": "bafyreifohct6fra2ys6y2uesfk3fu7pj57ov4qgk6qfy2dlfmggtl3l3si"
+ },
+ "supports:evd:10.1101_243097:F3->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35lfd6y22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35lfd6y22",
+  "cid": "bafyreidsjt6smkbo2v5xdtwog6i2hfgyj6chgj6nxkhs3s52ndisg4d4qy",
+  "fingerprint": "bafyreif7aopaytirpq5c33i7ek2rjo5q53vw4exfw3i25xviaxweu4zsam"
+ },
+ "supports:evd:10.1101_252122:F1->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35libxv22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35libxv22",
+  "cid": "bafyreib3wtbveug42pbh2xd6yhtg7wziimun7hizdo7gvytepnzvbfndfm",
+  "fingerprint": "bafyreic55lu5u62jkisrmbpjesaasvekredcxmzw7rkde4yierevpm65cu"
+ },
+ "opposes:evd:10.64898_2026.05.12.724612:F1->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kltt622",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kltt622",
+  "cid": "bafyreiek474bhf6qomwkru3awxq3a4qticqohdndb3fujm5nlqhgyhangi",
+  "fingerprint": "bafyreibcbibhfcifk36kftuzcbxnkbzdje55q2akm6bjihnq4wj6womvy4"
+ },
+ "opposes:evd:10.64898_2026.09.01.748585:F1->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kvy6o22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kvy6o22",
+  "cid": "bafyreidqf22tcdsp7njxbb2jbxmcygd6ebwrxehea7cir3otn537mdu4wm",
+  "fingerprint": "bafyreiaukjgqcy2fmvioj4s2ligtqbci3qw7kzxamsz2zvvnpz4elyb2uy"
+ },
+ "opposes:evd:10.64898_2026.09.01.748585:F2->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35ktquu22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35ktquu22",
+  "cid": "bafyreidvc5h5d66ce4vsxuqzard2zxm7pcet6oexqd6t7s66teglnwn5yi",
+  "fingerprint": "bafyreied3szqjzpzgdzjwc6nrfiepphs4fprp6t54ycv62ah7u5gqdejd4"
+ },
+ "opposes:evd:10.64898_2026.09.01.748585:F3->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kndoz22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kndoz22",
+  "cid": "bafyreieroh2yckoo3vvqen5syrivfsi544mbbbqfp3fuu4qoorhbjpl62u",
+  "fingerprint": "bafyreidjbuhbcoi4gq7wvcbkrcffbij5pmbpnejajr6zrkeestnoc2qr3q"
+ },
+ "opposes:evd:10.64898_2026.09.01.748585:F4->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35koumq22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35koumq22",
+  "cid": "bafyreicgkqqwrtb5ye7bcjmndnbbtwq6fwrlxr7bawvebj35znvu4qp65a",
+  "fingerprint": "bafyreihadb2oor6wbaeeec4ccqxb2wgbjt7skfglkkrqsvgtrjytijngte"
+ },
+ "supports:evd:29311783:F1->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35lidhi22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35lidhi22",
+  "cid": "bafyreid3iomuy2xeth73n6xa577qzynehoa7sfnb2cxvqykig5ggvihoky",
+  "fingerprint": "bafyreid7jdupbpal2ns45w7q4poux3ad4zkwkdqob7yarkoswe7epb3qhu"
+ },
+ "opposes:evd:29311783:F3->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35lhgd422",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35lhgd422",
+  "cid": "bafyreidg7qxc55d5lyehuiccliurmnvfnegjhj63kmaekmdgi72brrx6o4",
+  "fingerprint": "bafyreigd2axtqttm4v27cken2udarmebxgc6yoyrpslpu4s2cc5nx3f47i"
+ },
+ "supports:evd:29311783:F4->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35l3vpc22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35l3vpc22",
+  "cid": "bafyreibsnv2kedtiaamxxilhf6jhwviutlba3km6ucrbzvcnqbbu62gk5u",
+  "fingerprint": "bafyreids4w6fxuiy2cgow3buwl26l5q4ulsazb53on2ur4envgdp5u62ae"
+ },
+ "opposes:evd:29311783:F4->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kyw6k22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kyw6k22",
+  "cid": "bafyreifxac47ejq76un4b7okhgzqclgy7rm4d72t6eg24ubpgp625aqzni",
+  "fingerprint": "bafyreiex45j7f5abd3j2uonqv3baxylpinip4l3ptlgsm63nh2obftk5e4"
+ },
+ "supports:evd:29311783:F5->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35kvxig22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35kvxig22",
+  "cid": "bafyreihuw4oxsin5hxt3rfulvflpj24llxkr3426hgqmvuqzc2nim7bbdu",
+  "fingerprint": "bafyreibkhjtc3iy44ux76winpbwy2wn62q3jkgllpoexpee44kyzjuobli"
+ },
+ "opposes:evd:29311783:F5->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kq5n722",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kq5n722",
+  "cid": "bafyreiaguuqgdjjfk4rpkcg73m75x47xfkv3wvr3m4y5offxxltecfpnim",
+  "fingerprint": "bafyreicifrzcrsy2fso3gmmwmiw7dg3shggrvsis2cxt7ui7rfmfmxuczq"
+ },
+ "supports:evd:29567836:F1->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35l7o7422",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35l7o7422",
+  "cid": "bafyreiehw6djeuvi5l3nbgyc2f5va6daho7ps7tcwe7aqo62drzy7m3fmm",
+  "fingerprint": "bafyreifyuh3wdpxqi633dcy25kyks4ev2gl7dqgpjd6gk2eswgj2uofiye"
+ },
+ "supports:evd:29861287:F1->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35kmr4222",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35kmr4222",
+  "cid": "bafyreighggmqparxjj7jlhbojq7ucdobdifcyivvdn3f4laox4nw7nkxxa",
+  "fingerprint": "bafyreibsledzu6xklnutemhcrz6ecd72k7o5yvh5jf4f2uffz6fqw5kkge"
+ },
+ "opposes:evd:29861287:F1->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35lb4tx22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35lb4tx22",
+  "cid": "bafyreie6kcz4sobowroztqxmctosaly425f47q734nygdtrxn4hyj7d6sa",
+  "fingerprint": "bafyreighh4jsswwdpnp33pkrpio4cm44hvxsxwjk5nsnsrm7xv2osoxvoe"
+ },
+ "supports:evd:29946028:F1->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35lhzhz22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35lhzhz22",
+  "cid": "bafyreihz3iukq2yhv775vt4z7ptcjsnvnlqe66lo5plixjpbox4qphczii",
+  "fingerprint": "bafyreih6qu2yu4l7oclvwnluxawtt5fsbssmzzudh63lbrchfd2snup4f4"
+ },
+ "supports:evd:29946028:F2->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35kvnxt22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35kvnxt22",
+  "cid": "bafyreigoqtioco4u5z4ehbizsqklagltppo7npwprtjqnfza4j5u6mfufu",
+  "fingerprint": "bafyreict45y3hv5aei6mxax6caocpwevkdbgxtva7m6alhcah7u7agfd6u"
+ },
+ "supports:evd:29946028:F3->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35kvweb22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35kvweb22",
+  "cid": "bafyreielmupt6wytmikihmrhkatpynv4gv7e3ifhn4dy7aaqaaahryeomm",
+  "fingerprint": "bafyreidjtgztgmgehmk5xihc2ak4gsvf5c54yg4rwx73hfyqshxkcmrqzq"
+ },
+ "supports:evd:29946028:F4->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35lhyzj22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35lhyzj22",
+  "cid": "bafyreigx2v6w7wzspjk6hyyfxgylvouaydgznynjubrojt6ypeoixbubdq",
+  "fingerprint": "bafyreid42tjt4wgjowfal42dmh5irzh5ldymd7rd7iyu56lj33rn4fmoam"
+ },
+ "opposes:evd:32517777:F1->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35li2ih22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35li2ih22",
+  "cid": "bafyreigrik4va6jgqaj2ydmyluuo4wxejisjwjf2bbxovsxnas6ybucmdq",
+  "fingerprint": "bafyreiadvcbahqzif5qo6j4rd6zcwv3rlj3rwmdwy5sdjbw2xogpp46nq4"
+ },
+ "supports:evd:32517777:F2->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35lebmf22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35lebmf22",
+  "cid": "bafyreiedlnxyxss4gl6meo3gtphthqvni7fm7jsapw6rpnjdhqmqkm5twi",
+  "fingerprint": "bafyreift5imeix5twxoxtmpmjjrc3mymtz2wqiydryfg4alh66mbeeryli"
+ },
+ "opposes:evd:32632205:F1->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35lcfn222",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35lcfn222",
+  "cid": "bafyreihrkvf3p2n4rgjj3o2ie56b5g3fet5ye5juej4pekmvf4x663ehli",
+  "fingerprint": "bafyreihjmrpbiydmtt4vtpbz4veysnxiabfvqjs4lpaft3fjokhy2obh64"
+ },
+ "supports:evd:32632205:F2->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35kxbwn22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35kxbwn22",
+  "cid": "bafyreihm42wnj2d24pr5gycodgowi4pxmkki2t2mrmwj6a76xzfbhfv2km",
+  "fingerprint": "bafyreic5sifkvjlpiaabtugmu2jptjgcjxvdob6znuxvcl7g3335iqjyjm"
+ },
+ "opposes:evd:32632205:F2->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kkrtw22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kkrtw22",
+  "cid": "bafyreid72fnkxwzqf2czvulrqxiyjzs2crd5lxpnnguceghqtlychsgigm",
+  "fingerprint": "bafyreicpvzej2xvthonmb4kg25pdyz356pq2ibpm5kzzgz7e4bvjwx5ys4"
+ },
+ "supports:evd:34617884:F1->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35kr4c322",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35kr4c322",
+  "cid": "bafyreifkbzsrizkyjduyidivxonlbe27g5yy44cpnbxarv3ta6ai5z2id4",
+  "fingerprint": "bafyreihgfgs7fkjabiaudh4dob6yvnexuic4xiahjoud4pt6gt3b2fkq6e"
+ },
+ "supports:evd:34617884:F2->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35lhjwb22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35lhjwb22",
+  "cid": "bafyreiaumg45kfnnn4fu6jib4zyr32tp5fmui6darizeny3j7v3nfdn6ta",
+  "fingerprint": "bafyreigqm25ux45xt23rir5znalrfgyxayabj56ampvuqok6mdgcju53si"
+ },
+ "supports:evd:34919811:F1->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35klrbo22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35klrbo22",
+  "cid": "bafyreiec6rdavftdf2xalsnv4znrllisp663huxjkoqfvouo3lmdf5zmmu",
+  "fingerprint": "bafyreigiwgs776imv3zl56mvss7lydx5dwtcggzjwb2fqddtu7teckd4si"
+ },
+ "opposes:evd:34919811:F1->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kpkgc22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kpkgc22",
+  "cid": "bafyreib3sqj6kose3jgkuifx2ea5uwrxhvqdtwm2gfp3m7atgilygu52ga",
+  "fingerprint": "bafyreicfsfgbm5uklumbnt7n5e7ejlfut7vu6jaqd7474k7zpde43dr3sq"
+ },
+ "opposes:evd:34919811:F2->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35ksthb22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35ksthb22",
+  "cid": "bafyreihovmi2eqwgikk6f276qe7khzblskhrqjo7mbmnvo6syddraibik4",
+  "fingerprint": "bafyreifjiwwwmn6w65huccuc7vgw632i6gw36osc6a5sdlqt2nlkn4kz4e"
+ },
+ "opposes:evd:34919811:F3->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kps6m22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kps6m22",
+  "cid": "bafyreieoj4hvv6icymr3dwtivrtteexxjzrkzgyw4ljr7dyrfplfwepu2e",
+  "fingerprint": "bafyreihvpbt5u6phvjwvrlvznqfldaxhgkco3b4hjozgpxyptwvwsazcua"
+ },
+ "supports:evd:34982109:F1->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35lc5a222",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35lc5a222",
+  "cid": "bafyreihdy2dbckeuhfpsz3hqgxgy4475rpzabgljhcx7smelusurivo6be",
+  "fingerprint": "bafyreihdlygyykrsiaqqqnnt7lnp5xumagctbqfticz7z2tgdz2ws5bgke"
+ },
+ "opposes:evd:34982109:F1->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kv4ks22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kv4ks22",
+  "cid": "bafyreicmbrb7otwqrtzjwrgsxpxl4llakxxp6nxwnihdwsgtxsuqqwnwl4",
+  "fingerprint": "bafyreiegaz557bjpbbwirzuqk64mqcs3luus4ywcbjd6qbmpvhj24gcfky"
+ },
+ "supports:evd:35031484:F1->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35ld4n322",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35ld4n322",
+  "cid": "bafyreigyoy6yjruogt5m67r2li4ovg5q2jpegvjalju5wab2kgaslwakju",
+  "fingerprint": "bafyreiffldzrqj6ftagtkoc2f4tv5vpxy2cai4bhuyq5dtjh5lvo4uk65y"
+ },
+ "supports:evd:35031484:F2->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35l4xly22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35l4xly22",
+  "cid": "bafyreid24vtymvocdcmdwblv25coo4htmtscypjosuqe2dtroyucuoxzga",
+  "fingerprint": "bafyreiafq6vypwn6uyyqfo56qsrhuzbphzosf5xr25lq5wqudkyd7h4644"
+ },
+ "opposes:evd:35031484:F2->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kx5sc22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kx5sc22",
+  "cid": "bafyreia2zppb7fpsbmv5m7gbhyum2qyuaq4zo53nrgxvzzmtvk5g47kcke",
+  "fingerprint": "bafyreidvqsqx75gvgfzfne25xg4ztxd5ffis77ktukgdr4vbefxr5u24sa"
+ },
+ "supports:evd:35031484:F3->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35krzju22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35krzju22",
+  "cid": "bafyreia6dcmxgcpdu2p3mmko3xllraxecwdtiqiukmduqdfnjrjyvrkoji",
+  "fingerprint": "bafyreigeighyyw67w4j5gnky5gfgnzwxsfx5wwy5upzxygixvsovscu544"
+ },
+ "supports:evd:35031484:F4->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35kj4qa22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35kj4qa22",
+  "cid": "bafyreigwpicxp4cbv7lvbhxqpclabcbgg5bdgqr3hjlp7zzccexge3abm4",
+  "fingerprint": "bafyreieuyyheyhmlmm4nqnpqrdxkc5va5jmnjo7ooyk5y3wvt4uudfwmqu"
+ },
+ "supports:evd:38217595:F1->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35kvqct22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35kvqct22",
+  "cid": "bafyreihqx52n5axprbjoicsp25kfrx3vt3oz4qyycuhtnnirzhowfnojxm",
+  "fingerprint": "bafyreihbg27iyl7xpbvba2n4mjr225oz7jpxm5e3yzrhf4s4x66dpbfw3i"
+ },
+ "opposes:evd:38217595:F2->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35ktspo22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35ktspo22",
+  "cid": "bafyreigxx6giytu53kciq64rgcxqpewftsazmjfztcrkwreotubsr7zcsa",
+  "fingerprint": "bafyreifcgej3flgs6g2ze4jtiqi6s6mqil2dnas44xb3f3i42l2d3arml4"
+ },
+ "supports:evd:38912292:F1->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35l3iji22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35l3iji22",
+  "cid": "bafyreiesob4wciwdexgvwcsm6dmgvgvzretsw46uj4ubuzq3hnjkmp2aju",
+  "fingerprint": "bafyreibf45dphrvmmw3eklkwt43xe2nesm3rjracwde43sxgm2pp4g4tvu"
+ },
+ "opposes:evd:38912292:F1->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35lgaak22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35lgaak22",
+  "cid": "bafyreih2baw7ock5rjgcb4hsj3e5okdaqfw3lbspkf6p3ziamhyrodqvsy",
+  "fingerprint": "bafyreicxyqyuquyxwqzzrprv4mrmrmnzxwof2fzlev4oyfasp5k35x6yau"
+ },
+ "supports:evd:38912292:F2->hyp": {
+  "nsid": "tech.scios.rrgi.supports",
+  "rkey": "3n2k35kk3fu22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.supports/3n2k35kk3fu22",
+  "cid": "bafyreickroizpemtf3i4wkmihadq7ekbv3mydsx26t6x26oqv7rvm7btne",
+  "fingerprint": "bafyreidxj6am52p5ff46kflcjsyzzf4xvebhidd4o23wisypncl3vognde"
+ },
+ "opposes:evd:38912292:F2->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35ld75u22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35ld75u22",
+  "cid": "bafyreifyzdp2km2abnnxxrpegsitq4rdlss5wtkbqcfoebqwq53m5uulz4",
+  "fingerprint": "bafyreiauke2xxpnsvnqddckdh3jllfmqmgelsllt5xlbtmxptyqa6ggsom"
+ },
+ "opposes:evd:40457456:F1->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35ktglw22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35ktglw22",
+  "cid": "bafyreibttvsmwhhjpjs2bjtg5apx73tjwkswekdceargzynk2in3vxgw3m",
+  "fingerprint": "bafyreihhv75d3xybtiiq7bvoppdgbvrbfqqaf5bo42go3so2742smnr2g4"
+ },
+ "opposes:evd:40457456:F2->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kwms722",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kwms722",
+  "cid": "bafyreigrmozdmjomysnvtfnra7o5gnuarwtfcmoi7vroz7lpe5edwoha4y",
+  "fingerprint": "bafyreigcclnjdvh3gd667kepoyuhb4lqe6yo77e56ianoosnqb4egsioki"
+ },
+ "opposes:evd:40457456:F3->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35lhypj22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35lhypj22",
+  "cid": "bafyreic337nhl4ovya4tcazg4yaapllf46xgx2tkluoxdurtweedjeftz4",
+  "fingerprint": "bafyreihghgkgz2js2r2pkghxoakfta7opfzb4isikp2gopjxxkjrgbi5fq"
+ },
+ "opposes:evd:40675218:F1->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kzmpl22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kzmpl22",
+  "cid": "bafyreifiw4dpvndzzb6puczrqxdvutllghz2aau2j5gojcfwiangrghkmi",
+  "fingerprint": "bafyreid6dvu3q6m46ajicluznkghefz2eegq34nrw5gsjj5kdvsujhmd44"
+ },
+ "opposes:evd:40675218:F2->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kq3bk22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kq3bk22",
+  "cid": "bafyreiekj7kkn65njvwjoz2wxi5l35mc42mvcnifocuveb7hwhhdtqkruu",
+  "fingerprint": "bafyreigjcnwoxklpczg6oplescedpl6jbm33lsw5rthuogiyr34rl6x55a"
+ },
+ "opposes:evd:40845853:F1->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kpne722",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kpne722",
+  "cid": "bafyreibq5kglhsrvcuu6tsw7wthofvtfz22h3vm76j6h24cx22zvzn4sgu",
+  "fingerprint": "bafyreidwcghbxphy77nudfsyzex2munvjot4ky44q47dy66zjtlb2s3pnu"
+ },
+ "opposes:evd:41103078:F1->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kwwmh22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kwwmh22",
+  "cid": "bafyreid7kothrevs57woo3s6aj4pdvvjfhn5pjmtxs3yaask6y6rmvdp7i",
+  "fingerprint": "bafyreig4fsnapooblipkchiuwmrollwpsdcgq2kta24wgsqpe7qc4qbsyi"
+ },
+ "opposes:evd:41103078:F2->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kxkrm22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kxkrm22",
+  "cid": "bafyreih73fcok67nqn4joslgxzqfdtpydc5hwwwtuplwgizmh6bciv7dbe",
+  "fingerprint": "bafyreiccu62mvsnfh5vdi2nhayqxwerzimphmt2fzze5ifcqj4f2n2h4be"
+ },
+ "opposes:evd:41103078:F3->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35l2w2g22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35l2w2g22",
+  "cid": "bafyreidnh5xblshse2sbdrzmncylodh5vpkjbtaw2bf3nq7hrs4swigd2m",
+  "fingerprint": "bafyreianrdzodfysrinnon7tcboe6uqnzwnembfgdywhk2vehtvlox23rq"
+ },
+ "opposes:evd:41103078:F4->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35lemej22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35lemej22",
+  "cid": "bafyreiaq3j3xab5xasenjbljbibstou3jbghdxsdejjcckzv2gepugk2fi",
+  "fingerprint": "bafyreifb6b4kvcv2tt6bwo536tk7tforipkqzwntt2dlkjnnwn6nqd7ngm"
+ },
+ "opposes:evd:41103078:F5->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kln7c22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kln7c22",
+  "cid": "bafyreidikeg6ejnvd3rpgdtecu7je5yrqf64ydtb43ht7rgcwuareok6w4",
+  "fingerprint": "bafyreigt4aocsaclv3zatvauppcy34dpcrrdwfu3rpgl5pdmf6ambqbn7u"
+ },
+ "opposes:evd:41103078:F6->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35l5zl422",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35l5zl422",
+  "cid": "bafyreiaydujm3jvndnd5eeyfdkyo4quts3iyxdvpvkjyyrvifgt7sw563u",
+  "fingerprint": "bafyreieh5sfi54n27fcoqpqjb4ftqxmggwujb7wmsuufh6agn3tobvrdhi"
+ },
+ "opposes:evd:41103078:F7->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kz7tb22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kz7tb22",
+  "cid": "bafyreieyfcf2e2oczch3g3szezm4pnbt7q4te6hjrtfsiqagxigtwojy3y",
+  "fingerprint": "bafyreihevfs3tdwuoy4wcqg3kcln7i2v3msaoo4be5dfc4l27j743gehfi"
+ },
+ "opposes:evd:41103078:F8->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35l5mle22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35l5mle22",
+  "cid": "bafyreihuk7avttj4ussyjlnhel37wna5qndeex6pel6m64bhef5degyyr4",
+  "fingerprint": "bafyreicmvp4kbc3nmeaz6emcdlobgyauyb33kajnhykirooh74alp5c4jq"
+ },
+ "opposes:evd:42182449:F1->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35lejfk22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35lejfk22",
+  "cid": "bafyreia4dsbdfvq2cpgyrii4wnof3llquivbne7aiyvboyvc6cejxgqwnu",
+  "fingerprint": "bafyreiahtymfzgxlm2caes3m5p7fug2fwghhlu5zhb3aoib77ic7shexza"
+ },
+ "opposes:evd:42182449:F2->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35l3feq22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35l3feq22",
+  "cid": "bafyreigek2vj6adlv7vvbwsl53brybhasenplrgs7axveq7vkx3uznbidu",
+  "fingerprint": "bafyreierljokxx5djdu4niq44soitm3q5skfw7kfx5x2ma4zxh4gvlcw2a"
+ },
+ "opposes:evd:42182449:F3->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35kxui522",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35kxui522",
+  "cid": "bafyreidxpqmjckqum2umngki7eydfo27cvfle6ntpvxwuak3oeehnspa6i",
+  "fingerprint": "bafyreih7wq7gvwe43rmcw7h47hz3ac2nwlnwuohuqn3mzndvjtatcdn6qu"
+ },
+ "opposes:evd:42182449:F4->hyp": {
+  "nsid": "tech.scios.rrgi.opposes",
+  "rkey": "3n2k35ksuv322",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.opposes/3n2k35ksuv322",
+  "cid": "bafyreiatc6luwbhg35mhde6pwkugaeo5adahczftod5iybq55royntnuri",
+  "fingerprint": "bafyreicfgetkj6qpi6umz3fxjbatuo73qsaz73zre5xk5mtmjoosbyohxi"
+ },
+ "bundle": {
+  "nsid": "tech.scios.rrgi.bundle",
+  "rkey": "3n2k35kmbzh22",
+  "uri": "at://did:web:example.org/tech.scios.rrgi.bundle/3n2k35kmbzh22",
+  "cid": "bafyreighnyxhwleh7st3wnnhislxfnijji3pfbegjhnarjjjpl2cwnyap4",
+  "fingerprint": "bafyreihofsgnrbagwfhwq5jty24yzssxueo7bnxsvzhgrxfsfyyuusjl4u"
+ }
+}

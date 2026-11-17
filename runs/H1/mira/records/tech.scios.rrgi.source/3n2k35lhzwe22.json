@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Sherida M. de Leeuw, Aron W.T. Kirschner, Karina Lindner, Ruslan Rust, Vanessa Budny, Witold Wolski, Anne‐Claude Gavin, Roger M. Nitsch, Christian Tackenberg (2021). APOE2, E3, and E4 differentially modulate cellular homeostasis, cholesterol metabolism, and inflammatory response in isogenic iPSC-derived astrocytes. Stem Cell Reports",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "34919811",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "pmc_s3",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1016/j.stemcr.2021.11.007",
+  "url": "https://doi.org/10.1016/j.stemcr.2021.11.007",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

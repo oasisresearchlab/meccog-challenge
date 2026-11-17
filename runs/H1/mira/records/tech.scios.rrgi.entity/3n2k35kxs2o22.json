@@ -1,0 +1,13 @@
+{
+  "$type": "tech.scios.rrgi.entity",
+  "kind": "figurePanel",
+  "text": "Figure 5, panel A",
+  "figure": "5",
+  "panel": "A",
+  "doi": "10.7554/elife.72034",
+  "createdAt": "2026-11-17T22:18:44.000Z",
+  "source": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kohnd22",
+    "cid": "bafyreihwsmifpthpqicvb3mxu7cpvrxjgy4bpd6pmjvpwye2vqeyigrvga"
+  }
+}

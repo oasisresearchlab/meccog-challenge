@@ -1,0 +1,99 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "NO EFFECT: LysoTracker-positive puncta size did not differ between astrocytes treated with ApoE4, ApoE3 or ApoE2 particles and untreated controls in the Fig 3 experiment. (A decrease in size with ApoE4 vs untreated was seen in the later Fig S5A-B experiments.)",
+  "description": "Primary hippocampal astrocytes from wild-type Sprague-Dawley rats, treated 4 h in HBSS with 50 µg/ml ApoE2/E3/E4/POPC particles and stained with LysoTracker Red. n = 4 independent experiments. Caveat: rat cells, exogenous particles, LysoTracker surrogate.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "Rattus norvegicus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "LysoTracker puncta size was unaffected (Figure S3A).",
+    "anchorLocations": [
+      {
+        "page": 4,
+        "boxes": [
+          {
+            "x": 403,
+            "y": 597,
+            "w": 140,
+            "h": 13
+          },
+          {
+            "x": 72,
+            "y": 610,
+            "w": 124,
+            "h": 13
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "no_effect",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 4,
+    "summary": "(APOE3 -> APOE4 particles) -> (LysoTracker puncta size in astrocytes) [NO EFFECT]",
+    "relevance": "0.35",
+    "dataLocation": "Supplementary Fig S3A",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "not_found_in_source",
+    "pValue": ">0.05",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "4",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "3",
+    "direction": "no_effect",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "extracted from the preprint: check panels and numbers against the published paper"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "Exogenous ApoE4 vs ApoE3 (and ApoE2) particles, 50 µg/ml for 4 h",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Size of LysoTracker Red-positive puncta",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

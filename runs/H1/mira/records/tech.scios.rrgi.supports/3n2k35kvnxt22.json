@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.supports",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kxeao22",
+    "cid": "bafyreif5vshtqqri5k3jv6ppiodhoua7rvs4km6ksrowbmtvbzh4dmmi6q"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "moderate",
+  "warrant": "Directness class 3 (indirect output), strength d=3 (moderate). Perturbed ε4 vs ε3 allele in astrocytes (A); measured NHE6 (SLC9A6) expression, proposed endosomal proton leak pathway (intermediate).",
+  "description": "(APOE3 -> APOE4) -> (lower NHE6 expression) -> (reduced endosomal proton leak) -> (lower endosomal pH in astrocytes)",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

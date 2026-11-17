@@ -1,0 +1,64 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "NHE6 expression was selectively down-regulated in ε4 (ApoE4) vs ApoE3 astrocytes, and the paper presents this as the cause of the pathological endosome acidification.",
+  "description": "ApoE4 vs ApoE3 astrocytes; source and species not given in the abstract (abstract-only). Caveat: an intermediate step; possibly not human astrocytes.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "SLC9A6",
+      "entityType": "measured (intermediate)",
+      "uri": "https://identifiers.org/hgnc:11079"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Pathological endosome acidification is caused by ε4 risk allele-selective down-regulation of the Na<sup>+</sup>/H<sup>+</sup> exchanger isoform NHE6, which functions as a critical leak pathway for endosomal protons."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "supports",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 2,
+    "summary": "(APOE3 -> APOE4) -> (lower NHE6 expression) -> (reduced endosomal proton leak) -> (lower endosomal pH in astrocytes)",
+    "relevance": "0.75",
+    "dataLocation": "Abstract (full text unavailable)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "full_text_unavailable",
+    "pValue": "N/A",
+    "pValueProvenance": "full_text_unavailable",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "full_text_unavailable",
+    "directnessClass": "3",
+    "directnessStrength": "3",
+    "direction": "supports",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "ε4 vs ε3 allele in astrocytes",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "NHE6 (SLC9A6) expression, proposed endosomal proton leak pathway",
+      "mapsTo": "intermediate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

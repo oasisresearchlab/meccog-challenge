@@ -1,0 +1,113 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "At baseline, APOE4 microglia showed higher LysoTracker signal (an acidotropic dye) than APOE3 microglia; the authors interpret this as increased lysosomal mass.",
+  "description": "Primary microglia from APOE3 and APOE4 targeted-replacement neonatal mice; 100 nM LysoTracker Red DND-99 for 30 min, flow cytometry; n = 4 independent experiments (litters) per group; serum-starved cells as positive control. Caveat: LysoTracker reflects both compartment mass and acidity, so it is not a pH measurement; mouse microglia, not human astrocytes.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "microglial cell",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000129"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "f) The mass of lysosomes within microglia was quantified by measuring the gMFI of LysoTracker dye by flow cytometry, one-way ANOVA main effect of APOE genotype: F(2, 9) = 93.6, p = 9.5 x 10-07 followed by Tukey’s post-hoc corrected t-test E4 vs E3: p.adj = 0.01, d = 6.1 CI95% [2.5, 9.8].",
+    "anchorLocations": [
+      {
+        "page": 40,
+        "boxes": [
+          {
+            "x": 177,
+            "y": 173,
+            "w": 342,
+            "h": 11
+          },
+          {
+            "x": 150,
+            "y": 187,
+            "w": 345,
+            "h": 11
+          },
+          {
+            "x": 481,
+            "y": 201,
+            "w": 30,
+            "h": 11
+          },
+          {
+            "x": 150,
+            "y": 215,
+            "w": 63,
+            "h": 11
+          },
+          {
+            "x": 213,
+            "y": 219,
+            "w": 15,
+            "h": 9
+          },
+          {
+            "x": 228,
+            "y": 215,
+            "w": 42,
+            "h": 11
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "split"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "supports",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 3,
+    "summary": "(APOE3 -> APOE4) -> (higher LysoTracker acidic-compartment signal in microglia at baseline)",
+    "relevance": "0.35",
+    "dataLocation": "Fig 1f",
+    "effectSize": "d=6.1",
+    "effectSizeProvenance": "printed_in_text",
+    "pValue": "0.01",
+    "pValueProvenance": "printed_in_text",
+    "sampleSize": "4",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "supports",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "0.99"
+    },
+    "perturbed": {
+      "variable": "APOE4 vs APOE3 genotype",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "LysoTracker Red DND-99 gMFI (acidic compartment signal; interpreted by authors as lysosomal mass)",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

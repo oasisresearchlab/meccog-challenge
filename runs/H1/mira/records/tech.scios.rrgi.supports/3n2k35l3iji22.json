@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.supports",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kiukd22",
+    "cid": "bafyreicgf7o75uswrlt7snychrr7elldztdts5geim52l4a6bdj5gtqevq"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "weak",
+  "warrant": "Directness class 3 (indirect output), strength d=5 (very weak). Perturbed APOE4 vs APOE3 isoform (fluorescently tagged, expressed in cell lines) (A); measured APOE localization to and size of lysosomes and late endosomes (B_surrogate).",
+  "description": "(APOE3 -> APOE4) -> (APOE accumulation in enlarged lysosomes/late endosomes) [surrogate; endosome pH not measured]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

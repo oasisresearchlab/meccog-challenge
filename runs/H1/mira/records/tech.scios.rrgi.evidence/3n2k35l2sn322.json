@@ -1,0 +1,70 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "CONTRADICTING: E4/E4 iMGs showed significantly lower lysosomal degradation activity (self-quenched substrate MFI) than E3/E3 iMGs. Bafilomycin, which blocks acidification, reduced the signal in control cells. Reduced acidification-dependent degradation does not fit the increased acidification predicted for APOE4.",
+  "description": "Human iPSC-derived microglia (APOE3/3 vs APOE4/4 lines). Cells were incubated 1 h with the Abcam Lysosomal Intracellular Activity Assay self-quenched substrate (ab234622), and MFI in the FITC channel was read on a BD Accuri C6 Plus. The unit is the iPSC line. Caveat: microglia, not astrocytes. The readout is lysosomal and depends on uptake, protease content (CTSD was lower in E4/E4) and pH, so it is not a direct endosomal pH measure.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "microglial cell",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000129"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Since cathepsins play an essential role in lysosomal degradation, we further analyzed lysosomal activity in iMGs using flow cytometry with an Abcam's proprietary self-quenched substrate and found that E4/E4 iMGs exhibited significantly lower lysosomal degradation activity compared to E3/E3 cells (Fig. 1G-H)."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 2,
+    "summary": "(APOE3 -> APOE4) -> (lower lysosomal degradation of self-quenched substrate in microglia) [CONTRADICTS]",
+    "relevance": "0.3",
+    "dataLocation": "Fig 1G, Fig 1H",
+    "effectSize": "~54%",
+    "effectSizeProvenance": "estimated_from_figure",
+    "pValue": "<0.05",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "~8",
+    "sampleSizeProvenance": "estimated_from_figure",
+    "directnessClass": "3",
+    "directnessStrength": "5",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE4/4 vs APOE3/3 genotype of iPSC-derived microglia",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Lysosomal degradation activity: flow-cytometry MFI of a self-quenched substrate that fluoresces after lysosomal cleavage",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "plotReading": true,
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

@@ -1,0 +1,78 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "In an apoE4 astrocyte model, drug targeting of the CREB pathway raised NHE6 expression, which 'helped regulate' endosomal pH and corrected defective Aβ clearance. This implies, without stating it, that apoE4 astrocytes have dysregulated endosomal pH that a proton-leak exchanger can correct. No APOE3 comparison or pH direction is given in the abstract, so this is classed as Other (5): A is not varied, and the perturbation is a drug in an apoE4-only context.",
+  "description": "Abstract only: 'apoE4 astrocyte model of Alzheimer's disease'. The species, cell source, drug, dose and pH assay are not stated in the abstract. Caveat: no APOE3 comparator is described, and the model is framed as Alzheimer's disease, not non-AD human astrocytes.",
+  "contextEntities": [
+    {
+      "name": "SLC9A6",
+      "entityType": "perturbed (other)",
+      "uri": "https://identifiers.org/hgnc:11079"
+    },
+    {
+      "name": "CREB1",
+      "entityType": "perturbed (other)",
+      "uri": "https://identifiers.org/hgnc:2345"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (other)"
+    },
+    {
+      "name": "endosome",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005768"
+    },
+    {
+      "name": "regulation of intracellular pH",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0051453"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Of note, pharmacological targeting of the CREB pathway to increase NHE6 expression helped regulate endosomal pH and correct defective clearance of amyloid Aβ in an apoE4 astrocyte model of Alzheimer's disease."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "supports",
+    "directness-5"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(CREB pathway activation -> increased NHE6 expression) -> (corrected endosomal pH in apoE4 astrocytes) -> (rescued Aβ clearance); implies (APOE4) -> (dysregulated, likely over-acidified, endosomal pH) [indirect]",
+    "relevance": "0.35",
+    "dataLocation": "Abstract (full text unavailable)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "full_text_unavailable",
+    "pValue": "N/A",
+    "pValueProvenance": "full_text_unavailable",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "full_text_unavailable",
+    "directnessClass": "5",
+    "directnessStrength": "5",
+    "direction": "supports",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "Pharmacological activation of the CREB pathway to increase NHE6 expression, in apoE4-expressing astrocytes (not an APOE4 vs APOE3 comparison)",
+      "mapsTo": "other"
+    },
+    "measured": {
+      "variable": "Endosomal pH (and amyloid-beta clearance)",
+      "mapsTo": "B"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

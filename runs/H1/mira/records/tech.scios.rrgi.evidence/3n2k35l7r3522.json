@@ -1,0 +1,108 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "CONTRADICTING: Proteomics showed that 53 of 84 detected lysosomal hydrolases and V-ATPases were significantly downregulated in APOE44 vs APOE33 iMG. Lower acidification machinery argues against more acidic endo-lysosomes in APOE4 (reported: 53/84 proteins downregulated).",
+  "description": "Isogenic APOE33/APOE44 KOLF2.1J human iPSC-derived microglia; DIA LC-MS/MS proteomics; n=3 wells each; unpaired t-test with Benjamini-Hochberg correction. Caveat: microglia, not astrocytes; protein abundance is an indirect surrogate for luminal pH, and V-ATPases are pooled with hydrolases.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "proton-transporting V-type ATPase complex",
+      "entityType": "measured (intermediate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0033176"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (intermediate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "microglial cell",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000129"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Of the 84 identified lysosomal hydrolases and V-ATPases, 53 were significantly downregulated in APOE44 iMG, supporting lysosomal impairment (Figure S3D).",
+    "anchorLocations": [
+      {
+        "page": 6,
+        "boxes": [
+          {
+            "x": 279,
+            "y": 136,
+            "w": 264,
+            "h": 11
+          },
+          {
+            "x": 72,
+            "y": 147,
+            "w": 249,
+            "h": 11
+          },
+          {
+            "x": 323,
+            "y": 147,
+            "w": 153,
+            "h": 11
+          },
+          {
+            "x": 478,
+            "y": 147,
+            "w": 62,
+            "h": 11
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 4,
+    "summary": "(APOE3 -> APOE4) -> lower lysosomal hydrolase/V-ATPase protein levels (proton pump machinery) in iPSC-derived microglia [CONTRADICTS]",
+    "relevance": "0.4",
+    "dataLocation": "Supplementary Fig S3D",
+    "effectSize": "qualitative",
+    "effectSizeProvenance": "printed_in_text",
+    "pValue": "<0.05",
+    "pValueProvenance": "printed_in_text",
+    "sampleSize": "3",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "effect size '53/84 proteins downregulated' has no accepted form: recorded as qualitative, numbers kept in description"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE44 vs APOE33 genotype (isogenic KOLF2.1J iPSC-derived microglia)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Protein abundance of lysosomal hydrolases and V-ATPase subunits (proteomics)",
+      "mapsTo": "intermediate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

@@ -1,0 +1,107 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "NO EFFECT: At baseline, late endosomal/lysosomal pH did not differ between isogenic APOE44 and APOE33 iMG (both ~5.15) (reported: no difference (both ~5.15)).",
+  "description": "Isogenic APOE33/APOE44 KOLF2.1J (male) human iPSC-derived microglia, untreated. Ratiometric ApHID/Alexa647 70 kDa dextran LE/Ly pH imaging calibrated in fixed cells. n=3 wells, 9 frames per well; one-way ANOVA. Caveat: microglia, not astrocytes; late endosome/lysosome compartment rather than early endosomes.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "endosome",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005768"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "regulation of intracellular pH",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0051453"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "microglial cell",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000129"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (~5.15), APOE33 iMG exhibited further acidification upon challenge (~5.05), whereas APOE44 iMG failed to do so (Figure 3G).",
+    "anchorLocations": [
+      {
+        "page": 5,
+        "boxes": [
+          {
+            "x": 515,
+            "y": 660,
+            "w": 28,
+            "h": 11
+          },
+          {
+            "x": 72,
+            "y": 672,
+            "w": 471,
+            "h": 11
+          },
+          {
+            "x": 72,
+            "y": 683,
+            "w": 406,
+            "h": 11
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "no_effect",
+    "directness-1"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 2,
+    "summary": "(APOE3 -> APOE4) -> no change in baseline late endosomal/lysosomal pH in iPSC-derived microglia [NO EFFECT]",
+    "relevance": "0.85",
+    "dataLocation": "Fig 3G",
+    "effectSize": "qualitative",
+    "effectSizeProvenance": "printed_in_text",
+    "pValue": ">0.05",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "3",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "1",
+    "directnessStrength": "2",
+    "direction": "no_effect",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "effect size 'no difference (both ~5.15)' has no accepted form: recorded as qualitative, numbers kept in description"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE44 vs APOE33 genotype (isogenic KOLF2.1J iPSC-derived microglia), unchallenged",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Baseline late endosomal/lysosomal luminal pH (ratiometric ApHID dextran)",
+      "mapsTo": "B"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

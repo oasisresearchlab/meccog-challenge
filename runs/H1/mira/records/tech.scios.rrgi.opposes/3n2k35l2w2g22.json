@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.opposes",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l7n4i22",
+    "cid": "bafyreicwlkaximpuwjhd23r2urc5iwgbddsafoak5us5ep6f5wocjkfmu4"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "weak",
+  "warrant": "Directness class 3 (indirect output), strength d=4 (weak). Perturbed Human APOE4 vs APOE3 genomic locus expressed in Neuro-2a neuronal cells (A); measured LAMP1-based lysosomal density (number of lysosomal vesicles per cell) (other).",
+  "description": "(APOE3 -> APOE4) -> (no change in LAMP1+ lysosomal density; supports pH rather than density explanation) [NO EFFECT]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

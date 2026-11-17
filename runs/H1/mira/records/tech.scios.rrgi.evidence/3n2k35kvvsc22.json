@@ -1,0 +1,85 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "Knockdown of TMED5 (which accumulates in APOE4 lysosomes) re-acidified lysosomes in HsAPOE4 Neuro-2a cells without changing lysosomal density, and restored proteolysis - identifying TMED5 accumulation as a driver of the APOE4 alkalinization (again opposite in direction to the hypothesis of APOE4-driven acidification) (reported: 0.64 vs 1.0 normalized OG(alkaline:acidic) ratio upon siTmed5 (more acidic); MR-CTSB ~0.84 vs ~0.51).",
+  "description": "HsAPOE4 Neuro-2a cells transfected twice over 48 h with Tmed5 siRNA vs scrambled control; OregonGreen-dextran ratiometric pH imaging, LysoTracker, Magic Red cathepsin B; three biological/technical replicates. Caveat: mouse neuronal cell line; knockdown is a surrogate perturbation for the APOE isoform difference.",
+  "contextEntities": [
+    {
+      "name": "TMED5",
+      "entityType": "perturbed (A_surrogate)",
+      "uri": "https://identifiers.org/hgnc:24251"
+    },
+    {
+      "name": "RNA interference",
+      "entityType": "perturbed (A_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0035194"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "lysosomal lumen acidification",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0007042"
+    },
+    {
+      "name": "regulation of intracellular pH",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0051453"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "Neuro-2a neuroblastoma cell line",
+      "entityType": "experimental system"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "We confirmed by lysosomal Oregon-green pH measurements that knockdown of TMED5 significantly enhanced lysosomal acidification in HsAPOE4 Neuro-2a cells, while not impacting the lysosomal density (Figure 5C-E)."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-4"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 6,
+    "summary": "(APOE4 -> TMED5 accumulation) -> (lysosomal alkalinization); TMED5 knockdown -> (restored acidification) [CONTRADICTS]",
+    "relevance": "0.45",
+    "dataLocation": "Fig 5A-G",
+    "effectSize": "qualitative",
+    "effectSizeProvenance": "visual_only",
+    "pValue": "<0.0001",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "3",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "4",
+    "directnessStrength": "3",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "effect size '~0.64 vs 1.0 normalized OG(alkaline:acidic) ratio upon siTmed5 (more acidic); MR-CTSB ~0.84 vs ~0.51' has no accepted form: recorded as qualitative, numbers kept in description"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "siRNA knockdown of Tmed5 in HsAPOE4 Neuro-2a cells (reversal of an APOE4-induced change)",
+      "mapsTo": "A_surrogate"
+    },
+    "measured": {
+      "variable": "Relative lysosomal pH by OregonGreen-dextran ratio, LysoTracker intensity and MR-CTSB proteolysis",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

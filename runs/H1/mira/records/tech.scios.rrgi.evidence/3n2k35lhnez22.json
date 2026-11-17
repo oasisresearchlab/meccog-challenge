@@ -1,0 +1,92 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "N/A",
+  "description": "Human iPSC-derived astrocytes in 3D 'miBrain' tissue (neurons, glia, myelin, cerebrovascular cells), APOE4/4 genotype; combinatorial experiments mixing cell genotypes. The comparator genotype and the specific endolysosomal assays are not stated (abstract only). Caveat: endolysosomal dysfunction and degradative capacity are not a direct measure of endosomal pH, and the direction of any pH change is not given.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "endosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005768"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "cholesterol",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/CHEBI_16113"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    },
+    {
+      "name": "induced pluripotent stem cell",
+      "entityType": "experimental system"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Combinatorial experiments revealed that endolysosomal dysfunction caused by cholesterol accumulation in APOE4/4 astrocytes impairs the degradation of soluble α-synuclein leading to a pathogenic transformation that seeds α-synuclein inclusions in neurons."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "mixed",
+    "directness-3",
+    "audit-dropped"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4/4) -> (cholesterol accumulation in astrocytes) -> (endolysosomal dysfunction, impaired α-synuclein degradation); endosomal pH not reported",
+    "relevance": "0.3",
+    "dataLocation": "Abstract (full text unavailable)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "full_text_unavailable",
+    "pValue": "N/A",
+    "pValueProvenance": "full_text_unavailable",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "full_text_unavailable",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "mixed",
+    "audit": {
+      "status": "dropped",
+      "errors": [
+        "description is empty"
+      ],
+      "warnings": [
+        "ontology ids rejected (label mismatch): CL:0001074 'induced pluripotent stem cell'"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE genotype of iPSC-derived astrocytes (APOE4/4; comparator presumably APOE3/3, not stated in abstract)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Endolysosomal dysfunction (impaired degradation of soluble α-synuclein) attributed to cholesterol accumulation",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

@@ -1,0 +1,81 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "N/A",
+  "description": "Abstract only. Neurons exposed to or expressing ApoE4 versus other isoforms. The abstract does not specify the cell source, dose or assay for this result; the paper also uses human ApoE4 knockin mice. Caveat: neurons, likely mouse, not human astrocytes. Endosomal pH was not measured; receptor sequestration is only a weak, indirect surrogate for endosome acidification.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "LRP8",
+      "entityType": "measured (B_surrogate)",
+      "uri": "https://identifiers.org/hgnc:6700"
+    },
+    {
+      "name": "receptor recycling",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0001881"
+    },
+    {
+      "name": "neuron",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000540"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "ApoE4 reduces neuronal surface expression of Apoer2, a dual function receptor for ApoE and for Reelin, as well as NMDA and AMPA receptors by sequestration in intracellular compartments, thereby critically reducing the ability of Reelin to enhance synaptic glutamate receptor activity."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "mixed",
+    "directness-3",
+    "audit-dropped"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) -> (intracellular sequestration of Apoer2/NMDA/AMPA receptors, reduced surface expression in neurons) [surrogate for altered endosomal function; endosomal pH not measured]",
+    "relevance": "0.3",
+    "dataLocation": "Abstract (full text unavailable)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "full_text_unavailable",
+    "pValue": "N/A",
+    "pValueProvenance": "full_text_unavailable",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "full_text_unavailable",
+    "directnessClass": "3",
+    "directnessStrength": "5",
+    "direction": "mixed",
+    "audit": {
+      "status": "dropped",
+      "errors": [
+        "description is empty"
+      ],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "ApoE4 vs other ApoE isoforms (presumably ApoE3) in neurons",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Neuronal surface expression of Apoer2, NMDA and AMPA receptors; intracellular sequestration (impaired recycling)",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

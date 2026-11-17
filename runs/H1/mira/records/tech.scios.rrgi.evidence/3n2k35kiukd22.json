@@ -1,0 +1,72 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "In cell lines expressing fluorescently tagged APOE, APOE4 (vs APOE3) accumulated in enlarged lysosomes and late endosomes. This is an endolysosomal abnormality, but endosomal pH was not measured.",
+  "description": "Cell lines (not named in this commentary; described in Fote et al. J Cell Sci 2022) stably expressing fluorescently tagged APOE3 or APOE4; imaging of APOE localization. Caveat: unspecified cell lines rather than human brain astrocytes; no pH assay; Figure 1 is a schematic, not data.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "late endosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005770"
+    },
+    {
+      "name": "cultured cell line",
+      "entityType": "experimental system"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Consistent with previous studies showing that expression of APOE4 damages lysosomal membrane integrity, dysregulates endo/lysosomal pH, and results in enlarged endosomes in various models, we found that APOE4 accumulates in enlarged lysosomes and late endosomes (Figure 1)."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "mixed",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) -> (APOE accumulation in enlarged lysosomes/late endosomes) [surrogate; endosome pH not measured]",
+    "relevance": "0.3",
+    "dataLocation": "Text p. 1-2; Fig 1 (schematic)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "not_found_in_source",
+    "pValue": "N/A",
+    "pValueProvenance": "not_found_in_source",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "not_found_in_source",
+    "directnessClass": "3",
+    "directnessStrength": "5",
+    "direction": "mixed",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE4 vs APOE3 isoform (fluorescently tagged, expressed in cell lines)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "APOE localization to and size of lysosomes and late endosomes",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

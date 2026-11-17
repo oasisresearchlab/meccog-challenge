@@ -1,0 +1,211 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "NO EFFECT: LAMP1 immunostaining showed that lysosomal density was not decreased in HsAPOE4 versus HsAPOE3 Neuro-2a cells, a control establishing that the reduced LysoTracker signal reflects reduced acidification rather than fewer vesicles.",
+  "description": "HsAPOE3 vs HsAPOE4 Neuro-2a cells, LAMP1 immunofluorescence and confocal quantification of vesicle density. Caveat: mouse neuronal cell line; this is a specificity control for the pH interpretation, not a direct pH measurement.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "lysosomal membrane",
+      "entityType": "measured (other)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005765"
+    },
+    {
+      "name": "LAMP1",
+      "entityType": "measured (other)",
+      "uri": "https://identifiers.org/hgnc:6499"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "Neuro-2a neuroblastoma cell line",
+      "entityType": "experimental system"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "We therefore stained the cells for the lysosomal membrane marker LAMP1, finding that the lysosomal density was not decreased in HsAPOE4 cells (Fig. S1B-C). These findings suggested that defective acidification may underly our observations.",
+    "anchorLocations": [
+      {
+        "page": 2,
+        "boxes": [
+          {
+            "x": 478,
+            "y": 473,
+            "w": 87,
+            "h": 10
+          },
+          {
+            "x": 311,
+            "y": 485,
+            "w": 254,
+            "h": 10
+          },
+          {
+            "x": 311,
+            "y": 497,
+            "w": 18,
+            "h": 10
+          },
+          {
+            "x": 331,
+            "y": 497,
+            "w": 15,
+            "h": 10
+          },
+          {
+            "x": 348,
+            "y": 497,
+            "w": 42,
+            "h": 10
+          },
+          {
+            "x": 393,
+            "y": 497,
+            "w": 31,
+            "h": 10
+          },
+          {
+            "x": 426,
+            "y": 497,
+            "w": 17,
+            "h": 10
+          },
+          {
+            "x": 446,
+            "y": 497,
+            "w": 16,
+            "h": 10
+          },
+          {
+            "x": 464,
+            "y": 497,
+            "w": 42,
+            "h": 10
+          },
+          {
+            "x": 508,
+            "y": 497,
+            "w": 10,
+            "h": 10
+          },
+          {
+            "x": 521,
+            "y": 497,
+            "w": 44,
+            "h": 10
+          },
+          {
+            "x": 311,
+            "y": 509,
+            "w": 19,
+            "h": 10
+          },
+          {
+            "x": 333,
+            "y": 509,
+            "w": 21,
+            "h": 10
+          },
+          {
+            "x": 357,
+            "y": 509,
+            "w": 34,
+            "h": 10
+          },
+          {
+            "x": 394,
+            "y": 509,
+            "w": 26,
+            "h": 10
+          },
+          {
+            "x": 423,
+            "y": 509,
+            "w": 35,
+            "h": 10
+          },
+          {
+            "x": 462,
+            "y": 509,
+            "w": 41,
+            "h": 10
+          },
+          {
+            "x": 506,
+            "y": 509,
+            "w": 18,
+            "h": 10
+          },
+          {
+            "x": 527,
+            "y": 509,
+            "w": 38,
+            "h": 10
+          },
+          {
+            "x": 311,
+            "y": 521,
+            "w": 179,
+            "h": 10
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "no_effect",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 3,
+    "summary": "(APOE3 -> APOE4) -> (no change in LAMP1+ lysosomal density; supports pH rather than density explanation) [NO EFFECT]",
+    "relevance": "0.5",
+    "dataLocation": "Supplementary Fig S1B-C",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "not_found_in_source",
+    "pValue": "N/A",
+    "pValueProvenance": "not_found_in_source",
+    "sampleSize": "3",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "no_effect",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "directness class 3 but the entity mapping (A -> other) implies 5"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "Human APOE4 vs APOE3 genomic locus expressed in Neuro-2a neuronal cells",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "LAMP1-based lysosomal density (number of lysosomal vesicles per cell)",
+      "mapsTo": "other"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

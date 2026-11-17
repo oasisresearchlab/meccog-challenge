@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.opposes",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l7r3522",
+    "cid": "bafyreicsxr2qyhdqoukhzfnkwgo5mo7xeauaiuo3f6x5t47ocx3a6b2rhq"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "weak",
+  "warrant": "Directness class 3 (indirect output), strength d=4 (weak). Perturbed APOE44 vs APOE33 genotype (isogenic KOLF2.1J iPSC-derived microglia) (A); measured Protein abundance of lysosomal hydrolases and V-ATPase subunits (proteomics) (intermediate).",
+  "description": "(APOE3 -> APOE4) -> lower lysosomal hydrolase/V-ATPase protein levels (proton pump machinery) in iPSC-derived microglia [CONTRADICTS]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

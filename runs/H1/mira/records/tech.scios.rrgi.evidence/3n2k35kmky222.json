@@ -1,0 +1,74 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "Epigenetic restoration of NHE6 with HDAC inhibitors normalized the ApoE4-specific endosomal pH defect, supporting NHE6 loss as the mediator of APOE4-driven hyperacidification.",
+  "description": "ApoE4 astrocytes treated with histone deacetylase inhibitors (agents, doses and duration not specified); species and source not specified. Abstract-only. Caveat: a pharmacological rescue with HDAC inhibitors, which act broadly beyond NHE6.",
+  "contextEntities": [
+    {
+      "name": "histone deacetylase inhibitor",
+      "entityType": "perturbed (A_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/CHEBI_61115"
+    },
+    {
+      "name": "SLC9A6",
+      "entityType": "perturbed (A_surrogate)",
+      "uri": "https://identifiers.org/hgnc:11079"
+    },
+    {
+      "name": "endosome",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005768"
+    },
+    {
+      "name": "regulation of intracellular pH",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0051453"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Epigenetic restoration of NHE6 expression with histone deacetylase inhibitors normalized ApoE4-specific defects in endosomal pH, LRP1 trafficking and amyloid clearance."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "supports",
+    "directness-2"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 3,
+    "summary": "(APOE4 + HDAC inhibitor -> restored NHE6) -> (normalized endosomal pH, reversal of APOE4 hyperacidification)",
+    "relevance": "0.65",
+    "dataLocation": "Abstract (full text unavailable)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "full_text_unavailable",
+    "pValue": "N/A",
+    "pValueProvenance": "full_text_unavailable",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "full_text_unavailable",
+    "directnessClass": "2",
+    "directnessStrength": "3",
+    "direction": "supports",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "histone deacetylase inhibitor treatment restoring NHE6 expression in ApoE4 astrocytes (reversal of the APOE4 effect)",
+      "mapsTo": "A_surrogate"
+    },
+    "measured": {
+      "variable": "endosomal pH",
+      "mapsTo": "B"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

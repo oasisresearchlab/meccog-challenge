@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.opposes",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kvvsc22",
+    "cid": "bafyreifoijc3fv3h73fbohrnldi2saigm7kwcdfbgwpa5qburepyjxhc64"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "moderate",
+  "warrant": "Directness class 4 (indirect input and output), strength d=3 (moderate). Perturbed siRNA knockdown of Tmed5 in HsAPOE4 Neuro-2a cells (reversal of an APOE4-induced change) (A_surrogate); measured Relative lysosomal pH by OregonGreen-dextran ratio, LysoTracker intensity and MR-CTSB proteolysis (B_surrogate).",
+  "description": "(APOE4 -> TMED5 accumulation) -> (lysosomal alkalinization); TMED5 knockdown -> (restored acidification) [CONTRADICTS]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

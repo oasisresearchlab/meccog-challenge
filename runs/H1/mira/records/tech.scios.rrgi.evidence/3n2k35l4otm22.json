@@ -1,0 +1,215 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "Overexpressing human TMED5-GFP in HsAPOE3 Neuro-2a cells phenocopied APOE4 by decreasing LysoTracker staining and lysosomal proteolysis, i.e. reducing lysosomal acidity (reported: 0.45 log2 LysoTracker intensity and ~-0.9 log2 MR-CTSB vs control).",
+  "description": "HsAPOE3 Neuro-2a cells transiently transfected with human TMED5-GFP vs untransfected negative controls; LysoTracker and Magic Red cathepsin B imaging, log2-normalized per-cell quantification across three independent experiments. Caveat: mouse cell line; overexpression surrogate for the APOE4 genotype effect.",
+  "contextEntities": [
+    {
+      "name": "TMED5",
+      "entityType": "perturbed (A_surrogate)",
+      "uri": "https://identifiers.org/hgnc:24251"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "lysosomal lumen acidification",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0007042"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "Neuro-2a neuroblastoma cell line",
+      "entityType": "experimental system"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Conversely, in HsAPOE3 Neuro-2a cells we found that TMED5 overexpression caused the opposite phenotype, resulting in decreased LysoTracker staining (Figure 5J,K) and lysosomal proteolysis (Figure 5L,M).",
+    "anchorLocations": [
+      {
+        "page": 10,
+        "boxes": [
+          {
+            "x": 47,
+            "y": 572,
+            "w": 49,
+            "h": 10
+          },
+          {
+            "x": 101,
+            "y": 572,
+            "w": 10,
+            "h": 10
+          },
+          {
+            "x": 116,
+            "y": 572,
+            "w": 44,
+            "h": 10
+          },
+          {
+            "x": 164,
+            "y": 572,
+            "w": 41,
+            "h": 10
+          },
+          {
+            "x": 210,
+            "y": 572,
+            "w": 19,
+            "h": 10
+          },
+          {
+            "x": 234,
+            "y": 572,
+            "w": 13,
+            "h": 10
+          },
+          {
+            "x": 252,
+            "y": 572,
+            "w": 26,
+            "h": 10
+          },
+          {
+            "x": 283,
+            "y": 572,
+            "w": 18,
+            "h": 10
+          },
+          {
+            "x": 47,
+            "y": 584,
+            "w": 35,
+            "h": 10
+          },
+          {
+            "x": 88,
+            "y": 584,
+            "w": 63,
+            "h": 10
+          },
+          {
+            "x": 156,
+            "y": 584,
+            "w": 29,
+            "h": 10
+          },
+          {
+            "x": 191,
+            "y": 584,
+            "w": 15,
+            "h": 10
+          },
+          {
+            "x": 212,
+            "y": 584,
+            "w": 37,
+            "h": 10
+          },
+          {
+            "x": 254,
+            "y": 584,
+            "w": 47,
+            "h": 10
+          },
+          {
+            "x": 311,
+            "y": 53,
+            "w": 38,
+            "h": 10
+          },
+          {
+            "x": 352,
+            "y": 53,
+            "w": 10,
+            "h": 10
+          },
+          {
+            "x": 367,
+            "y": 53,
+            "w": 42,
+            "h": 10
+          },
+          {
+            "x": 412,
+            "y": 53,
+            "w": 52,
+            "h": 10
+          },
+          {
+            "x": 468,
+            "y": 53,
+            "w": 34,
+            "h": 10
+          },
+          {
+            "x": 507,
+            "y": 53,
+            "w": 32,
+            "h": 10
+          },
+          {
+            "x": 542,
+            "y": 53,
+            "w": 23,
+            "h": 10
+          },
+          {
+            "x": 311,
+            "y": 65,
+            "w": 167,
+            "h": 10
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-4"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 7,
+    "summary": "(TMED5 overexpression, surrogate for APOE4) -> (decreased lysosomal acidity) [CONTRADICTS]",
+    "relevance": "0.4",
+    "dataLocation": "Fig 5J-M",
+    "effectSize": "qualitative",
+    "effectSizeProvenance": "visual_only",
+    "pValue": "<0.0001",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "3",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "4",
+    "directnessStrength": "4",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "effect size '~0.45 log2 LysoTracker intensity and ~-0.9 log2 MR-CTSB vs control' has no accepted form: recorded as qualitative, numbers kept in description"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "TMED5-GFP overexpression in HsAPOE3 Neuro-2a cells (mimicking the APOE4-associated TMED5 accumulation)",
+      "mapsTo": "A_surrogate"
+    },
+    "measured": {
+      "variable": "LysoTracker staining intensity and MR-CTSB proteolysis",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

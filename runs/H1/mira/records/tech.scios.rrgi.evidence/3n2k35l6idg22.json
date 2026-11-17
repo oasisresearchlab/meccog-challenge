@@ -1,0 +1,75 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "CONTRADICTING: Under basal conditions, E4/E4 iMGs showed lower intracellular pHrodo-dextran fluorescence over 20 h than E3/E3 iMGs, and at 3 h. The authors interpret this as reduced pinocytosis. Because pHrodo signal depends on both uptake and compartment acidity, it does not show the increased endosomal acidification predicted for APOE4; if anything, the signal is lower.",
+  "description": "Human iPSC-derived microglia-like cells (iMGs), APOE3/3 vs APOE4/4 lines (not isogenic overall). Cells were incubated with pHrodo Red/Green 10 kDa dextran (16.7-20 µg/ml) and imaged in an IncuCyte live imaging system for 20 h. The unit is the iPSC line (mean of 1-3 independent experiments). Caveat: microglia, not astrocytes. pHrodo signal conflates uptake with acidification, and no pH calibration was done.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "endosomal lumen acidification",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0048388"
+    },
+    {
+      "name": "pinocytosis",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0006907"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "microglial cell",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000129"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Under basal conditions, pinocytosis was significantly reduced in E4/E4 iMGs compared to E3/E3 iMGs (two-way repeated measures ANOVA, time x genotype p=0.01; Fig. 1J, L)."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) -> (lower pHrodo-dextran signal in endo-lysosomal compartments of microglia; interpreted as reduced pinocytosis) [CONTRADICTS]",
+    "relevance": "0.4",
+    "dataLocation": "Fig 1K, Fig 1L",
+    "effectSize": "~64%",
+    "effectSizeProvenance": "estimated_from_figure",
+    "pValue": "0.01",
+    "pValueProvenance": "printed_in_text",
+    "sampleSize": "~8",
+    "sampleSizeProvenance": "estimated_from_figure",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE4/4 vs APOE3/3 genotype of iPSC-derived microglia",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Intracellular pHrodo-dextran (10 kDa) fluorescence normalized to confluence. The signal rises with uptake into acidified endo-lysosomal compartments.",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "plotReading": true,
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

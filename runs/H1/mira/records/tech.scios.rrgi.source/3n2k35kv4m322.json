@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Jiqing Cao, Min Huang, Lei Guo, Li Zhu, Jianwei Hou, Larry Zhang, Adriana Pero, Sabrina Ng, Farida El Gaamouch, Gregory A. Elder, Mary C. Sano, Alison Goate (2020). MicroRNA-195 rescues ApoE4-induced cognitive deficits and lysosomal defects in Alzheimer’s disease pathogenesis. Molecular Psychiatry",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "32632205",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "pmc_s3",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1038/s41380-020-0824-3",
+  "url": "https://doi.org/10.1038/s41380-020-0824-3",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

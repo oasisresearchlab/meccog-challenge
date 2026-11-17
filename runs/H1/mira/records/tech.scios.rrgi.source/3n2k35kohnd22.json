@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Pohlkamp T, Xian X, Wong CH, Durakoglugil MS, Werthmann GC, Saido TC, Evers BM, White CL, Connor J, Hammer RE, Herz J. (2021). NHE6 depletion corrects ApoE4-mediated synaptic impairments and reduces amyloid plaque load.. eLife",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "34617884",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "pmc_s3",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.7554/elife.72034",
+  "url": "https://doi.org/10.7554/elife.72034",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

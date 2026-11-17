@@ -1,0 +1,628 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "CONTRADICTING: Live ApoE4 iCE-BECs were co-loaded with pH-sensitive Tf-pHrodo Red and pH-insensitive Tf-Alexa647. They showed a lower pHrodo/Alexa647 ratio per endosome than isogenic ApoE3 cells, which the authors read as HIGHER (less acidic) endosomal pH in ApoE4, the opposite of the reduced pH H1 predicts.",
+  "description": "iPSC-derived brain endothelial cells (iCE-BECs) from two isogenic pairs. Pair 1: Bioni037-A (APOE3/E3, healthy donor fibroblasts) vs Bioni037-A4 (APOE4/E4, rs429358 edit). Pair 2: Alstem iPS26 (APOE3/E3) vs iPS16 (APOE4/E4, from bone marrow CD34+ cells). Cells were incubated 10 min with 25 µg/mL Tf-pHrodo Red plus 25 µg/mL Tf-Alexa647, then live-imaged at 100x. The intensity ratio was computed per colocalized endosome and analyzed by two-way ANOVA. Unit: n = 3 independent differentiations per isogenic pair, 30 cells per experiment. Caveat: brain endothelial cells, not astrocytes. The ratio is uncalibrated, so no absolute pH is reported. The authors note that this direction is opposite to the earlier astrocyte report.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "endosome",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005768"
+    },
+    {
+      "name": "endosomal lumen acidification",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0048388"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "brain microvascular endothelial cell",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_2000044"
+    },
+    {
+      "name": "induced pluripotent stem cell-derived brain endothelial cell (iCE-BEC)",
+      "entityType": "experimental system"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "We found that ApoE4 iCE-BECs had increased signal for each of the Tf-fluorescent conjugates but a lower fluorescence ratio (Figures 5E and 5F). This result points to a higher uptake of Tf and to a higher endosomal pH (i.e., less acidic) in ApoE4 iCE-BECs.",
+    "anchorLocations": [
+      {
+        "page": 7,
+        "boxes": [
+          {
+            "x": 379,
+            "y": 419,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 384,
+            "y": 421,
+            "w": 13,
+            "h": 9
+          },
+          {
+            "x": 397,
+            "y": 419,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 401,
+            "y": 421,
+            "w": 25,
+            "h": 9
+          },
+          {
+            "x": 426,
+            "y": 419,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 431,
+            "y": 421,
+            "w": 17,
+            "h": 9
+          },
+          {
+            "x": 448,
+            "y": 419,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 453,
+            "y": 421,
+            "w": 27,
+            "h": 9
+          },
+          {
+            "x": 480,
+            "y": 419,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 485,
+            "y": 421,
+            "w": 38,
+            "h": 9
+          },
+          {
+            "x": 523,
+            "y": 419,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 528,
+            "y": 421,
+            "w": 16,
+            "h": 9
+          },
+          {
+            "x": 543,
+            "y": 419,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 304,
+            "y": 433,
+            "w": 38,
+            "h": 9
+          },
+          {
+            "x": 343,
+            "y": 431,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 346,
+            "y": 433,
+            "w": 24,
+            "h": 9
+          },
+          {
+            "x": 370,
+            "y": 431,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 373,
+            "y": 433,
+            "w": 12,
+            "h": 9
+          },
+          {
+            "x": 385,
+            "y": 431,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 388,
+            "y": 433,
+            "w": 19,
+            "h": 9
+          },
+          {
+            "x": 407,
+            "y": 431,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 411,
+            "y": 433,
+            "w": 8,
+            "h": 9
+          },
+          {
+            "x": 419,
+            "y": 431,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 422,
+            "y": 433,
+            "w": 14,
+            "h": 9
+          },
+          {
+            "x": 436,
+            "y": 431,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 439,
+            "y": 433,
+            "w": 57,
+            "h": 9
+          },
+          {
+            "x": 496,
+            "y": 431,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 499,
+            "y": 433,
+            "w": 44,
+            "h": 9
+          },
+          {
+            "x": 543,
+            "y": 431,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 304,
+            "y": 445,
+            "w": 14,
+            "h": 9
+          },
+          {
+            "x": 318,
+            "y": 443,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 322,
+            "y": 445,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 327,
+            "y": 443,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 331,
+            "y": 445,
+            "w": 23,
+            "h": 9
+          },
+          {
+            "x": 354,
+            "y": 443,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 358,
+            "y": 445,
+            "w": 51,
+            "h": 9
+          },
+          {
+            "x": 409,
+            "y": 443,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 413,
+            "y": 445,
+            "w": 19,
+            "h": 9
+          },
+          {
+            "x": 432,
+            "y": 443,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 436,
+            "y": 445,
+            "w": 32,
+            "h": 9
+          },
+          {
+            "x": 468,
+            "y": 443,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 472,
+            "y": 445,
+            "w": 10,
+            "h": 9
+          },
+          {
+            "x": 482,
+            "y": 443,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 486,
+            "y": 445,
+            "w": 16,
+            "h": 9
+          },
+          {
+            "x": 502,
+            "y": 443,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 506,
+            "y": 445,
+            "w": 15,
+            "h": 9
+          },
+          {
+            "x": 521,
+            "y": 443,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 526,
+            "y": 445,
+            "w": 18,
+            "h": 9
+          },
+          {
+            "x": 543,
+            "y": 443,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 304,
+            "y": 457,
+            "w": 23,
+            "h": 9
+          },
+          {
+            "x": 327,
+            "y": 455,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 329,
+            "y": 457,
+            "w": 26,
+            "h": 9
+          },
+          {
+            "x": 355,
+            "y": 455,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 357,
+            "y": 457,
+            "w": 8,
+            "h": 9
+          },
+          {
+            "x": 366,
+            "y": 455,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 368,
+            "y": 457,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 373,
+            "y": 455,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 375,
+            "y": 457,
+            "w": 27,
+            "h": 9
+          },
+          {
+            "x": 402,
+            "y": 455,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 404,
+            "y": 457,
+            "w": 28,
+            "h": 9
+          },
+          {
+            "x": 432,
+            "y": 455,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 434,
+            "y": 457,
+            "w": 8,
+            "h": 9
+          },
+          {
+            "x": 442,
+            "y": 455,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 444,
+            "y": 457,
+            "w": 8,
+            "h": 9
+          },
+          {
+            "x": 453,
+            "y": 455,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 455,
+            "y": 457,
+            "w": 16,
+            "h": 9
+          },
+          {
+            "x": 471,
+            "y": 455,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 473,
+            "y": 457,
+            "w": 8,
+            "h": 9
+          },
+          {
+            "x": 482,
+            "y": 455,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 484,
+            "y": 457,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 488,
+            "y": 455,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 490,
+            "y": 457,
+            "w": 27,
+            "h": 9
+          },
+          {
+            "x": 517,
+            "y": 455,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 520,
+            "y": 457,
+            "w": 24,
+            "h": 9
+          },
+          {
+            "x": 304,
+            "y": 469,
+            "w": 24,
+            "h": 9
+          },
+          {
+            "x": 329,
+            "y": 467,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 332,
+            "y": 469,
+            "w": 13,
+            "h": 9
+          },
+          {
+            "x": 345,
+            "y": 467,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 348,
+            "y": 469,
+            "w": 18,
+            "h": 9
+          },
+          {
+            "x": 366,
+            "y": 467,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 370,
+            "y": 469,
+            "w": 14,
+            "h": 9
+          },
+          {
+            "x": 384,
+            "y": 467,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 388,
+            "y": 469,
+            "w": 27,
+            "h": 9
+          },
+          {
+            "x": 415,
+            "y": 467,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 418,
+            "y": 469,
+            "w": 9,
+            "h": 9
+          },
+          {
+            "x": 427,
+            "y": 467,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 431,
+            "y": 469,
+            "w": 27,
+            "h": 9
+          },
+          {
+            "x": 458,
+            "y": 467,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 461,
+            "y": 469,
+            "w": 38,
+            "h": 9
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-1"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) -> (higher endosomal pH, less acidic early endosomes in iPSC-derived brain endothelial cells) [CONTRADICTS]",
+    "relevance": "0.85",
+    "dataLocation": "Fig 5E-F",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "not_found_in_source",
+    "pValue": "<0.01",
+    "pValueProvenance": "printed_in_text",
+    "sampleSize": "3",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "1",
+    "directnessStrength": "2",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE genotype: homozygous APOE4 vs isogenic homozygous APOE3 iPSC lines (two isogenic pairs)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Per-endosome ratio of Transferrin-pHrodo Red to Transferrin-Alexa647 fluorescence (ratiometric endosomal pH readout; lower ratio = higher pH)",
+      "mapsTo": "B"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

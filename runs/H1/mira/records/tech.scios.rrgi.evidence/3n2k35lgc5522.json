@@ -1,0 +1,110 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "CONTRADICTING: Astrocytes treated with ApoE4 particles had lower cathepsin D activity than ApoE3- or ApoE2-treated astrocytes. This is consistent with impaired, less acidic endolysosomes rather than increased acidification.",
+  "description": "Primary hippocampal astrocytes from P0-P1 wild-type Sprague-Dawley rats, grown in 6-well dishes. Incubated in HBSS ± 50 µg/ml ApoE2, ApoE3 or ApoE4/POPC particles for 4 h; lysates assayed with an Abcam cathepsin D activity kit and normalized to untreated control. n = 6 independent experiments. Caveat: rat, exogenous particles; cathepsin D activity depends on lysosomal pH but also on enzyme maturation and delivery, so it is a weak pH surrogate.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "CTSD",
+      "entityType": "measured (B_surrogate)",
+      "uri": "https://identifiers.org/hgnc:2529"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "Rattus norvegicus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    },
+    {
+      "name": "hippocampus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/UBERON_0002421"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Indeed, astrocytes treated with ApoE4 particles had decreased activity of the endolysosomal protease cathepsin D (Figure 3C).",
+    "anchorLocations": [
+      {
+        "page": 4,
+        "boxes": [
+          {
+            "x": 282,
+            "y": 624,
+            "w": 261,
+            "h": 13
+          },
+          {
+            "x": 72,
+            "y": 638,
+            "w": 357,
+            "h": 13
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 2,
+    "summary": "(APOE3 -> APOE4 particles) -> (decreased endolysosomal cathepsin D activity in astrocytes) [CONTRADICTS]",
+    "relevance": "0.5",
+    "dataLocation": "Fig 3C",
+    "effectSize": "~28%",
+    "effectSizeProvenance": "estimated_from_figure",
+    "pValue": "<0.01",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "6",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "extracted from the preprint: check panels and numbers against the published paper"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "Exogenous recombinant human ApoE4 vs ApoE3 (and ApoE2) particles, 50 µg/ml for 4 h",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Cathepsin D activity in astrocyte lysates (endolysosomal protease function)",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "plotReading": true,
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

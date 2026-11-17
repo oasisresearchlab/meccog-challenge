@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Yuan-Ta Lin, Jinsoo Seo, Fan Gao, Heather M. Feldman, Hsin-Lan Wen, Jay Penney, Hugh P. Cam, Elizabeta Gjoneska, Waseem Khan Raja, Jemmie Cheng, Richard Rueda, Oleg Kritskiy (2018). APOE4 Causes Widespread Molecular and Cellular Alterations Associated with Alzheimer’s Disease Phenotypes in Human iPSC-Derived Brain Cell Types. Neuron",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "29861287",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "abstract_only",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1016/j.neuron.2018.05.008",
+  "url": "https://doi.org/10.1016/j.neuron.2018.05.008",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

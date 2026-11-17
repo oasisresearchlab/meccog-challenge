@@ -1,0 +1,159 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "CONTRADICTING: In independent experiments, ApoE4 particles again decreased LysoTracker-positive puncta number compared with untreated astrocytes, and also decreased puncta size (Fig S5A-B). Treatments meant to increase endolysosomal acidity (rimeporide, YM-201636) restored LysoTracker puncta. This implies ApoE4 causes an acidification deficit rather than lower pH. Class 5 because the perturbation adds re-acidifying drugs on top of ApoE4 vs no particle, with no ApoE3 comparator.",
+  "description": "Primary hippocampal astrocytes from wild-type Sprague-Dawley rats. Treated in HBSS for 4 h with 50 µg/ml ApoE4/POPC particles ± 10 µM rimeporide or ± 200 nM YM-201636, with 50 nM LysoTracker Red for the last 30 min. n = 8 independent experiments (rimeporide) and n = 4 (YM-201636). Caveat: no ApoE3 comparator in this experiment; rat cells; LysoTracker is a surrogate for acidification; drug effects are not specific to endosomes.",
+  "contextEntities": [
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (other)"
+    },
+    {
+      "name": "rimeporide",
+      "entityType": "perturbed (other)",
+      "uri": "http://purl.obolibrary.org/obo/CHEBI_752871"
+    },
+    {
+      "name": "YM-201636",
+      "entityType": "perturbed (other)"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "late endosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005770"
+    },
+    {
+      "name": "Rattus norvegicus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    },
+    {
+      "name": "hippocampus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/UBERON_0002421"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Here, we found that both rimeporide and YM-201636 rescued the ApoE4-mediated decrease in LysoTracker-positive puncta in astrocytes (Figures 5A-5D, S5A and S5B).",
+    "anchorLocations": [
+      {
+        "page": 6,
+        "boxes": [
+          {
+            "x": 72,
+            "y": 376,
+            "w": 471,
+            "h": 13
+          },
+          {
+            "x": 72,
+            "y": 390,
+            "w": 105,
+            "h": 13
+          },
+          {
+            "x": 180,
+            "y": 390,
+            "w": 35,
+            "h": 13
+          },
+          {
+            "x": 218,
+            "y": 390,
+            "w": 12,
+            "h": 13
+          },
+          {
+            "x": 234,
+            "y": 390,
+            "w": 51,
+            "h": 13
+          },
+          {
+            "x": 288,
+            "y": 390,
+            "w": 43,
+            "h": 13
+          },
+          {
+            "x": 335,
+            "y": 390,
+            "w": 39,
+            "h": 13
+          },
+          {
+            "x": 377,
+            "y": 390,
+            "w": 24,
+            "h": 13
+          },
+          {
+            "x": 404,
+            "y": 390,
+            "w": 20,
+            "h": 13
+          },
+          {
+            "x": 428,
+            "y": 390,
+            "w": 28,
+            "h": 13
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-5"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 3,
+    "summary": "(APOE4 particles) -> (fewer LysoTracker-positive acidic compartments) -> rescued by NHE inhibition or PIKfyve inhibition (re-acidification) [CONTRADICTS]",
+    "relevance": "0.45",
+    "dataLocation": "Fig 5A-D; Supplementary Fig S5A-B",
+    "effectSize": "~50%",
+    "effectSizeProvenance": "estimated_from_figure",
+    "pValue": "<0.01",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "4-8",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "5",
+    "directnessStrength": "4",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "directness class 5: description should say why no class fits",
+        "extracted from the preprint: check panels and numbers against the published paper"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "ApoE4 particles (vs no particle) ± NHE inhibitor rimeporide (10 µM) or PIKfyve inhibitor YM-201636 (200 nM), intended to re-acidify endolysosomes",
+      "mapsTo": "other"
+    },
+    "measured": {
+      "variable": "Number and size of LysoTracker Red-positive puncta per cell",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "plotReading": true,
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

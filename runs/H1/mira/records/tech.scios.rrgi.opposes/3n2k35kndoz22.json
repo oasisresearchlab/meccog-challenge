@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.opposes",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kvt3w22",
+    "cid": "bafyreie447j7irhyeaj3qhpgbxsmoyagg7isj6nhsj5quemhewivlx43jq"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "weak",
+  "warrant": "Directness class 5 (other), strength d=4 (weak). Perturbed ApoE4 particles (vs no particle) ± NHE inhibitor rimeporide (10 µM) or PIKfyve inhibitor YM-201636 (200 nM), intended to re-acidify endolysosomes (other); measured Number and size of LysoTracker Red-positive puncta per cell (B_surrogate).",
+  "description": "(APOE4 particles) -> (fewer LysoTracker-positive acidic compartments) -> rescued by NHE inhibition or PIKfyve inhibition (re-acidification) [CONTRADICTS]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

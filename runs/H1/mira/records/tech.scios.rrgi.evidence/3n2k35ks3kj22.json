@@ -1,0 +1,591 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "CONTRADICTING: At 25-26 DIV, ApoE4 neurons had 19.8% fewer LysoTracker-positive vesicles per cell body than ApoE3 neurons (normalized means 0.303 vs 0.370). This indicates fewer acidic compartments with ApoE4 rather than increased acidification.",
+  "description": "Same as Fig 4J: APOE3 and APOE4 targeted-replacement mouse primary hippocampal/cortical mixed cultures at 25-26 DIV, synapsin-GFP-labelled neurons, live LysoTracker Red imaging on Operetta CLS. Analysed by one-way ANOVA with post hoc Tukey; N = embryos, 6-10 fields per N. Caveat: mouse neurons, not human astrocytes; aged cultures; vesicle count of acidic compartments is a weak surrogate for endosomal pH.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "lysosomal lumen acidification",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0007042"
+    },
+    {
+      "name": "LysoTracker Red DND-99",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/CHEBI_52117"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "neuron",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000540"
+    },
+    {
+      "name": "hippocampus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/UBERON_0002421"
+    },
+    {
+      "name": "cerebral cortex",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/UBERON_0000956"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Remarkedly, similar to the DQ BSA results, we detected a 19.8% lower number of LysoTracker positive vesicles (p = 0.011) and a 35.6% lower total LysoTracker intensity per neuronal cell body (p = 0.0059) in ApoE4 compared to ApoE3 neurons (Fig. 4, I-K), supporting the scenario that ApoE4 neurons, after longer time in culture, have lower number of active degradative compartments.",
+    "anchorLocations": [
+      {
+        "page": 7,
+        "boxes": [
+          {
+            "x": 443,
+            "y": 106,
+            "w": 50,
+            "h": 10
+          },
+          {
+            "x": 493,
+            "y": 104,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 497,
+            "y": 106,
+            "w": 28,
+            "h": 10
+          },
+          {
+            "x": 525,
+            "y": 104,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 529,
+            "y": 106,
+            "w": 8,
+            "h": 10
+          },
+          {
+            "x": 537,
+            "y": 104,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 541,
+            "y": 106,
+            "w": 13,
+            "h": 10
+          },
+          {
+            "x": 554,
+            "y": 104,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 303,
+            "y": 118,
+            "w": 15,
+            "h": 10
+          },
+          {
+            "x": 318,
+            "y": 115,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 324,
+            "y": 118,
+            "w": 18,
+            "h": 10
+          },
+          {
+            "x": 341,
+            "y": 115,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 347,
+            "y": 118,
+            "w": 29,
+            "h": 10
+          },
+          {
+            "x": 376,
+            "y": 115,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 382,
+            "y": 118,
+            "w": 11,
+            "h": 10
+          },
+          {
+            "x": 393,
+            "y": 115,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 399,
+            "y": 118,
+            "w": 35,
+            "h": 10
+          },
+          {
+            "x": 434,
+            "y": 115,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 440,
+            "y": 118,
+            "w": 4,
+            "h": 10
+          },
+          {
+            "x": 444,
+            "y": 115,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 450,
+            "y": 118,
+            "w": 24,
+            "h": 10
+          },
+          {
+            "x": 473,
+            "y": 115,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 479,
+            "y": 118,
+            "w": 23,
+            "h": 10
+          },
+          {
+            "x": 502,
+            "y": 115,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 508,
+            "y": 118,
+            "w": 32,
+            "h": 10
+          },
+          {
+            "x": 540,
+            "y": 115,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 546,
+            "y": 118,
+            "w": 8,
+            "h": 10
+          },
+          {
+            "x": 554,
+            "y": 115,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 303,
+            "y": 130,
+            "w": 51,
+            "h": 10
+          },
+          {
+            "x": 354,
+            "y": 127,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 357,
+            "y": 130,
+            "w": 31,
+            "h": 10
+          },
+          {
+            "x": 389,
+            "y": 127,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 393,
+            "y": 130,
+            "w": 30,
+            "h": 10
+          },
+          {
+            "x": 423,
+            "y": 127,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 427,
+            "y": 130,
+            "w": 8,
+            "h": 10
+          },
+          {
+            "x": 435,
+            "y": 127,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 439,
+            "y": 130,
+            "w": 6,
+            "h": 10
+          },
+          {
+            "x": 445,
+            "y": 127,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 448,
+            "y": 130,
+            "w": 25,
+            "h": 10
+          },
+          {
+            "x": 473,
+            "y": 127,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 477,
+            "y": 130,
+            "w": 15,
+            "h": 10
+          },
+          {
+            "x": 492,
+            "y": 127,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 496,
+            "y": 130,
+            "w": 4,
+            "h": 10
+          },
+          {
+            "x": 500,
+            "y": 127,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 504,
+            "y": 130,
+            "w": 24,
+            "h": 10
+          },
+          {
+            "x": 528,
+            "y": 127,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 531,
+            "y": 130,
+            "w": 23,
+            "h": 10
+          },
+          {
+            "x": 554,
+            "y": 127,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 303,
+            "y": 142,
+            "w": 19,
+            "h": 10
+          },
+          {
+            "x": 321,
+            "y": 139,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 332,
+            "y": 142,
+            "w": 51,
+            "h": 10
+          },
+          {
+            "x": 383,
+            "y": 139,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 393,
+            "y": 142,
+            "w": 35,
+            "h": 10
+          },
+          {
+            "x": 428,
+            "y": 139,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 439,
+            "y": 142,
+            "w": 13,
+            "h": 10
+          },
+          {
+            "x": 452,
+            "y": 139,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 463,
+            "y": 142,
+            "w": 36,
+            "h": 10
+          },
+          {
+            "x": 499,
+            "y": 139,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 510,
+            "y": 142,
+            "w": 14,
+            "h": 10
+          },
+          {
+            "x": 523,
+            "y": 139,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 534,
+            "y": 142,
+            "w": 20,
+            "h": 10
+          },
+          {
+            "x": 554,
+            "y": 139,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 303,
+            "y": 154,
+            "w": 8,
+            "h": 10
+          },
+          {
+            "x": 311,
+            "y": 151,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 319,
+            "y": 154,
+            "w": 6,
+            "h": 10
+          },
+          {
+            "x": 325,
+            "y": 151,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 332,
+            "y": 154,
+            "w": 30,
+            "h": 10
+          },
+          {
+            "x": 362,
+            "y": 151,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 370,
+            "y": 154,
+            "w": 8,
+            "h": 10
+          },
+          {
+            "x": 378,
+            "y": 151,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 386,
+            "y": 154,
+            "w": 28,
+            "h": 10
+          },
+          {
+            "x": 413,
+            "y": 151,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 421,
+            "y": 154,
+            "w": 41,
+            "h": 10
+          },
+          {
+            "x": 462,
+            "y": 151,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 469,
+            "y": 154,
+            "w": 8,
+            "h": 10
+          },
+          {
+            "x": 478,
+            "y": 151,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 486,
+            "y": 154,
+            "w": 28,
+            "h": 10
+          },
+          {
+            "x": 513,
+            "y": 151,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 521,
+            "y": 154,
+            "w": 33,
+            "h": 10
+          },
+          {
+            "x": 554,
+            "y": 151,
+            "w": 5,
+            "h": 10
+          },
+          {
+            "x": 303,
+            "y": 166,
+            "w": 16,
+            "h": 10
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "split"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 2,
+    "summary": "(APOE3 -> APOE4) -> (fewer LysoTracker-positive acidic compartments in neuronal cell bodies at 25-26 DIV) [CONTRADICTS]",
+    "relevance": "0.55",
+    "dataLocation": "Fig 4K",
+    "effectSize": "19.8%",
+    "effectSizeProvenance": "printed_in_text",
+    "pValue": "0.011",
+    "pValueProvenance": "printed_in_text",
+    "sampleSize": "6",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE genotype: human APOE4 vs APOE3 targeted-replacement (knock-in) mouse primary cultures",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Number of LysoTracker-positive vesicles (acidic compartments) per neuronal cell body",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

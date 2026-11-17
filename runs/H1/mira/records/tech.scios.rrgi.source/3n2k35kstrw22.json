@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Priyanka S. Narayan, Grzegorz Sienski, Julia Maeve Bonner, Yuan-Ta Lin, Jinsoo Seo, Valeriya Baru, Aftabul Haque, Blerta Milo, Leyla Anne Akay, Agnese Graziosi, Yelena Freyzon, Dirk Landgraf (2020). PICALM Rescues Endocytic Defects Caused by the Alzheimer’s Disease Risk Factor APOE4. Cell Reports",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "33027662",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "abstract_only",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1016/j.celrep.2020.108224",
+  "url": "https://doi.org/10.1016/j.celrep.2020.108224",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.opposes",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l27r522",
+    "cid": "bafyreief3lvh6oo4u7bv7ixlsm35r627s4rxdn3u2lr3wajpnlcghdehoq"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "weak",
+  "warrant": "Directness class 3 (indirect output), strength d=5 (very weak). Perturbed APOE isoform stably expressed in cultured cells (APOE4 vs other isoforms, including APOE3) (A); measured APOE localization to, and size of, lysosomes and late endosomes (enlarged compartments); lysosomal trafficking (B_surrogate).",
+  "description": "(APOE3 -> APOE4) -> (increased lysosomal trafficking; APOE accumulation in enlarged late endosomes/lysosomes) [surrogate for endo-lysosomal dysfunction; pH not measured]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

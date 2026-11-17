@@ -1,0 +1,77 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "ApoE4 astrocytes showed aberrant (increased) endosomal acidification, i.e. lower endosomal pH, compared with ApoE3 astrocytes.",
+  "description": "ApoE4 vs ApoE3 astrocytes; the abstract does not state the species or source (abstract-only). Caveat: likely a model astrocyte system, not confirmed as non-aged human brain astrocytes.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "endosome",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005768"
+    },
+    {
+      "name": "regulation of intracellular pH",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0051453"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Here, we show that aberrant endosomal acidification in ApoE4 astrocytes traps the low-density lipoprotein receptor-related protein (LRP1) within intracellular compartments, leading to loss of surface expression and Aβ clearance."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "supports",
+    "directness-1"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) -> (increased endosomal acidification / lower endosomal pH in astrocytes)",
+    "relevance": "0.9",
+    "dataLocation": "Abstract (full text unavailable)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "full_text_unavailable",
+    "pValue": "N/A",
+    "pValueProvenance": "full_text_unavailable",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "full_text_unavailable",
+    "directnessClass": "1",
+    "directnessStrength": "1",
+    "direction": "supports",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE4 vs APOE3 astrocytes",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "endosomal acidification (endosomal pH)",
+      "mapsTo": "B"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

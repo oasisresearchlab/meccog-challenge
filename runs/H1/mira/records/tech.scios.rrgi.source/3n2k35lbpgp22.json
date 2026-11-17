@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Greda AK, Gomes JP, Schmidt-Krueger V, Zurawska-Plaksej E, Fritsche-Guenther R, Rudolph IM, Telugu NS, Cömert C, Kirwan J, Kunz S, Rothe M, Johannsen M, Diecke S, Bross P, Willnow TE. (2025). Interaction of sortilin with apolipoprotein E3 enables neurons to use long-chain fatty acids as alternative metabolic fuel.. Nature metabolism",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "41102453",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "pmc_s3",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1038/s42255-025-01389-5",
+  "url": "https://doi.org/10.1038/s42255-025-01389-5",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

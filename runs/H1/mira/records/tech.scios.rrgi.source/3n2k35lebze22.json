@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Somogyi A, Kirkham ED, Lloyd-Evans E, Winston J, Allen ND, Mackrill JJ, Anderson KE, Hawkins PT, Gardiner SE, Waller-Evans H, Sims R, Boland B, O'Neill C. (2023). The synthetic TRPML1 agonist ML-SA1 rescues Alzheimer-related alterations of the endosomal-autophagic-lysosomal system.. Journal of cell science",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "36825945",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "abstract_only",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1242/jcs.259875",
+  "url": "https://doi.org/10.1242/jcs.259875",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

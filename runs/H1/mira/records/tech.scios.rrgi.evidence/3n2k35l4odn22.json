@@ -1,0 +1,107 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "Twenty-four hours after myelin challenge, APOE4 microglia again showed higher LysoTracker signal than APOE3 microglia.",
+  "description": "Primary APOE3 and APOE4 targeted-replacement mouse microglia, 3 h myelin challenge, assayed at 24 h; LysoTracker flow cytometry; n = 4 independent experiments per group. Caveat: LysoTracker is a mass/acidity surrogate, not a pH measure; mouse microglia.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "microglial cell",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000129"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "f) The mass of lysosomes within microglia was quantified by measuring the gMFI of LysoTracker dye by flow cytometry, F(2, 9) = 22.8, p = 0.0003, E4 vs E3: p = 0.002, d = 3.7 CI95% [1.2, 6.2].",
+    "anchorLocations": [
+      {
+        "page": 44,
+        "boxes": [
+          {
+            "x": 173,
+            "y": 187,
+            "w": 331,
+            "h": 11
+          },
+          {
+            "x": 150,
+            "y": 201,
+            "w": 351,
+            "h": 11
+          },
+          {
+            "x": 150,
+            "y": 215,
+            "w": 41,
+            "h": 11
+          },
+          {
+            "x": 191,
+            "y": 219,
+            "w": 15,
+            "h": 9
+          },
+          {
+            "x": 205,
+            "y": 215,
+            "w": 42,
+            "h": 11
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "supports",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 4,
+    "summary": "(APOE3 -> APOE4) + myelin -> (higher LysoTracker acidic-compartment signal in microglia)",
+    "relevance": "0.3",
+    "dataLocation": "Fig 3f",
+    "effectSize": "d=3.7",
+    "effectSizeProvenance": "printed_in_text",
+    "pValue": "0.002",
+    "pValueProvenance": "printed_in_text",
+    "sampleSize": "4",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "supports",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE4 vs APOE3 genotype after myelin challenge",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "LysoTracker Red gMFI after myelin challenge",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

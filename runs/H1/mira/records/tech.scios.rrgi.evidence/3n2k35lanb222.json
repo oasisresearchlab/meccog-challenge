@@ -1,0 +1,142 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "Knockdown of LGALS3BP (depleted from APOE4 lysosomes) in HsAPOE3 Neuro-2a cells reduced LysoTracker staining, modestly alkalinized lysosomal pH and nearly halved lysosomal density, implicating LGALS3BP loss as a partial driver of the APOE4 alkalinization phenotype (reported: LysoTracker ~0.72x of siScr; lysosomal density ~0.55x; pH change described as modest).",
+  "description": "HsAPOE3 Neuro-2a cells transfected with Lgals3bp siRNA vs scrambled control for 48 h; LysoTracker, OregonGreen-dextran ratiometric pH and density quantification, Magic Red cathepsin B; three independent experiments. Also validated in human WTC11 CRISPRi iPSC-derived neurons where LGALS3BP knockdown decreased LysoTracker staining (Fig 4H-I). Caveat: knockdown is a surrogate for APOE4; mouse cell line plus human iNeu.",
+  "contextEntities": [
+    {
+      "name": "LGALS3BP",
+      "entityType": "perturbed (A_surrogate)",
+      "uri": "https://identifiers.org/hgnc:6564"
+    },
+    {
+      "name": "RNA interference",
+      "entityType": "perturbed (A_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0035194"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "regulation of intracellular pH",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0051453"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "Neuro-2a neuroblastoma cell line",
+      "entityType": "experimental system"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "We found that LGALS3BP depletion markedly decreased the LysoTracker staining in healthy HsAPOE3 Neuro-2a cells (Figure 4A,B). To assess whether this was driven by changes in lysosomal acidification or the density of lysosomes, we loaded the Neuro-2a cells with Dextran-Oregon Green, finding that LGALS3BP knockdown modestly alkalinized the lysosomal pH, but nearly halved the lysosomal density (Figure 4C-E).",
+    "anchorLocations": [
+      {
+        "page": 8,
+        "boxes": [
+          {
+            "x": 311,
+            "y": 83,
+            "w": 254,
+            "h": 10
+          },
+          {
+            "x": 311,
+            "y": 95,
+            "w": 52,
+            "h": 10
+          },
+          {
+            "x": 367,
+            "y": 95,
+            "w": 34,
+            "h": 10
+          },
+          {
+            "x": 405,
+            "y": 95,
+            "w": 10,
+            "h": 10
+          },
+          {
+            "x": 418,
+            "y": 95,
+            "w": 32,
+            "h": 10
+          },
+          {
+            "x": 454,
+            "y": 95,
+            "w": 44,
+            "h": 10
+          },
+          {
+            "x": 501,
+            "y": 95,
+            "w": 41,
+            "h": 10
+          },
+          {
+            "x": 545,
+            "y": 95,
+            "w": 19,
+            "h": 10
+          },
+          {
+            "x": 311,
+            "y": 107,
+            "w": 56,
+            "h": 10
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "split"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-4"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 8,
+    "summary": "(APOE4 -> lysosomal LGALS3BP depletion); LGALS3BP knockdown -> (modest lysosomal alkalinization + halved lysosomal density) [CONTRADICTS]",
+    "relevance": "0.4",
+    "dataLocation": "Fig 4A-E (and Fig 4H-I)",
+    "effectSize": "qualitative",
+    "effectSizeProvenance": "visual_only",
+    "pValue": "<0.05",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "3",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "4",
+    "directnessStrength": "4",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "effect size 'LysoTracker ~0.72x of siScr; lysosomal density ~0.55x; pH change described as modest' has no accepted form: recorded as qualitative, numbers kept in description"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "siRNA knockdown of Lgals3bp in HsAPOE3 Neuro-2a cells (mimicking the APOE4-associated lysosomal LGALS3BP depletion)",
+      "mapsTo": "A_surrogate"
+    },
+    "measured": {
+      "variable": "Relative lysosomal pH (OregonGreen-dextran ratio), lysosomal density and LysoTracker staining",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

@@ -1,0 +1,94 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "In isogenic human APOE3 vs APOE4 iPSC-derived neurons, lysosomal proximity ligation assays showed APOE4 neurons contain less lysosomal LGALS3BP and more lysosomal TMED5 - the two proteomic changes the paper links causally to lysosomal alkalinization in APOE4 cells (reported: qualitative (both PLA signals changed, ~2x lower LGALS3BP and ~1.5x higher TMED5 by eye)).",
+  "description": "Isogenic human female APOE4 and APOE3 iPSCs differentiated into mixed (including GABAergic) neurons, DIV49; repurposed proximity ligation assay between lumenal LAMP1 and LGALS3BP or TMED5; three independent differentiations. Caveat: measures a mechanistic intermediate (lysosomal protein levels), not pH; human neurons rather than astrocytes.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "TMED5",
+      "entityType": "measured (intermediate)",
+      "uri": "https://identifiers.org/hgnc:24251"
+    },
+    {
+      "name": "LGALS3BP",
+      "entityType": "measured (intermediate)",
+      "uri": "https://identifiers.org/hgnc:6564"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (intermediate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "neuron",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000540"
+    },
+    {
+      "name": "induced pluripotent stem cell",
+      "entityType": "experimental system"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "In concordance with our observations in Neuro-2a cells, we found that APOE4 iPSC-derived neurons harbored less lysosomal LGALS3BP and more lysosomal TMED5 compared to their APOE3 counterparts (Figure 6B,C)."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 5,
+    "summary": "(APOE3 -> APOE4) -> (lysosomal LGALS3BP depletion + TMED5 accumulation) -> (lysosomal alkalinization) [CONTRADICTS]",
+    "relevance": "0.5",
+    "dataLocation": "Fig 6B-C",
+    "effectSize": "qualitative",
+    "effectSizeProvenance": "visual_only",
+    "pValue": "N/A",
+    "pValueProvenance": "ambiguous_panel",
+    "sampleSize": "3",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "effect size 'qualitative (both PLA signals changed, ~2x lower LGALS3BP and ~1.5x higher TMED5 by eye)' has no accepted form: recorded as qualitative, numbers kept in description",
+        "ontology ids rejected (label mismatch): CL:0002248 'induced pluripotent stem cell'"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "Isogenic APOE3 vs APOE4 human iPSC-derived neurons",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Lysosomal TMED5 and LGALS3BP levels measured by LAMP1 proximity ligation assay",
+      "mapsTo": "intermediate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

@@ -1,0 +1,9 @@
+{
+  "$type": "tech.scios.rrgi.protocol",
+  "text": "Find papers bearing on a mechanism hypothesis and extract their experimental findings with verbatim quotes, panel-level locations, statistics with provenance, and directness, each audited against the source.",
+  "description": "meccog pipeline, https://github.com/oasisresearchlab/meccog-challenge at commit 416cf943c405d8c6f9f86735db4db4db9cb44665.",
+  "provenance": {
+    "wasGeneratedBy": "manualAuthoring"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

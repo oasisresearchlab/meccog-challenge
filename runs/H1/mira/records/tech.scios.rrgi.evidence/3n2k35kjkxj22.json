@@ -1,0 +1,193 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "CONTRADICTING: HsAPOE4-expressing Neuro-2a cells showed significantly reduced Magic Red cathepsin B proteolysis compared with HsAPOE3, consistent with less acidic (alkalinized) lysosomes rather than increased acidification (reported: ~0.75x of HsAPOE3 MR-CTSB intensity (~25% decrease)).",
+  "description": "HsAPOE3 vs HsAPOE4 Neuro-2a cells loaded with Magic Red Cathepsin B substrate, confocal imaging, unpaired two-tailed t-test. Caveat: mouse neuronal cell line; proteolysis is an indirect, pH-dependent surrogate of lumenal acidity.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "CTSB",
+      "entityType": "measured (intermediate)",
+      "uri": "https://identifiers.org/hgnc:2527"
+    },
+    {
+      "name": "proteolysis",
+      "entityType": "measured (intermediate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0006508"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (intermediate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "Neuro-2a neuroblastoma cell line",
+      "entityType": "experimental system"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "We found that the HsAPOE4-expressing cells exhibited significantly decreased MR-CTSB proteolysis compared to HsAPOE3-expressing cells, in line with their decreased lysosomal acidity (Figure 1F,G).",
+    "anchorLocations": [
+      {
+        "page": 4,
+        "boxes": [
+          {
+            "x": 113,
+            "y": 389,
+            "w": 188,
+            "h": 10
+          },
+          {
+            "x": 47,
+            "y": 401,
+            "w": 39,
+            "h": 10
+          },
+          {
+            "x": 88,
+            "y": 401,
+            "w": 50,
+            "h": 10
+          },
+          {
+            "x": 141,
+            "y": 401,
+            "w": 41,
+            "h": 10
+          },
+          {
+            "x": 184,
+            "y": 401,
+            "w": 44,
+            "h": 10
+          },
+          {
+            "x": 231,
+            "y": 401,
+            "w": 45,
+            "h": 10
+          },
+          {
+            "x": 278,
+            "y": 401,
+            "w": 21,
+            "h": 10
+          },
+          {
+            "x": 47,
+            "y": 413,
+            "w": 25,
+            "h": 10
+          },
+          {
+            "x": 77,
+            "y": 413,
+            "w": 10,
+            "h": 10
+          },
+          {
+            "x": 94,
+            "y": 413,
+            "w": 88,
+            "h": 10
+          },
+          {
+            "x": 188,
+            "y": 413,
+            "w": 21,
+            "h": 10
+          },
+          {
+            "x": 215,
+            "y": 413,
+            "w": 10,
+            "h": 10
+          },
+          {
+            "x": 231,
+            "y": 413,
+            "w": 17,
+            "h": 10
+          },
+          {
+            "x": 254,
+            "y": 413,
+            "w": 20,
+            "h": 10
+          },
+          {
+            "x": 280,
+            "y": 413,
+            "w": 21,
+            "h": 10
+          },
+          {
+            "x": 47,
+            "y": 425,
+            "w": 170,
+            "h": 10
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 4,
+    "summary": "(APOE3 -> APOE4) -> (decreased cathepsin B proteolysis, consistent with reduced acidity) [CONTRADICTS]",
+    "relevance": "0.5",
+    "dataLocation": "Fig 1F-G",
+    "effectSize": "~0.75x",
+    "effectSizeProvenance": "estimated_from_figure",
+    "pValue": "N/A",
+    "pValueProvenance": "ambiguous_panel",
+    "sampleSize": "3",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "effect size trimmed to '~0.75x' from '~0.75x of HsAPOE3 MR-CTSB intensity (~25% decrease)'"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "Human APOE4 vs APOE3 genomic locus expressed in Neuro-2a neuronal cells",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Magic Red cathepsin B (MR-CTSB) cleavage, a pH-dependent lysosomal proteolysis readout",
+      "mapsTo": "intermediate"
+    }
+  },
+  "plotReading": true,
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

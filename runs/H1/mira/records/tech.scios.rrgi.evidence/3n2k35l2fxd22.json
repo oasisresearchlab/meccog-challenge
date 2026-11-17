@@ -1,0 +1,127 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "CONTRADICTING: Acidic organelles (lysosomal-related) in immortalized APOE4 astrocytes were slightly but significantly more alkaline (higher pH, by 0.14 units) than in APOE3 astrocytes, rather than more acidic (reported: 0.14 pH units).",
+  "description": "Immortalized astrocytes derived from human APOE3- and APOE4-targeted-replacement mice (gift of D. Holtzman; Morikawa et al. 2005), grown in advanced DMEM with 10% FBS, passages up to 10. Cells were loaded with 2 μM LysoSensor Yellow/Blue DND-160, and a pH calibration curve (pH 4.0-6.0, monensin/nigericin) was run for each condition. Readout was 340/390 nm excitation ratio on a fluorometer. N = 3, presumably independent experiments/passages. Caveat: mouse immortalized (aneuploid) astrocytes, not human brain astrocytes. The probe reports the pH of the bulk acidic-organelle population (mostly lysosomes), not endosomes specifically. The authors note that compartment-specific endosomal pH differences may exist.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "lysosomal lumen acidification",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0007042"
+    },
+    {
+      "name": "regulation of intracellular pH",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0051453"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "We found that both APOE3 and APOE4 astrocytes had standard lysosomal-related pH, with a minimal but significant difference of 0.14 pH units between genotypes, APOE4 lysosomes being more alkaline (Fig. 4g).",
+    "anchorLocations": [
+      {
+        "page": 11,
+        "boxes": [
+          {
+            "x": 276,
+            "y": 664,
+            "w": 14,
+            "h": 10
+          },
+          {
+            "x": 57,
+            "y": 676,
+            "w": 234,
+            "h": 10
+          },
+          {
+            "x": 57,
+            "y": 688,
+            "w": 234,
+            "h": 10
+          },
+          {
+            "x": 57,
+            "y": 700,
+            "w": 234,
+            "h": 10
+          },
+          {
+            "x": 57,
+            "y": 712,
+            "w": 153,
+            "h": 10
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) -> (higher pH of lysosome-enriched acidic organelles in immortalized mouse astrocytes) [CONTRADICTS]",
+    "relevance": "0.75",
+    "dataLocation": "Fig 4G",
+    "effectSize": "qualitative",
+    "effectSizeProvenance": "printed_in_text",
+    "pValue": "<0.001",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "3",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "2",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "effect size '0.14 pH units' has no accepted form: recorded as qualitative, numbers kept in description"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE4 vs APOE3 genotype (immortalized astrocytes from human APOE targeted-replacement mice)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "luminal pH of acidic organelles (lysosome-enriched), measured with LysoSensor Yellow/Blue ratiometric fluorometry",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

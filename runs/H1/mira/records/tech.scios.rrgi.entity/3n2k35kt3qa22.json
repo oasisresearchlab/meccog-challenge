@@ -1,0 +1,12 @@
+{
+  "$type": "tech.scios.rrgi.entity",
+  "kind": "figurePanel",
+  "text": "Figure 1",
+  "figure": "1",
+  "doi": "10.1080/27694127.2022.2040767",
+  "createdAt": "2026-11-17T22:18:44.000Z",
+  "source": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35koz5r22",
+    "cid": "bafyreianlcyz7xduip5xpg5bxhi3ceodtivl772sx6qchyf7sir5pdsupi"
+  }
+}

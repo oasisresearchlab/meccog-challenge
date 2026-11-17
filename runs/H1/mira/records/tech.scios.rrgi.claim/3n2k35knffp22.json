@@ -1,0 +1,73 @@
+{
+  "$type": "tech.scios.rrgi.claim",
+  "text": "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes reduced endosome pH compared with APOE3.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "A: APOE4 vs APOE3 genotype/protein isoform",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "A: APOE4 vs APOE3 genotype/protein isoform"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "A: APOE4 vs APOE3 genotype/protein isoform"
+    },
+    {
+      "name": "endosome",
+      "entityType": "B: reduced endosomal lumen pH (increased endosome acidification)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005768"
+    },
+    {
+      "name": "endosome lumen acidification",
+      "entityType": "B: reduced endosomal lumen pH (increased endosome acidification)"
+    },
+    {
+      "name": "regulation of intracellular pH",
+      "entityType": "B: reduced endosomal lumen pH (increased endosome acidification)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0051453"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "intended context",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "intended context",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    },
+    {
+      "name": "brain",
+      "entityType": "intended context",
+      "uri": "http://purl.obolibrary.org/obo/UBERON_0000955"
+    },
+    {
+      "name": "non-Alzheimer's disease (absence of Alzheimer disease)",
+      "entityType": "intended context"
+    },
+    {
+      "name": "non-aged (young) cells",
+      "entityType": "intended context"
+    }
+  ],
+  "tags": [
+    "meccog",
+    "H1",
+    "hypothesis"
+  ],
+  "localLabel": {
+    "label": "Hypothesis",
+    "baseType": "tech.scios.rrgi.claim"
+  },
+  "meccogHypothesis": {
+    "$type": "org.oasisresearchlab.meccog.defs#hypothesis",
+    "id": "H1",
+    "seedPmid": "29946028",
+    "variableA": "APOE4 vs APOE3 genotype/protein isoform",
+    "variableB": "reduced endosomal lumen pH (increased endosome acidification)"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

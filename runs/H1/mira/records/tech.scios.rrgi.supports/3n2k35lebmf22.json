@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.supports",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kxeom22",
+    "cid": "bafyreiekts6ypkrgv3o6qwo3bo744r7mxmli2ugqfwygs57n3c3vjjolvi"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "weak",
+  "warrant": "Directness class 3 (indirect output), strength d=4 (weak). Perturbed APOE4 vs APOE3 genotype (immortalized astrocytes from human APOE targeted-replacement mice) (A); measured protein level of V-ATPase subunit V0D1 (vacuolar proton pump), western blot normalized to β-actin (intermediate).",
+  "description": "(APOE3 -> APOE4) -> (higher V-ATPase V0D1 protein) -> [expected greater proton pumping into acidic organelles; measured pH not lower]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

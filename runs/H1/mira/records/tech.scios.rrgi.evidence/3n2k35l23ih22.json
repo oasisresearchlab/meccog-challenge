@@ -1,0 +1,69 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "HDAC inhibitors that restored NHE6 expression normalized the ApoE4-specific endosomal pH defect in astrocytes.",
+  "description": "ApoE4 astrocytes treated with HDAC inhibitors; the specific drugs, doses and the astrocyte source are not given in the abstract (abstract-only). Caveat: a pharmacological reversal and possibly a non-human model.",
+  "contextEntities": [
+    {
+      "name": "histone deacetylase inhibitor",
+      "entityType": "perturbed (A_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/CHEBI_61115"
+    },
+    {
+      "name": "endosome",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005768"
+    },
+    {
+      "name": "regulation of intracellular pH",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0051453"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "HDAC inhibitors that restored NHE6 expression normalized ApoE4-specific defects in endosomal pH, LRP1 trafficking, and amyloid clearance."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "supports",
+    "directness-2"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 3,
+    "summary": "(HDAC inhibition in APOE4 astrocytes) -> (restored NHE6 expression) -> (normalized, less acidic endosomal pH)",
+    "relevance": "0.7",
+    "dataLocation": "Abstract (full text unavailable)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "full_text_unavailable",
+    "pValue": "N/A",
+    "pValueProvenance": "full_text_unavailable",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "full_text_unavailable",
+    "directnessClass": "2",
+    "directnessStrength": "3",
+    "direction": "supports",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "HDAC inhibitor treatment of ApoE4 astrocytes (restores NHE6, reversing the putative APOE4 effect)",
+      "mapsTo": "A_surrogate"
+    },
+    "measured": {
+      "variable": "endosomal pH",
+      "mapsTo": "B"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

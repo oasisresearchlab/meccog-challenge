@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Zhao N, Liu CC, Van Ingelgom AJ, Martens YA, Linares C, Knight JA, Painter MM, Sullivan PM, Bu G. (2017). Apolipoprotein E4 Impairs Neuronal Insulin Signaling by Trapping Insulin Receptor in the Endosomes.. Neuron",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "28957663",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "abstract_only",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1016/j.neuron.2017.09.003",
+  "url": "https://doi.org/10.1016/j.neuron.2017.09.003",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

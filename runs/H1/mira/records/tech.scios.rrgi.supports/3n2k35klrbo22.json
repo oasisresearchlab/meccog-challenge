@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.supports",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kow2j22",
+    "cid": "bafyreidyzxqxhbsbni5nrp7h6vbopooeqlevvxae743meauth3lqxvanx4"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "weak",
+  "warrant": "Directness class 3 (indirect output), strength d=4 (weak). Perturbed APOE genotype (isogenic APOE4 vs APOE3 vs APOE2 iPSC-astrocytes) (A); measured GSEA normalized enrichment score of proton and cation transmembrane transport gene sets in proteomics (B_surrogate).",
+  "description": "(APOE3 -> APOE4) -> (proton transmembrane transport proteome pathway not significantly changed vs E3; increased vs E2) -> [inferred] altered endolysosomal acidification machinery [NO EFFECT vs APOE3]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

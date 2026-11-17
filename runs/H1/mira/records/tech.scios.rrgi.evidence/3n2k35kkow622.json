@@ -1,0 +1,64 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "HDAC4 nuclear translocation was higher in ApoE4 than in ApoE3 astrocytes, suggested as the basis for NHE6 down-regulation upstream of endosomal hyperacidification.",
+  "description": "ApoE4 vs ApoE3 astrocytes; source not given in the abstract (abstract-only). Caveat: an upstream intermediate, distant from endosomal pH.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "HDAC4",
+      "entityType": "measured (intermediate)",
+      "uri": "https://identifiers.org/hgnc:14063"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Increased nuclear translocation of histone deacetylase 4 (HDAC4) in ApoE4 astrocytes, compared with the nonpathogenic ApoE3 allele, suggested a mechanistic basis for transcriptional down-regulation of NHE6."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "supports",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 4,
+    "summary": "(APOE3 -> APOE4) -> (increased HDAC4 nuclear translocation) -> (lower NHE6 transcription) -> (lower endosomal pH)",
+    "relevance": "0.5",
+    "dataLocation": "Abstract (full text unavailable)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "full_text_unavailable",
+    "pValue": "N/A",
+    "pValueProvenance": "full_text_unavailable",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "full_text_unavailable",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "supports",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "ApoE4 vs ApoE3 astrocytes",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "nuclear translocation of HDAC4",
+      "mapsTo": "intermediate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

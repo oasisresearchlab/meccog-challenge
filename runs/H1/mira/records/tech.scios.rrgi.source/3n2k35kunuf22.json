@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Chen Y, Durakoglugil MS, Xian X, Herz J. (2010). ApoE4 reduces glutamate receptor function and synaptic plasticity by selectively impairing ApoE receptor recycling.. Proceedings of the National Academy of Sciences of the United States of America",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "20547867",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "abstract_only",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1073/pnas.0914984107",
+  "url": "https://doi.org/10.1073/pnas.0914984107",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

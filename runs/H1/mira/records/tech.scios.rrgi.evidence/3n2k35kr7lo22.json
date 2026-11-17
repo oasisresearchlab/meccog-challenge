@@ -1,0 +1,77 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "NO EFFECT: RAB5-labeled endosomal compartment area and RAB5 protein levels did not differ significantly between genotypes, including APOE4 vs APOE3. Class 5 because this measures endosome size and abundance, not pH.",
+  "description": "Human isogenic APOE iPSC-derived astrocytes (day 44). Immunocytochemistry for RAB5 with S100β counterstain, quantified as % cell area (individual cells from three independent experiments). Western blot of RAB5 normalized to β-actin. Caveat: endosome morphology and abundance, not acidification.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "early endosome",
+      "entityType": "measured (other)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005769"
+    },
+    {
+      "name": "RAB5A",
+      "entityType": "measured (other)",
+      "uri": "https://identifiers.org/hgnc:9783"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Endosomal compartments labeled with RAB5 did not show a significant difference in percentage of cell area between genotypes, and neither did RAB5 protein levels (Figures 4B, 4D, and 4E)."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "no_effect",
+    "directness-5"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 3,
+    "summary": "(APOE3 -> APOE4) -> (no change in RAB5+ endosome area or RAB5 protein) [NO EFFECT]",
+    "relevance": "0.3",
+    "dataLocation": "Fig 4B, 4D-E",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "not_found_in_source",
+    "pValue": ">0.05",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "~40",
+    "sampleSizeProvenance": "estimated_from_figure",
+    "directnessClass": "5",
+    "directnessStrength": "5",
+    "direction": "no_effect",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "directness class 5: description should say why no class fits"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE genotype (isogenic APOE4 vs APOE3 iPSC-astrocytes)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "RAB5-positive endosomal area (% cell area) and RAB5 protein level by western blot",
+      "mapsTo": "other"
+    }
+  },
+  "plotReading": true,
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

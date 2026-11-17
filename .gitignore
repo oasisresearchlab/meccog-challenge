@@ -1,4 +1,9 @@
-runs/
+# runs: everything ignored except the MIRA record drafts (runs/<H>/mira/) and runs/README.md
+runs/*
+!runs/README.md
+!runs/H*/
+runs/H*/*
+!runs/H*/mira/
 pdfs/
 resources/
 team.toml

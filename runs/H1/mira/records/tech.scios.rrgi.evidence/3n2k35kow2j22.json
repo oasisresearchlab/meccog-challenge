@@ -1,0 +1,109 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "MIXED: GSEA of label-free proteomics showed the proton transmembrane transport pathway enriched in APOE4 vs APOE2 iAstrocytes (padj<0.2). In APOE4 vs APOE3 the pathway was not significantly enriched (pale bar, near zero). The authors interpret this as a possible compensatory change related to V-ATPase-driven lysosomal acidification; no pH was measured.",
+  "description": "Human iPSC-derived astrocytes (iAstrocytes, day 44, quiescent after AraC and FCS withdrawal) from EBiSC isogenic lines BIONi010-C-4 (APOE4), -C-2 (APOE3), -C-6 (APOE2). Baseline, untreated. Label-free MS proteomics with fgsea GSEA on moderated t-statistics; 3 biological replicates per genotype. Caveat: iPSC-derived, not primary brain astrocytes. Pathway enrichment of proton transport proteins is a weak surrogate for endosomal pH and is not compartment-specific.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "proton transmembrane transport",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_1902600"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Proton and cation transmembrane transport were highest in APOE4 iAstrocytes, and lowest in E2 (Figure 4A).",
+    "anchorLocations": [
+      {
+        "page": 5,
+        "boxes": [
+          {
+            "x": 498,
+            "y": 439,
+            "w": 28,
+            "h": 9
+          },
+          {
+            "x": 534,
+            "y": 439,
+            "w": 16,
+            "h": 9
+          },
+          {
+            "x": 311,
+            "y": 450,
+            "w": 239,
+            "h": 9
+          },
+          {
+            "x": 311,
+            "y": 463,
+            "w": 174,
+            "h": 9
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "mixed",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) -> (proton transmembrane transport proteome pathway not significantly changed vs E3; increased vs E2) -> [inferred] altered endolysosomal acidification machinery [NO EFFECT vs APOE3]",
+    "relevance": "0.5",
+    "dataLocation": "Fig 4A",
+    "effectSize": "qualitative",
+    "effectSizeProvenance": "visual_only",
+    "pValue": ">0.2",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "3",
+    "sampleSizeProvenance": "supplement_only",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "mixed",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE genotype (isogenic APOE4 vs APOE3 vs APOE2 iPSC-astrocytes)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "GSEA normalized enrichment score of proton and cation transmembrane transport gene sets in proteomics",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

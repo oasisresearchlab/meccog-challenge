@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.opposes",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kjkxj22",
+    "cid": "bafyreiakufguovtvn2dru2qbcbk5io75cedjhohuxqujgntq7njqpv3fky"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "weak",
+  "warrant": "Directness class 3 (indirect output), strength d=4 (weak). Perturbed Human APOE4 vs APOE3 genomic locus expressed in Neuro-2a neuronal cells (A); measured Magic Red cathepsin B (MR-CTSB) cleavage, a pH-dependent lysosomal proteolysis readout (intermediate).",
+  "description": "(APOE3 -> APOE4) -> (decreased cathepsin B proteolysis, consistent with reduced acidity) [CONTRADICTS]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

@@ -1,0 +1,70 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "NO EFFECT: Lysosomal activity did not differ between APOE4 and APOE3 iAstrocytes (E3 = E4). Both were significantly lower than APOE2 and APOE-KO.",
+  "description": "Human isogenic APOE iPSC-derived astrocytes (day 44, EBiSC BIONi010 lines). Abcam flow-cytometry Lysosomal Intracellular Activity Assay. Points are replicate wells from three independent experiments. Caveat: measures lysosomal (not endosomal) proteolytic activity, which depends on pH but also on enzyme content and trafficking.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Lysosomal activity in APOE3 and APOE4 was significantly lower than in APOE2 and APOE-KO cells (KO = E2 > E3 = E4) (Figure 4F)."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "no_effect",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 2,
+    "summary": "(APOE3 -> APOE4) -> (no change in lysosomal degradative activity) [NO EFFECT]",
+    "relevance": "0.35",
+    "dataLocation": "Fig 4F",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "not_found_in_source",
+    "pValue": ">0.05",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "~8",
+    "sampleSizeProvenance": "estimated_from_figure",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "no_effect",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE genotype (isogenic APOE4 vs APOE3 iPSC-astrocytes)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Lysosomal intracellular activity (flow cytometry, self-quenched substrate kit), normalized to APOE3",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "plotReading": true,
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

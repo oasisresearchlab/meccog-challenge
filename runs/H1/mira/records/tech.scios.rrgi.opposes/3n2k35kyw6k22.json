@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.opposes",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35klbyw22",
+    "cid": "bafyreiaimvfvsubxnq75sadldgofhd3qtkwxbgdcheiesb5bfbq73iusl4"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "weak",
+  "warrant": "Directness class 5 (other), strength d=5 (very weak). Perturbed APOE4/4 vs APOE3/3 genotype at 18 months (A); measured Rab5a-positive early endosome number, size and area fraction in entorhinal cortex pyramidal neurons (other).",
+  "description": "(APOE3/3 -> APOE4/4, aged) -> (more early endosomes in entorhinal neurons) [endosome morphology, not pH]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

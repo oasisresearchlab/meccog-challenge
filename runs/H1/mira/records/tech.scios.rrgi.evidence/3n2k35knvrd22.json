@@ -1,0 +1,175 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "In human iPSC-derived neuron/astrocyte co-cultures, ApoE4/4 (AD donor) neurons had larger and more numerous LysoTracker-labelled lysosomes than ApoE3/3 (normal-aging donor) neurons. Average area was 163.5 vs 90.4 μm2, and 18.4% vs 1.6% of neurons had more than 10 lysosomes per cell (reported: 163.5 μm2 vs 90.4 μm2).",
+  "description": "Human iPSC-derived cortical neurons co-cultured with iPSC-derived astrocytes. Lines came from an ApoE4/4 AD subject and an ApoE3/3 normal-aging subject and are not isogenic. Cells were stained with LysoTracker red plus MAP2/DAPI and imaged by confocal microscopy. Lysosomes of 60-90 MAP2+ neurons were quantified per condition; N = 3-6 per condition. Caveat: measures neurons rather than astrocytes, and lysosome size/number rather than endosomal pH. Genotype is confounded with AD status and donor.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "lysosome organization",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0007040"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "neuron",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000540"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "The average size of lysosomes measured by area was 163.5 μm2 in ApoE4+/+ versus 90.4 μm2 in ApoE3+/+ neurons (Fig. 5c, p < 0.00001).",
+    "anchorLocations": [
+      {
+        "page": 11,
+        "boxes": [
+          {
+            "x": 88,
+            "y": 644,
+            "w": 201,
+            "h": 10
+          },
+          {
+            "x": 51,
+            "y": 656,
+            "w": 57,
+            "h": 10
+          },
+          {
+            "x": 108,
+            "y": 654,
+            "w": 3,
+            "h": 7
+          },
+          {
+            "x": 111,
+            "y": 652,
+            "w": 3,
+            "h": 10
+          },
+          {
+            "x": 114,
+            "y": 656,
+            "w": 39,
+            "h": 10
+          },
+          {
+            "x": 153,
+            "y": 654,
+            "w": 13,
+            "h": 7
+          },
+          {
+            "x": 166,
+            "y": 652,
+            "w": 3,
+            "h": 10
+          },
+          {
+            "x": 169,
+            "y": 656,
+            "w": 62,
+            "h": 10
+          },
+          {
+            "x": 231,
+            "y": 654,
+            "w": 3,
+            "h": 7
+          },
+          {
+            "x": 235,
+            "y": 652,
+            "w": 3,
+            "h": 10
+          },
+          {
+            "x": 238,
+            "y": 656,
+            "w": 38,
+            "h": 10
+          },
+          {
+            "x": 276,
+            "y": 654,
+            "w": 13,
+            "h": 7
+          },
+          {
+            "x": 51,
+            "y": 669,
+            "w": 136,
+            "h": 10
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "mixed",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 2,
+    "summary": "(APOE3 -> APOE4) -> (enlarged, more numerous LysoTracker-positive acidic compartments in human iPSC-derived neurons); size/number, not pH",
+    "relevance": "0.3",
+    "dataLocation": "Fig 5A-C",
+    "effectSize": "qualitative",
+    "effectSizeProvenance": "printed_in_text",
+    "pValue": "<0.00001",
+    "pValueProvenance": "printed_in_text",
+    "sampleSize": "60-90",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "5",
+    "direction": "mixed",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "effect size '163.5 μm2 vs 90.4 μm2' has no accepted form: recorded as qualitative, numbers kept in description"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE genotype of iPSC donor (ApoE4/4 AD subject vs ApoE3/3 normal-aging subject); neuron-astrocyte co-culture",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Average LysoTracker-positive lysosome area, diameter distribution, and number per MAP2+ neuron",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

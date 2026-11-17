@@ -1,0 +1,13 @@
+{
+  "$type": "tech.scios.rrgi.entity",
+  "kind": "figurePanel",
+  "text": "Figure 4, panel F",
+  "figure": "4",
+  "panel": "F",
+  "doi": "10.1186/s13024-020-00382-8",
+  "createdAt": "2026-11-17T22:18:44.000Z",
+  "source": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35ldfhk22",
+    "cid": "bafyreifqvwa5xos4npq3hqxrhg7fsbkfzcke2ypi76k3sui4h53vwqzyfe"
+  }
+}

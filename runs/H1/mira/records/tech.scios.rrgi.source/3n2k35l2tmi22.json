@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Bell L, Clerkin S, Rizalar S, Rizkallah A, Stokar-Regenscheit N, Spijkers XM, Wevers NR, Simonneau C, Augustin A, Höllbacher B, D'Abate L, Ficek-Pascual J, Schneider K, Von Tell D, Maurissen T, Zanini (2025). ApoE4 disrupts intracellular trafficking and iron homeostasis in a reproducible iPSC-based model of human brain endothelial cells.. Stem cell reports",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "40845853",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "pmc_s3",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1016/j.stemcr.2025.102607",
+  "url": "https://doi.org/10.1016/j.stemcr.2025.102607",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

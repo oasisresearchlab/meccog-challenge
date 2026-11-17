@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Jasmin S. Revanna, Karl A. Wessendorf-Rodriguez, Qiang Xiao, Thaís S. Sabedot, Michael S. Cuoco, Snigdha Sarkar, Lucia Zhou-Yang, Christina K. Lim, Victoria N. Prozapas, Rowan Wooldridge, Jean Paul Ch (2026). Impaired Lipoprotein Secretion by APOE4 Leads to Lysosomal and Mitochondrial Dysfunction in Human Microglia. SSRN Electronic Journal",
+  "sourceType": "preprint",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "42182449",
+    "sourceType": "PubMed preprint",
+    "fullTextRoute": "pmc_s3",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.2139/ssrn.7520227",
+  "url": "https://doi.org/10.2139/ssrn.7520227",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

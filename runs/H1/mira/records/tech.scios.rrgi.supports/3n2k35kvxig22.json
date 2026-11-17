@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.supports",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35kkzga22",
+    "cid": "bafyreib4kbwwspxqdllduj4ddfdmvambyfnwsxg6sclmtfgqlwmbp5bjye"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "weak",
+  "warrant": "Directness class 5 (other), strength d=5 (very weak). Perturbed APOE4/4 vs APOE3/3 genotype at 18 and 25 months (A); measured Rab5a-positive early endosome number, size and area fraction in cingulate cortex neurons (other).",
+  "description": "(APOE3/3 -> APOE4/4, aged) -> (enlarged and more numerous neuronal early endosomes) [morphology, not pH]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

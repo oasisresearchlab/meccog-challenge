@@ -1,0 +1,115 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "CONTRADICTING: After challenge with organoid debris, APOE33 iMG late endosomes/lysosomes acidified further (pH ~5.15 to ~5.05), whereas isogenic APOE44 iMG failed to acidify. Under challenge, APOE4 compartments were therefore less acidic (higher pH) than APOE3, not more acidic (reported: APOE33 pH ~5.15 to ~5.05 on challenge; APOE44 no further acidification).",
+  "description": "Isogenic APOE33 (JIPSC001000) and APOE44 (JIPSC001150) KOLF2.1J (male) human iPSCs differentiated into microglia (iMG). Cells were treated with organoid debris for ~48 h, loaded overnight with 70 kDa dextran labeled with ApHID (pH-sensitive) and Alexa 647 (pH-independent), chased 4 h, then imaged ratiometrically and calibrated to pH. Bafilomycin controls included. n=3 wells per condition, 9 frames per well; one-way ANOVA. Caveat: microglia, not astrocytes; measures the late endosomal/lysosomal compartment, not early endosomes; iPSC-derived cells.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "endosome",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005768"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "regulation of intracellular pH",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0051453"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "microglial cell",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000129"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "While baseline LE/Ly pH did not differ between APOE33 and APOE44 iMG (~5.15), APOE33 iMG exhibited further acidification upon challenge (~5.05), whereas APOE44 iMG failed to do so (Figure 3G).",
+    "anchorLocations": [
+      {
+        "page": 5,
+        "boxes": [
+          {
+            "x": 515,
+            "y": 660,
+            "w": 28,
+            "h": 11
+          },
+          {
+            "x": 72,
+            "y": 672,
+            "w": 471,
+            "h": 11
+          },
+          {
+            "x": 72,
+            "y": 683,
+            "w": 406,
+            "h": 11
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "contradicts",
+    "directness-1"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) + organoid debris challenge -> failure of late endosome/lysosome acidification (higher LE/Ly pH than APOE3) in iPSC-derived microglia [CONTRADICTS]",
+    "relevance": "0.8",
+    "dataLocation": "Fig 3G",
+    "effectSize": "qualitative",
+    "effectSizeProvenance": "printed_in_text",
+    "pValue": "N/A",
+    "pValueProvenance": "ambiguous_panel",
+    "sampleSize": "3",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "1",
+    "directnessStrength": "2",
+    "direction": "contradicts",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "effect size 'APOE33 pH ~5.15 to ~5.05 on challenge; APOE44 no further acidification' has no accepted form: recorded as qualitative, numbers kept in description"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE44 vs APOE33 genotype (isogenic KOLF2.1J iPSC-derived microglia), challenged with organoid debris",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Late endosomal/lysosomal luminal pH (ratiometric ApHID/Alexa647 dextran) after debris challenge",
+      "mapsTo": "B"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

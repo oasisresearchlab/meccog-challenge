@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.opposes",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35ks3kj22",
+    "cid": "bafyreiezim4bckc73fld2mxn2ysec2v3bqs5vg2yo3hhifywjgcdcuelni"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "weak",
+  "warrant": "Directness class 3 (indirect output), strength d=4 (weak). Perturbed APOE genotype: human APOE4 vs APOE3 targeted-replacement (knock-in) mouse primary cultures (A); measured Number of LysoTracker-positive vesicles (acidic compartments) per neuronal cell body (B_surrogate).",
+  "description": "(APOE3 -> APOE4) -> (fewer LysoTracker-positive acidic compartments in neuronal cell bodies at 25-26 DIV) [CONTRADICTS]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

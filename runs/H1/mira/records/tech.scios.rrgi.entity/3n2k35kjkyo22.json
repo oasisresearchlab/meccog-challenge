@@ -1,0 +1,13 @@
+{
+  "$type": "tech.scios.rrgi.entity",
+  "kind": "figurePanel",
+  "text": "Figure S6, panel D-E",
+  "figure": "S6",
+  "panel": "D-E",
+  "doi": "10.1038/s41380-020-0824-3",
+  "createdAt": "2026-11-17T22:18:44.000Z",
+  "source": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kv4m322",
+    "cid": "bafyreibqwqdg4w2dec4r4w7bwgtpytnwmdcckicpg26xbfxufsjcm4l5nq"
+  }
+}

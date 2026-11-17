@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Isha Ralhan, Ju-Young Bae, Nathanael Y.J. Lee, Wendy Cai, Jinlan Chang, Suha Jarad, Hongmei Gu, Dawei Zhang, Maria S. Ioannou (2026). ApoE4 impairs astrocyte lipid droplet formation via endolysosomal dysfunction. bioRxiv (Cold Spring Harbor Laboratory)",
+  "sourceType": "preprint",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "N/A",
+    "sourceType": "Other",
+    "fullTextRoute": "openalex",
+    "fullTextVersion": "submittedVersion",
+    "retracted": false
+  },
+  "doi": "10.64898/2026.09.01.748585",
+  "url": "https://doi.org/10.64898/2026.09.01.748585",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

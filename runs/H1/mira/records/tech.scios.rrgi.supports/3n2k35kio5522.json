@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.supports",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35knvvt22",
+    "cid": "bafyreihf734mvdhkbgwtfnodwfxw2qsrpwjtybqqxeit72btjkkbqc6bba"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "moderate",
+  "warrant": "Directness class 3 (indirect output), strength d=3 (moderate). Perturbed APOE4 genotype (brain tissue and astrocytes) (A); measured NHE6 (SLC9A6) expression, a proton leak pathway proposed to set endosomal pH (intermediate).",
+  "description": "(APOE3 -> APOE4) -> (lower NHE6 expression in brain and astrocytes) -> (reduced endosomal proton leak) -> (lower endosomal pH)",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

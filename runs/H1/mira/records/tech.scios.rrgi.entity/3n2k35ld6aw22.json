@@ -1,0 +1,13 @@
+{
+  "$type": "tech.scios.rrgi.entity",
+  "kind": "figurePanel",
+  "text": "Figure 5, panel B-D",
+  "figure": "5",
+  "panel": "B-D",
+  "doi": "10.3389/fnins.2017.00702",
+  "createdAt": "2026-11-17T22:18:44.000Z",
+  "source": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kudew22",
+    "cid": "bafyreia24v2kmkga5bqdzs72s2elmoxjtb3tf72vquvyazziyeg4w4y6hi"
+  }
+}

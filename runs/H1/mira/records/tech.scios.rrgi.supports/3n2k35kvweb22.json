@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.supports",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l23ih22",
+    "cid": "bafyreiehk4ugdbxnenvtwbe4flirp5ihnrvsotfsrz6qp2fpowd7maobia"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "moderate",
+  "warrant": "Directness class 2 (indirect input), strength d=3 (moderate). Perturbed HDAC inhibitor treatment of ApoE4 astrocytes (restores NHE6, reversing the putative APOE4 effect) (A_surrogate); measured endosomal pH (B).",
+  "description": "(HDAC inhibition in APOE4 astrocytes) -> (restored NHE6 expression) -> (normalized, less acidic endosomal pH)",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

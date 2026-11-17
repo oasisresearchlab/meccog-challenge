@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.opposes",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35lheig22",
+    "cid": "bafyreigkykonyglvohfikahw3sqez3lo4duhxilmivhdqtnnnv4w44ovqa"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "weak",
+  "warrant": "Directness class 5 (other), strength d=5 (very weak). Perturbed APOE4/4 vs APOE3/3 genotype at 6 and 12 months (A); measured Rab5a-positive early endosome number, size and area fraction per neuron (other).",
+  "description": "(APOE3/3 -> APOE4/4, young/middle-aged) -> (no change in neuronal early endosome morphology) [NO EFFECT]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

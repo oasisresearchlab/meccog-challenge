@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.opposes",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35knvrd22",
+    "cid": "bafyreihkbf7e2rsv5uqzjgcp6uen2daqy5z7fzlpraxd6areeugjys7r4m"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "weak",
+  "warrant": "Directness class 3 (indirect output), strength d=5 (very weak). Perturbed APOE genotype of iPSC donor (ApoE4/4 AD subject vs ApoE3/3 normal-aging subject); neuron-astrocyte co-culture (A); measured Average LysoTracker-positive lysosome area, diameter distribution, and number per MAP2+ neuron (B_surrogate).",
+  "description": "(APOE3 -> APOE4) -> (enlarged, more numerous LysoTracker-positive acidic compartments in human iPSC-derived neurons); size/number, not pH",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

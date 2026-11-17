@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Ralhan I, Do AD, Bae J, Feringa FM, Cai W, Chang J, Chik K, Lee NY, Gerry C, van der Kant R, Jackson J, Ricq EL, Ioannou MS. (2025). Protective ApoE variants support neuronal function by extracting peroxidated lipids. bioRxiv",
+  "sourceType": "preprint",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "N/A",
+    "sourceType": "Other",
+    "fullTextRoute": "abstract_only",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1101/2025.03.05.641722",
+  "url": "https://doi.org/10.1101/2025.03.05.641722",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

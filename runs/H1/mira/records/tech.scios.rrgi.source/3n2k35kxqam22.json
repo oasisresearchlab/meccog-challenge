@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Krogsaeter EK, McKetney J, Valiente-Banuet L, Marquez A, Willis A, Cakir Z, Stevenson E, Jang GM, Rao A, Li E, Zhou A, Attili A, Chang TS, Kampmann M, Huang Y, Krogan NJ, Swaney DL. (2025). Lysosomal proteomics reveals mechanisms of neuronal APOE4-associated lysosomal dysfunction.. Autophagy",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "41103078",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "pmc_s3",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1080/15548627.2025.2576613",
+  "url": "https://doi.org/10.1080/15548627.2025.2576613",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

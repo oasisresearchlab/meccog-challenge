@@ -1,0 +1,89 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "MIXED: After myelin challenge, APOE3 microglia acidified their lysosomes significantly, whereas APOE4 microglia did not acidify further and showed a slight, non-significant pH increase. The genotype difference in pH depends on condition.",
+  "description": "Primary microglia from APOE3 and APOE4 targeted-replacement neonatal mice, challenged with 10 µg/ml myelin fragments for 3 h; LysoSensor Green DND-189 flow cytometry. Caveat: mouse microglia, lysosomal not endosomal pH; challenge condition; no direct E4+M vs E3+M statistic reported in text.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "lysosomal lumen acidification",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0007042"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "microglial cell",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000129"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "E4 microglia did not exhibit further acidification following myelin challenge but rather a slight (albeit not significant) increase of their lysosomal pH (Figure S3).",
+    "anchorLocations": [
+      {
+        "page": 14,
+        "boxes": [
+          {
+            "x": 193,
+            "y": 463,
+            "w": 309,
+            "h": 11
+          },
+          {
+            "x": 150,
+            "y": 477,
+            "w": 337,
+            "h": 11
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "mixed",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 2,
+    "summary": "(APOE3 -> APOE4) + myelin challenge -> (no further lysosomal acidification in microglia; E3 acidifies) [MIXED]",
+    "relevance": "0.5",
+    "dataLocation": "Supplementary Fig S3; Results text, p. 14",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "not_found_in_source",
+    "pValue": "N/A",
+    "pValueProvenance": "not_found_in_source",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "not_found_in_source",
+    "directnessClass": "3",
+    "directnessStrength": "3",
+    "direction": "mixed",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE4 vs APOE3 genotype, with myelin challenge (3 h pHrodo myelin, measured 24 h later)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "lysosomal pH change after myelin challenge (LysoSensor)",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

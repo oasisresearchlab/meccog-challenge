@@ -1,0 +1,145 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "In acute hippocampal slices from 3-month-old APOE-targeted-replacement mice, Reelin enhanced LTP in ApoE3 mice but not in ApoE4 mice (Reelin resistance), a synaptic consequence the authors attribute to the ApoE4-induced early-endosomal trafficking/acidification defect; Reelin responsiveness was restored by conditional NHE6 deletion in ApoE4 mice (reported: qualitative (Reelin significantly enhanced LTP at 21-40 and 41-60 min in ApoE3 but produced no significant enhancement at any interval in ApoE4)).",
+  "description": "Hippocampal field recordings (Schaffer collateral-CA1, theta-burst stimulation, ± Reelin 2 µg/ml) in acute slices from 3-month-old male/female Slc9a6fl;ApoeAPOE3 and Slc9a6fl;ApoeAPOE4 knock-in mice (tamoxifen-injected Cre-negative controls). Caveat: mouse brain slices, not human astrocytes; readout is synaptic plasticity, several steps removed from endosomal pH.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "long-term synaptic potentiation",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0060291"
+    },
+    {
+      "name": "endocytic recycling",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0032456"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "hippocampus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/UBERON_0001954"
+    },
+    {
+      "name": "CA1 pyramidal neuron",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0020072"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Reelin facilitated induction of LTP in ApoeAPOE3 (A, E), but not ApoeAPOE4 (C, G) control (Slc9a6fl) mice.",
+    "anchorLocations": [
+      {
+        "page": 9,
+        "boxes": [
+          {
+            "x": 320,
+            "y": 551,
+            "w": 148,
+            "h": 10
+          },
+          {
+            "x": 468,
+            "y": 551,
+            "w": 15,
+            "h": 6
+          },
+          {
+            "x": 483,
+            "y": 551,
+            "w": 73,
+            "h": 10
+          },
+          {
+            "x": 556,
+            "y": 551,
+            "w": 15,
+            "h": 6
+          },
+          {
+            "x": 572,
+            "y": 551,
+            "w": 2,
+            "h": 9
+          },
+          {
+            "x": 37,
+            "y": 562,
+            "w": 74,
+            "h": 10
+          },
+          {
+            "x": 111,
+            "y": 562,
+            "w": 2,
+            "h": 6
+          },
+          {
+            "x": 113,
+            "y": 562,
+            "w": 23,
+            "h": 9
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "supports",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 2,
+    "summary": "(APOE3 -> APOE4) -> (loss of Reelin-enhanced LTP, i.e. Reelin resistance) -> [inferred early-endosomal recycling/pH defect]",
+    "relevance": "0.3",
+    "dataLocation": "Fig 5A, C, E, G",
+    "effectSize": "qualitative",
+    "effectSizeProvenance": "visual_only",
+    "pValue": "<0.05",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "12-23",
+    "sampleSizeProvenance": "visual_only",
+    "directnessClass": "3",
+    "directnessStrength": "5",
+    "direction": "supports",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "effect size 'qualitative (Reelin significantly enhanced LTP at 21-40 and 41-60 min in ApoE3 but produced no significant enhancement at any interval in ApoE4)' has no accepted form: recorded as qualitative, numbers kept in description"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE genotype of targeted-replacement mice: ApoeAPOE3 vs ApoeAPOE4 (homozygous human APOE knock-in), both Slc9a6fl Cre-negative controls",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Reelin-induced enhancement of theta-burst LTP (normalized fEPSP slope) in hippocampal CA1 field recordings — downstream readout of ApoE receptor/glutamate receptor recycling",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

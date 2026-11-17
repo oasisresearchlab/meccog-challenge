@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.supports",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35lhe6a22",
+    "cid": "bafyreigpdte4zjhkrpjzxyya4jmguu4kl3jw7stgbxkjbfvwzkcynb6qiu"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "moderate",
+  "warrant": "Directness class 3 (indirect output), strength d=3 (moderate). Perturbed APOE4 vs APOE3 genotype, with myelin challenge (3 h pHrodo myelin, measured 24 h later) (A); measured lysosomal pH change after myelin challenge (LysoSensor) (B_surrogate).",
+  "description": "(APOE3 -> APOE4) + myelin challenge -> (no further lysosomal acidification in microglia; E3 acidifies) [MIXED]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

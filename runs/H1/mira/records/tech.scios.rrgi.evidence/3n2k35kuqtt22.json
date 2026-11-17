@@ -1,0 +1,117 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "APOE4-expressing cells had higher LC3-II than APOE3 cells, and bafilomycin A1 (which blocks lysosomal acidification) did not raise it further. The authors read this as a late-stage, lysosome-level block in autophagic flux, indirectly suggesting altered lysosomal function; acidification itself was not measured.",
+  "description": "Cell lines expressing APOE3 or APOE4 (not named in this commentary), treated with or without bafilomycin A1; LC3-II immunoblot. Caveat: not human astrocytes; this is a lysosomal autophagic-flux readout, not endosomal pH.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "bafilomycin A1",
+      "entityType": "perturbed (A)",
+      "uri": "http://purl.obolibrary.org/obo/CHEBI_22689"
+    },
+    {
+      "name": "autophagy",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0006914"
+    },
+    {
+      "name": "MAP1LC3B",
+      "entityType": "measured (B_surrogate)",
+      "uri": "https://identifiers.org/hgnc:13352"
+    },
+    {
+      "name": "cultured cell line",
+      "entityType": "experimental system"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Similar to recent studies showing that APOE4 downregulates autophagy, we find higher levels of LC3-II in APOE4-expressing cells; this effect is not further modulated by bafilomycin A1 treatment, suggesting that there might be a late-stage block in autophagic flux at the level of the lysosome.",
+    "anchorLocations": [
+      {
+        "page": 2,
+        "boxes": [
+          {
+            "x": 194,
+            "y": 389,
+            "w": 326,
+            "h": 11
+          },
+          {
+            "x": 150,
+            "y": 403,
+            "w": 361,
+            "h": 11
+          },
+          {
+            "x": 150,
+            "y": 417,
+            "w": 58,
+            "h": 11
+          },
+          {
+            "x": 208,
+            "y": 421,
+            "w": 4,
+            "h": 9
+          },
+          {
+            "x": 212,
+            "y": 417,
+            "w": 297,
+            "h": 11
+          },
+          {
+            "x": 150,
+            "y": 431,
+            "w": 130,
+            "h": 11
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "mixed",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 2,
+    "summary": "(APOE3 -> APOE4) -> (higher LC3-II, insensitive to bafilomycin A1) -> (late-stage lysosomal block in autophagic flux) [surrogate; pH not measured]",
+    "relevance": "0.2",
+    "dataLocation": "Results text, p. 2",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "not_found_in_source",
+    "pValue": "N/A",
+    "pValueProvenance": "not_found_in_source",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "not_found_in_source",
+    "directnessClass": "3",
+    "directnessStrength": "5",
+    "direction": "mixed",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE4 vs APOE3 expressing cells, with or without bafilomycin A1 (V-ATPase inhibitor)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "LC3-II levels / autophagic flux (late-stage lysosomal block)",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

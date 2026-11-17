@@ -1,0 +1,105 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "At baseline, LysoSensor measurements showed lysosomes in APOE4 microglia were significantly more acidic (lower pH) than in APOE3 microglia.",
+  "description": "Primary microglia from forebrains of P1-3 homozygous APOE3 and APOE4 targeted-replacement mice (C57BL/6, Taconic 1548/1549), 8-10 pups pooled per litter; each litter is an independent experiment; sex not determined (pooled). Cells were enriched after 4 weeks of mixed glial culture. Assay: 2 µM LysoSensor Green DND-189 for 10 min, then flow cytometry gated on DAPI-negative live cells, with a pHrodo Green AM calibration curve. Caveat: mouse neonatal microglia, not human astrocytes; measures lysosomal rather than endosomal pH; in vitro culture.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "lysosomal lumen acidification",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0007042"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "microglial cell",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000129"
+    },
+    {
+      "name": "forebrain",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/UBERON_0001890"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "We then further used LysoSensor dye to measure the pH of lysosomes, which were significantly more acidic in E4 microglia when compared to E3 microglia (Figure S3).",
+    "anchorLocations": [
+      {
+        "page": 12,
+        "boxes": [
+          {
+            "x": 313,
+            "y": 459,
+            "w": 198,
+            "h": 11
+          },
+          {
+            "x": 150,
+            "y": 473,
+            "w": 368,
+            "h": 11
+          },
+          {
+            "x": 150,
+            "y": 487,
+            "w": 113,
+            "h": 11
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "supports",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) -> (lower lysosomal pH in microglia at baseline)",
+    "relevance": "0.7",
+    "dataLocation": "Supplementary Fig S3; Results text, p. 12",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "not_found_in_source",
+    "pValue": "N/A",
+    "pValueProvenance": "not_found_in_source",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "not_found_in_source",
+    "directnessClass": "3",
+    "directnessStrength": "2",
+    "direction": "supports",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE4 vs APOE3 genotype (homozygous human APOE targeted replacement)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "lysosomal pH (LysoSensor Green DND-189 flow cytometry)",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

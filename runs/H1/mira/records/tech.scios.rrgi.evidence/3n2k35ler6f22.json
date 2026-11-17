@@ -1,0 +1,97 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "N/A",
+  "description": "Human iPSC-derived cortical neurons expressing APOE ε4; comparator genotype, isogenic status, line identity and assay details not given in abstract (abstract-only). TRPML1 activated pharmacologically, presumably with ML-SA1, and endolysosomal Ca2+ release measured. Caveat: neurons rather than astrocytes; the readout is endolysosomal Ca2+ release, not endosomal pH.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "MCOLN1",
+      "entityType": "measured (B_surrogate)",
+      "uri": "https://identifiers.org/hgnc:13356"
+    },
+    {
+      "name": "endosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005768"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    },
+    {
+      "name": "induced pluripotent stem cell",
+      "entityType": "experimental system"
+    },
+    {
+      "name": "neuron",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000540"
+    },
+    {
+      "name": "cerebral cortex",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/UBERON_0000956"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "We reveal that induced pluripotent stem cell (iPSC)-derived human cortical neurons expressing APOE ε4, the strongest genetic risk factor for LOAD, have significantly diminished TRPML1-induced endolysosomal Ca2+ release."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "supports",
+    "directness-3",
+    "audit-dropped"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) -> (reduced TRPML1 activity) -> (diminished TRPML1-induced endolysosomal Ca2+ release in iPSC-derived cortical neurons); pH not measured",
+    "relevance": "0.3",
+    "dataLocation": "Abstract (full text unavailable)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "full_text_unavailable",
+    "pValue": "N/A",
+    "pValueProvenance": "full_text_unavailable",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "full_text_unavailable",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "supports",
+    "audit": {
+      "status": "dropped",
+      "errors": [
+        "description is empty"
+      ],
+      "warnings": [
+        "ontology ids rejected (label mismatch): CL:0001034 'induced pluripotent stem cell'"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE ε4 expression in iPSC-derived human cortical neurons (comparator presumably APOE ε3; not stated in abstract)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "TRPML1 agonist-induced endolysosomal Ca2+ release",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

@@ -1,0 +1,80 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "Bulk RNA-seq of entorhinal cortex showed higher expression of 9 V-ATPase subunit genes (the proton pump that acidifies endosomes and lysosomes) in aged APOE3/4 mice than in APOE3/3 mice (reported: log2 fold change 0.11-0.17).",
+  "description": "Human APOE targeted-replacement mice (Sullivan et al.), male, 14-15 months; APOE3/4 (n=19) vs APOE3/3 (n=10); bulk RNA-seq (Illumina HiSeq, DESeq2, BH-FDR <0.05) of dissected entorhinal cortex tissue. Caveat: mouse, aged, bulk tissue (not human astrocytes), heterozygous E3/4; transcript level only, no pH measured; authors suggest upregulation may be compensatory.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "proton-transporting V-type ATPase complex",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0033176"
+    },
+    {
+      "name": "endosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005768"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "entorhinal cortex",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/UBERON_0002728"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "As highlighted in Figure 2, an important contributor to the difference in the vesicle function group was an increase in the expression of 9 Vacuolar H+-ATPases (V-ATPases) in the EC of APOE3/4 mice (Figure 3A)."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "supports",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3/3 -> APOE3/4) -> (higher V-ATPase subunit mRNA in entorhinal cortex) -> [inferred capacity for endosomal acidification; pH not measured]",
+    "relevance": "0.5",
+    "dataLocation": "Fig 3A; Fig 2; Table 1; Supplementary Table S1",
+    "effectSize": "qualitative",
+    "effectSizeProvenance": "supplement_only",
+    "pValue": "<0.01",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "29",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "supports",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "effect size 'log2 fold change 0.11-0.17' has no accepted form: recorded as qualitative, numbers kept in description"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE3/4 vs APOE3/3 genotype (human APOE targeted replacement)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "mRNA expression of 9 V-type H+-ATPase subunits (Atp6v0b, Atp6v0d1, Atp6v0e2, Atp6v1b2, Atp6v1c1, Atp6v1d, Atp6v1e1, Atp6v1g1, Atp6v1g2) by RNA-seq",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

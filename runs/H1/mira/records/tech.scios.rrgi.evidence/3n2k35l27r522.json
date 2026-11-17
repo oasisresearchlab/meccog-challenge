@@ -1,0 +1,77 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "In cells stably expressing each APOE isoform, APOE4 increased lysosomal trafficking and accumulated in enlarged lysosomes and late endosomes compared with the other isoforms; endosomal pH was not reported in the abstract.",
+  "description": "Cells stably expressing each APOE isoform. The cell type is not specified in the abstract; immortalized neuron-like and hepatic cells are mentioned elsewhere in the abstract. Abstract only. Caveat: not primary human astrocytes; enlarged late endosomes/lysosomes are only a weak surrogate for altered luminal pH.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "late endosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005770"
+    },
+    {
+      "name": "lysosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005764"
+    },
+    {
+      "name": "Homo sapiens",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "We found, by examining cells stably expressing each APOE isoform, that APOE4 increases lysosomal trafficking, accumulates in enlarged lysosomes and late endosomes, alters autophagic flux and the abundance of autophagy proteins and lipid droplets, and alters the proteomic contents of lysosomes following internalization."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "mixed",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) -> (increased lysosomal trafficking; APOE accumulation in enlarged late endosomes/lysosomes) [surrogate for endo-lysosomal dysfunction; pH not measured]",
+    "relevance": "0.3",
+    "dataLocation": "Abstract (full text unavailable)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "full_text_unavailable",
+    "pValue": "N/A",
+    "pValueProvenance": "full_text_unavailable",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "full_text_unavailable",
+    "directnessClass": "3",
+    "directnessStrength": "5",
+    "direction": "mixed",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE isoform stably expressed in cultured cells (APOE4 vs other isoforms, including APOE3)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "APOE localization to, and size of, lysosomes and late endosomes (enlarged compartments); lysosomal trafficking",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

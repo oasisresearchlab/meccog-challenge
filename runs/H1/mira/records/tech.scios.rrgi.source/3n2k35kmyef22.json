@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Rawat V, Wang S, Sima J, Bar R, Liraz O, Gundimeda U, Parekh T, Chan J, Johansson JO, Tang C, Chui HC, Harrington MG, Michaelson DM, Yassine HN. (2019). ApoE4 Alters ABCA1 Membrane Trafficking in Astrocytes.. The Journal of neuroscience : the official journal of the Society for Neuroscience",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "31641056",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "openalex",
+    "fullTextVersion": "publishedVersion",
+    "retracted": false
+  },
+  "doi": "10.1523/jneurosci.1400-19.2019",
+  "url": "https://doi.org/10.1523/jneurosci.1400-19.2019",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

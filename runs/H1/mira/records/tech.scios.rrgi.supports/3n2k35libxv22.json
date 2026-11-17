@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.supports",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l6loe22",
+    "cid": "bafyreicuqwvz2e7cpcp4svxoyq6xcs6aegk5cstgc2obblhfecmiwafl6m"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "weak",
+  "warrant": "Directness class 5 (other), strength d=4 (weak). Perturbed Pharmacological targeting of the CREB pathway to increase NHE6 expression, applied to ApoE4 astrocytes (other); measured Endosomal pH and amyloid-beta clearance in ApoE4 astrocytes (B_surrogate).",
+  "description": "(CREB pathway drug -> increased NHE6 in ApoE4 astrocytes) -> (altered endosomal pH; restored Abeta clearance) [implies APOE4 endosomal pH defect correctable by NHE6]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

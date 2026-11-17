@@ -1,0 +1,112 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "In wild-type (Slc9a6+) primary mouse cortical neurons, treatment with ApoE4-conditioned medium reduced Reelin-stimulated surface expression of Apoer2 and of AMPA/NMDA receptor subunits markedly more than ApoE3-conditioned medium, indicating a stronger ApoE4-induced block of endosomal recycling (the step the authors propose drives progressive endosomal acidification); the deficit was abolished in NHE6-deficient neurons (reported: ~30% of control surface level with ApoE4 vs ~80% with ApoE3 in Slc9a6+ neurons (Apoer2)).",
+  "description": "Primary cortical neurons (E18) from wild-type and germline Slc9a6- (NHE6 KO) mouse littermates, DIV10-14; pre-treated 30 min with ApoE3- or ApoE4-conditioned HEK293 medium (5 µg/ml) then 30 min Reelin (2 µg/ml); cell-surface biotinylation and immunoblot for Apoer2, GluN2B, GluA1, GluA2/3 normalized to total. Caveat: mouse neurons, not human astrocytes; readout is receptor surface level, not endosomal pH.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "apolipoprotein E3",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "endocytic recycling",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0032456"
+    },
+    {
+      "name": "early endosome",
+      "entityType": "measured (B_surrogate)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005769"
+    },
+    {
+      "name": "low-density lipoprotein receptor-related protein 8 (Apoer2)",
+      "entityType": "measured (B_surrogate)"
+    },
+    {
+      "name": "AMPA glutamate receptor subunit GluA1",
+      "entityType": "measured (B_surrogate)"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "primary cortical neuron",
+      "entityType": "experimental system"
+    },
+    {
+      "name": "cerebral cortex",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/UBERON_0000956"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "(C-F) ApoE-conditioned media treatment reduces the surface expression of Apoer2 and glutamate receptors in presence of Reelin in primary neurons. Receptor surface levels show a stronger reduction with ApoE4 than ApoE3. NHE6 depletion counteracts the ApoE4-induced reduction of receptor surface expression.",
+    "anchorLocations": [
+      {
+        "page": 7,
+        "boxes": [
+          {
+            "x": 130,
+            "y": 463,
+            "w": 263,
+            "h": 9
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "split"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "supports",
+    "directness-3"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) -> (greater block of Reelin-stimulated Apoer2/glutamate receptor recycling to the neuronal surface) -> [inferred delayed endosomal maturation/acidification]",
+    "relevance": "0.45",
+    "dataLocation": "Fig 4C-F (quantification in lower panels)",
+    "effectSize": "~30%",
+    "effectSizeProvenance": "estimated_from_figure",
+    "pValue": "<0.005",
+    "pValueProvenance": "visual_only",
+    "sampleSize": "3",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "3",
+    "directnessStrength": "4",
+    "direction": "supports",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "effect size trimmed to '~30%' from '~30% of control surface level with ApoE4 vs ~80% with ApoE3 in Slc9a6+ neurons (Apoer2)'",
+        "ontology ids rejected (label mismatch): HGNC:6700 'low-density lipoprotein receptor-related protein 8 (Apoer2)', HGNC:4571 'AMPA glutamate receptor subunit GluA1', CL:0010012 'primary cortical neuron'"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "ApoE isoform applied to primary neurons: HEK293-secreted ApoE3- vs ApoE4-conditioned medium (5 µg/ml, 30 min) prior to Reelin",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Cell-surface levels (surface biotinylation / total) of Apoer2, GluN2B, GluA1 and GluA2/3 after Reelin stimulation — a readout of endosomal recycling, used by the authors to infer the ApoE4-induced early-endosomal trafficking/acidification defect",
+      "mapsTo": "B_surrogate"
+    }
+  },
+  "plotReading": true,
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

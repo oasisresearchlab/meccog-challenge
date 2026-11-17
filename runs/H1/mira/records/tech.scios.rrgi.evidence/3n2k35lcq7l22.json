@@ -1,0 +1,73 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "ApoE4 astrocytes showed aberrant accumulation of endosomal protons, i.e. hyperacidified (lower) endosomal pH, relative to the implied ApoE3 comparison.",
+  "description": "ApoE4 astrocytes; species, source (primary, targeted-replacement mouse or iPSC), pH assay and comparison group not specified. Abstract-only. Caveat: the system may not be human, non-aged astrocytes.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "apolipoprotein E4",
+      "entityType": "perturbed (A)"
+    },
+    {
+      "name": "endosome",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005768"
+    },
+    {
+      "name": "regulation of intracellular pH",
+      "entityType": "measured (B)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0051453"
+    },
+    {
+      "name": "astrocyte",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000127"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "Here, we show that aberrant accumulation of endosomal protons in ApoE4 astrocytes traps the LRP1 receptor in non-productive intracellular compartments, leading to loss of surface expression and Aβ clearance."
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "supports",
+    "directness-1"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 1,
+    "summary": "(APOE3 -> APOE4) -> (lower endosomal pH / endosomal hyperacidification in astrocytes) -> (LRP1 trapped intracellularly, reduced surface LRP1 and Aβ clearance)",
+    "relevance": "0.9",
+    "dataLocation": "Abstract (full text unavailable)",
+    "effectSize": "N/A",
+    "effectSizeProvenance": "full_text_unavailable",
+    "pValue": "N/A",
+    "pValueProvenance": "full_text_unavailable",
+    "sampleSize": "N/A",
+    "sampleSizeProvenance": "full_text_unavailable",
+    "directnessClass": "1",
+    "directnessStrength": "1",
+    "direction": "supports",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE4 vs APOE3 astrocytes (comparison implied, not stated explicitly in the abstract)",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "endosomal proton accumulation / endosomal pH (hyperacidification)",
+      "mapsTo": "B"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

@@ -1,0 +1,13 @@
+{
+  "$type": "tech.scios.rrgi.entity",
+  "kind": "figurePanel",
+  "text": "Figure S3, panel D",
+  "figure": "S3",
+  "panel": "D",
+  "doi": "10.2139/ssrn.7520227",
+  "createdAt": "2026-11-17T22:18:44.000Z",
+  "source": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kmd7t22",
+    "cid": "bafyreifgb6ftv4566n5mwdpivn5gocokjchchbjsrskjo23bbd2ziqmy5e"
+  }
+}

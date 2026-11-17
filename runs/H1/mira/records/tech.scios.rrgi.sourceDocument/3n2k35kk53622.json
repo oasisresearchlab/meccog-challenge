@@ -1,0 +1,12 @@
+{
+  "$type": "tech.scios.rrgi.sourceDocument",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35lhf2x22",
+    "cid": "bafyreifqj7gt4dcmbko7vjov5ynza7ck5xiqzzbu5xzf66py5m24voop4m"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.source/3n2k35kngmg22",
+    "cid": "bafyreica57hbjqwysdcwpyqazew5v6on6n4n2nt4mw5mkkvfncldnk4sre"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

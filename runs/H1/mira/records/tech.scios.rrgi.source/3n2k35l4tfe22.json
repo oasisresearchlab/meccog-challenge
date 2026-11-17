@@ -1,0 +1,16 @@
+{
+  "$type": "tech.scios.rrgi.source",
+  "text": "Machlovi SI, Neuner SM, Hemmer BM, Khan R, Liu Y, Huang M, Zhu JD, Castellano JM, Cai D, Marcora E, Goate AM. (2022). APOE4 confers transcriptomic and functional alterations to primary mouse microglia.. Neurobiology of disease",
+  "sourceType": "paper",
+  "meccogSource": {
+    "$type": "org.oasisresearchlab.meccog.defs#source",
+    "pmid": "35031484",
+    "sourceType": "PubMed published",
+    "fullTextRoute": "pmc_s3",
+    "fullTextVersion": "unknown",
+    "retracted": false
+  },
+  "doi": "10.1016/j.nbd.2022.105615",
+  "url": "https://doi.org/10.1016/j.nbd.2022.105615",
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

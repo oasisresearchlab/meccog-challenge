@@ -1,0 +1,18 @@
+{
+  "$type": "tech.scios.rrgi.opposes",
+  "subject": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.evidence/3n2k35l54mn22",
+    "cid": "bafyreibns5yqdjkmwvcdznm5lrcjlbkb7lragrcowfkooafzugwosmox6y"
+  },
+  "object": {
+    "uri": "at://did:web:example.org/tech.scios.rrgi.claim/3n2k35knffp22",
+    "cid": "bafyreibxi2e6yauhaaup3iivnibjutgvog3hartx6265zivkgnx5drji64"
+  },
+  "strength": "strong",
+  "warrant": "Directness class 1 (direct), strength d=2 (strong). Perturbed APOE44 vs APOE33 genotype (isogenic KOLF2.1J iPSC-derived microglia), challenged with organoid debris (A); measured Late endosomal/lysosomal luminal pH (ratiometric ApHID/Alexa647 dextran) after debris challenge (B).",
+  "description": "(APOE3 -> APOE4) + organoid debris challenge -> failure of late endosome/lysosome acidification (higher LE/Ly pH than APOE3) in iPSC-derived microglia [CONTRADICTS]",
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction"
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}

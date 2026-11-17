@@ -1,0 +1,193 @@
+{
+  "$type": "tech.scios.rrgi.evidence",
+  "text": "In 18-month-old APOE4/4 mice, entorhinal cortex pyramidal neurons had more Rab5a-positive early endosomes and a higher endosome area fraction than APOE3/3 mice, with no difference in endosome size. This is class 5 because endosome morphology is not pH (reported: 11.7 vs 8.5 particles/cell).",
+  "description": "APOE4/4 (85 neurons, 6 mice) vs APOE3/3 (118 neurons, 7 mice) targeted-replacement mice, 18 months, mixed sex; Rab5a immunofluorescence with Nissl co-stain, ImageJ particle analysis, Student's t-test. Caveat: aged mouse neurons, not human astrocytes; pH not measured.",
+  "contextEntities": [
+    {
+      "name": "APOE",
+      "entityType": "perturbed (A)",
+      "uri": "https://identifiers.org/hgnc:613"
+    },
+    {
+      "name": "early endosome",
+      "entityType": "measured (other)",
+      "uri": "http://purl.obolibrary.org/obo/GO_0005769"
+    },
+    {
+      "name": "Mus musculus",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+    },
+    {
+      "name": "entorhinal cortex",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/UBERON_0002728"
+    },
+    {
+      "name": "pyramidal neuron",
+      "entityType": "experimental system",
+      "uri": "http://purl.obolibrary.org/obo/CL_0000598"
+    }
+  ],
+  "provenance": {
+    "wasGeneratedBy": "aiAssistedExtraction",
+    "excerpt": "In APOE4/4 mice, we observed an increase in the mean number (8.5 ± 0.5 APOE3/3, 11.7 ± 0.8 APOE4/4 particles/cell; p = 0.0007; Figure 4B) and area fraction (0.6 ± 0.05% APOE3/3, 0.8 ± 0.07% APOE4/4 of cell area; p = 0.02; Figure 4D) of Rab5a-positive neuronal early endosomes when compared with age-matched APOE3 mice.",
+    "anchorLocations": [
+      {
+        "page": 7,
+        "boxes": [
+          {
+            "x": 72,
+            "y": 643,
+            "w": 219,
+            "h": 9
+          },
+          {
+            "x": 45,
+            "y": 654,
+            "w": 48,
+            "h": 9
+          },
+          {
+            "x": 92,
+            "y": 653,
+            "w": 10,
+            "h": 9
+          },
+          {
+            "x": 102,
+            "y": 654,
+            "w": 73,
+            "h": 9
+          },
+          {
+            "x": 175,
+            "y": 653,
+            "w": 10,
+            "h": 9
+          },
+          {
+            "x": 185,
+            "y": 654,
+            "w": 105,
+            "h": 9
+          },
+          {
+            "x": 45,
+            "y": 666,
+            "w": 5,
+            "h": 9
+          },
+          {
+            "x": 49,
+            "y": 664,
+            "w": 10,
+            "h": 9
+          },
+          {
+            "x": 59,
+            "y": 666,
+            "w": 157,
+            "h": 9
+          },
+          {
+            "x": 216,
+            "y": 664,
+            "w": 10,
+            "h": 9
+          },
+          {
+            "x": 225,
+            "y": 666,
+            "w": 65,
+            "h": 9
+          },
+          {
+            "x": 45,
+            "y": 677,
+            "w": 11,
+            "h": 9
+          },
+          {
+            "x": 56,
+            "y": 676,
+            "w": 12,
+            "h": 9
+          },
+          {
+            "x": 68,
+            "y": 677,
+            "w": 128,
+            "h": 9
+          },
+          {
+            "x": 196,
+            "y": 676,
+            "w": 12,
+            "h": 9
+          },
+          {
+            "x": 208,
+            "y": 677,
+            "w": 82,
+            "h": 9
+          },
+          {
+            "x": 45,
+            "y": 689,
+            "w": 245,
+            "h": 9
+          },
+          {
+            "x": 45,
+            "y": 700,
+            "w": 103,
+            "h": 9
+          }
+        ]
+      }
+    ],
+    "anchorLocationsMode": "normalized"
+  },
+  "tags": [
+    "meccog",
+    "H1",
+    "mixed",
+    "directness-5"
+  ],
+  "meccogFinding": {
+    "$type": "org.oasisresearchlab.meccog.defs#finding",
+    "hypothesis": "H1",
+    "extractionOrder": 4,
+    "summary": "(APOE3/3 -> APOE4/4, aged) -> (more early endosomes in entorhinal neurons) [endosome morphology, not pH]",
+    "relevance": "0.25",
+    "dataLocation": "Fig 4B-D",
+    "effectSize": "qualitative",
+    "effectSizeProvenance": "printed_in_text",
+    "pValue": "0.0007",
+    "pValueProvenance": "printed_in_text",
+    "sampleSize": "13",
+    "sampleSizeProvenance": "printed_in_text",
+    "directnessClass": "5",
+    "directnessStrength": "5",
+    "direction": "mixed",
+    "audit": {
+      "status": "kept",
+      "errors": [],
+      "warnings": [
+        "effect size '11.7 vs 8.5 particles/cell' has no accepted form: recorded as qualitative, numbers kept in description",
+        "directness class 5: description should say why no class fits"
+      ],
+      "quoteCoverage": "1"
+    },
+    "perturbed": {
+      "variable": "APOE4/4 vs APOE3/3 genotype at 18 months",
+      "mapsTo": "A"
+    },
+    "measured": {
+      "variable": "Rab5a-positive early endosome number, size and area fraction in entorhinal cortex pyramidal neurons",
+      "mapsTo": "other"
+    }
+  },
+  "createdAt": "2026-11-17T22:18:44.000Z"
+}
