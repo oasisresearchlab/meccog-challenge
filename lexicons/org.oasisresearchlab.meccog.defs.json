@@ -1,0 +1,72 @@
+{
+  "lexicon": 1,
+  "id": "org.oasisresearchlab.meccog.defs",
+  "description": "MecCog extension to the RRGI/MIRA draft lexicons (tech.scios.rrgi.*). Embedded objects carried on base records: #finding on tech.scios.rrgi.evidence (key `meccogFinding`), #source on tech.scios.rrgi.source (key `meccogSource`), #hypothesis on tech.scios.rrgi.claim (key `meccogHypothesis`). They hold what the MecCog challenge sheet needs and the base lexicons have no field for: reported statistics with provenance codes, directness of evidence, and the perturbed/measured mapping to the hypothesis variables. Base-record fields stay authoritative where they exist (evidence.text, evidence.description, provenance.excerpt). Decimals are strings, since DAG-CBOR has no floats. Status: draft, 2026-11-17.",
+  "defs": {
+    "finding": {
+      "type": "object",
+      "description": "One experimental finding as the MecCog challenge records it, beyond what tech.scios.rrgi.evidence carries.",
+      "required": ["hypothesis", "summary", "relevance", "dataLocation", "effectSize", "effectSizeProvenance", "pValue", "pValueProvenance", "sampleSize", "sampleSizeProvenance", "directnessClass", "directnessStrength", "direction", "audit"],
+      "properties": {
+        "hypothesis": {"type": "string", "description": "MecCog hypothesis id, e.g. 'H1'. The finding's supports/opposes edges point at that hypothesis's claim record."},
+        "extractionOrder": {"type": "integer", "description": "Position of the finding in its paper's extraction; a stable tiebreak for ordering."},
+        "summary": {"type": "string", "description": "Structured notation used to match findings across submissions, e.g. '(APOE3 -> APOE4) -> (lower endosomal pH in astrocytes)'."},
+        "relevance": {"type": "string", "description": "0 to 1, as a decimal string: how much the finding bears on the hypothesis."},
+        "dataLocation": {"type": "string", "description": "Where in the paper, at panel level: 'Fig 4C', 'Table 2', 'Supplementary Fig 3B'. The panels are also tech.scios.rrgi.entity records linked by observationBase."},
+        "effectSize": {"type": "string", "description": "As the paper reports it: '40%', '2.5x', 'd=3.7', a leading '~' when estimated from a figure, 'qualitative', or 'N/A'."},
+        "effectSizeProvenance": {"type": "string", "knownValues": ["printed_in_text", "visual_only", "estimated_from_figure", "supplement_only", "not_found_in_source", "full_text_unavailable", "ambiguous_panel"]},
+        "pValue": {"type": "string", "description": "A number or an inequality ('<0.001'), or 'N/A'. Never estimated."},
+        "pValueProvenance": {"type": "string", "knownValues": ["printed_in_text", "visual_only", "supplement_only", "not_found_in_source", "full_text_unavailable", "ambiguous_panel"]},
+        "sampleSize": {"type": "string", "description": "A whole number or a range as printed ('8-12'), '~n' when counted off a figure, or 'N/A'."},
+        "sampleSizeProvenance": {"type": "string", "knownValues": ["printed_in_text", "visual_only", "estimated_from_figure", "supplement_only", "not_found_in_source", "full_text_unavailable", "ambiguous_panel"]},
+        "directnessClass": {"type": "string", "knownValues": ["1", "2", "3", "4", "5"], "description": "How the experiment lines up with 'a change in A causes a change in B': 1 direct, 2 indirect input (surrogate A'), 3 indirect output (surrogate B'), 4 both, 5 other. Relative to the hypothesis, not the paper."},
+        "directnessStrength": {"type": "string", "knownValues": ["1", "2", "3", "4", "5"], "description": "d, 1 very strong to 5 very weak: how misleading the surrogates could be. Also projected onto the edge's relationStrength (1-2 strong, 3 moderate, 4-5 weak)."},
+        "direction": {"type": "string", "knownValues": ["supports", "contradicts", "no_effect", "mixed"], "description": "Drives the edge: supports -> supports; contradicts and no_effect -> opposes; mixed -> both."},
+        "perturbed": {"type": "ref", "ref": "#variableMapping", "description": "What the experiment varied, mapped to the hypothesis: A or A_surrogate (or other). Its ontology terms are in evidence.contextEntities."},
+        "measured": {"type": "ref", "ref": "#variableMapping", "description": "What the experiment measured: B, B_surrogate, intermediate, or other."},
+        "audit": {"type": "ref", "ref": "#audit"}
+      }
+    },
+    "variableMapping": {
+      "type": "object",
+      "required": ["variable", "mapsTo"],
+      "properties": {
+        "variable": {"type": "string"},
+        "mapsTo": {"type": "string", "knownValues": ["A", "A_surrogate", "B", "B_surrogate", "intermediate", "other"]}
+      }
+    },
+    "audit": {
+      "type": "object",
+      "description": "The automatic checks against the source. Set status to 'kept' or 'dropped' by hand to override; the sheet and the supports/opposes edges follow it.",
+      "required": ["status"],
+      "properties": {
+        "status": {"type": "string", "knownValues": ["kept", "dropped"]},
+        "errors": {"type": "array", "items": {"type": "string"}},
+        "warnings": {"type": "array", "items": {"type": "string"}},
+        "quoteCoverage": {"type": "string", "description": "Share of the quote found verbatim in the PDF text layer, 0 to 1, or 'N/A'."}
+      }
+    },
+    "source": {
+      "type": "object",
+      "description": "What the MecCog sheet needs about a paper beyond tech.scios.rrgi.source.",
+      "required": ["pmid", "sourceType", "fullTextRoute"],
+      "properties": {
+        "pmid": {"type": "string", "description": "PubMed ID, digits only, or 'N/A'."},
+        "sourceType": {"type": "string", "knownValues": ["PubMed published", "PubMed preprint", "Web article", "Database", "Other"]},
+        "fullTextRoute": {"type": "string", "knownValues": ["local", "pmc_s3", "openalex", "unpaywall", "doi", "abstract_only"]},
+        "fullTextVersion": {"type": "string", "knownValues": ["publishedVersion", "acceptedVersion", "submittedVersion", "unknown"]},
+        "retracted": {"type": "boolean"}
+      }
+    },
+    "hypothesis": {
+      "type": "object",
+      "required": ["id", "variableA", "variableB"],
+      "properties": {
+        "id": {"type": "string"},
+        "seedPmid": {"type": "string"},
+        "variableA": {"type": "string"},
+        "variableB": {"type": "string"}
+      }
+    }
+  }
+}

@@ -56,14 +56,23 @@ def commit_sha() -> str:
 
 def run(hyp: dict, run_dir: Path, team_file: Path, out: Path | None = None) -> Path:
     fetch_resources()
-    audited = json.loads((run_dir / "audit.json").read_text())
     papers = []
-    for a in audited:
-        kept = [f["finding"] for f in a["findings"] if f["keep"]]
-        if kept:
-            kept.sort(key=lambda f: -f["relevance"])
-            papers.append((max(f["relevance"] for f in kept), a["paper"], kept))
-    papers.sort(key=lambda t: -t[0])
+    if (run_dir / "mira" / "index.json").exists():
+        from . import mira
+        print("  rendering from MIRA records (runs/<H>/mira)")
+        for paper, kept in mira.load_for_sheet(run_dir):
+            kept.sort(key=lambda f: (-f["relevance"], f["order"]))
+            papers.append((max(f["relevance"] for f in kept), paper, kept))
+    else:
+        for a in json.loads((run_dir / "audit.json").read_text()):
+            kept = [{**f["finding"], "order": f["n"]} for f in a["findings"] if f["keep"]]
+            if kept:
+                kept.sort(key=lambda f: (-f["relevance"], f["order"]))
+                papers.append((max(f["relevance"] for f in kept), {**a["paper"],
+                               "source_type": source_type(a["paper"])}, kept))
+    # deterministic order: relevance, then published before preprint/other, then identifier
+    papers.sort(key=lambda t: (-t[0], t[1]["source_type"] != "PubMed published",
+                               str(t[1].get("pmid") or t[1].get("doi"))))
     if len(papers) > MAX_PAPERS:
         print(f"  {len(papers)} papers with findings; keeping the top {MAX_PAPERS}")
         papers = papers[:MAX_PAPERS]
@@ -76,7 +85,7 @@ def run(hyp: dict, run_dir: Path, team_file: Path, out: Path | None = None) -> P
     r = 3
     for pi, (_, p, findings) in enumerate(papers, 1):
         ws.cell(r, 2, p.get("doi") or "N/A")
-        ws.cell(r, 3, source_type(p))
+        ws.cell(r, 3, p["source_type"])
         ws.cell(r, 4, p.get("pmid") or "N/A")
         ws.cell(r, 5, f"P{pi}")
         r += 1

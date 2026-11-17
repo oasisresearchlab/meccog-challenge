@@ -83,6 +83,13 @@ Every finding passes an automatic audit before it reaches the sheet. **Errors dr
   Every finding states what it perturbed and what it measured, mapped to A, a surrogate of A, B, a surrogate of B, or an intermediate. That mapping implies the directness class (A+B=1, A′+B=2, A+B′=3, A′+B′=4), and the audit checks it against the stated class.
 
   These IDs use the same schemes as the Proto-OKN knowledge graphs, so `graph.json` joins to them directly. Every ID is looked up and kept only if its label matches.
+- **Records first, sheet second.** Each run is written as MIRA records ([RRGI draft lexicons](https://github.com/jring-o/rrgi-lexicons-draft)):
+  - the hypothesis as a claim
+  - each finding as evidence, with its verbatim quote and page boxes
+  - each cited panel as an entity
+  - supports/opposes edges carrying the directness class and strength
+
+  Statistics, provenance codes and directness live in a small extension, documented in [`docs/MIRA-EXTENSION.md`](docs/MIRA-EXTENSION.md). The submitted spreadsheet is rendered from those records, and human corrections are made in the records.
 - **Direction.** Contradicting and null findings are kept, labelled `CONTRADICTING:` / `NO EFFECT:`, and marked in the structured summary.
 - **Statistics are reported as the paper reports them,** never converted. Percentages and folds are written unsigned because that is the validator's format, so the direction lives in the description and summary.
 - **Supplements** are read only when they come through the PMC OA subset or are hand-supplied, so `supplement_only` is under-used for closed papers.
@@ -105,6 +112,8 @@ Every finding passes an automatic audit before it reaches the sheet. **Errors dr
   - `audit.py`, `pdf.py`: checks
   - `assemble.py`: sheet and validator
   - `queue.py`: access queue
+  - `mira.py`, `atproto.py`: MIRA records and the sheet view
+- `lexicons/org.oasisresearchlab.meccog.defs.json` is the MIRA extension.
 - `tests/` runs offline: audit → assemble → the official validator on a synthetic paper.
 
 The quote audit is adapted from our discourse-graph extraction pipeline ([scientific-claim-extraction-benchmarking](https://github.com/oasisresearchlab/scientific-claim-extraction-benchmarking)). License: MIT.

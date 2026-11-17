@@ -6,6 +6,7 @@
   meccog fetch    H1            fulltext.json, pdfs/         (shortlist only)
   meccog extract  H1            extractions/<id>.json        (Claude, full PDF)
   meccog audit    H1            audit.json, audit_report.md, graph.json  (no Claude calls)
+  meccog mira     H1            mira/: MIRA records (+ MecCog extension); edit these to fix a run
   meccog assemble H1            meccog_H1_submission.xlsx + validator output
   meccog all      H1            every step in order
   meccog queue                  runs/access_queue.csv: relevant but closed papers, across hypotheses
@@ -17,7 +18,7 @@ import argparse
 import json
 from pathlib import Path
 
-from . import assemble, audit, entities, extract, fulltext, hypotheses, queue, screen, search
+from . import assemble, audit, entities, extract, mira, fulltext, hypotheses, queue, screen, search
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -25,7 +26,7 @@ ROOT = Path(__file__).resolve().parents[2]
 def main(argv: list[str] | None = None) -> None:
     ap = argparse.ArgumentParser(prog="meccog", description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("step", choices=["search", "screen", "frame", "fetch", "extract", "audit", "assemble", "all",
+    ap.add_argument("step", choices=["search", "screen", "frame", "fetch", "extract", "audit", "mira", "assemble", "all",
                                      "resources", "queue"])
     ap.add_argument("hypothesis", nargs="?", help="H1..H5")
     ap.add_argument("--runs", type=Path, default=ROOT / "runs")
@@ -53,7 +54,7 @@ def main(argv: list[str] | None = None) -> None:
     run_dir = a.runs / hyp["id"]
     run_dir.mkdir(parents=True, exist_ok=True)
     (run_dir / "hypothesis.json").write_text(json.dumps(hyp, indent=2))
-    steps = ["search", "screen", "frame", "extract", "audit", "assemble"] if a.step == "all" else [a.step]
+    steps = ["search", "screen", "frame", "extract", "audit", "mira", "assemble"] if a.step == "all" else [a.step]
 
     for step in steps:
         print(f"== {step} {hyp['id']}: {hyp['short']}")
@@ -75,6 +76,8 @@ def main(argv: list[str] | None = None) -> None:
                 extract.run(hyp, papers, run_dir, a.effort, a.workers)
         elif step == "audit":
             audit.run(run_dir)
+        elif step == "mira":
+            mira.build(run_dir)
         elif step == "assemble":
             assemble.run(hyp, run_dir, a.team)
 

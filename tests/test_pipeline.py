@@ -93,3 +93,54 @@ def test_assemble_passes_official_validator(run_dir, tmp_path):
     res = subprocess.run([sys.executable, str(assemble.RES / "validate_submission.py"), str(out)],
                          capture_output=True, text=True)
     assert res.returncode == 0, res.stdout + res.stderr
+
+
+def _cells(path):
+    import openpyxl
+    return [tuple(r) for r in openpyxl.load_workbook(path)["Submission"].iter_rows(values_only=True)]
+
+
+def _team(tmp_path):
+    team = tmp_path / "team.toml"
+    team.write_text('team = "t"\nteam_leader = "A B"\nteam_leader_email = "a@b.org"\n'
+                    'method_url = "https://github.com/oasisresearchlab/meccog-challenge"\nwho_did_the_work = "agent"\n')
+    return team
+
+
+def test_mira_view_matches_audit_view_and_keeps_edits(run_dir, tmp_path):
+    import shutil
+    from meccog import mira
+    (run_dir / "hypothesis.json").write_text(json.dumps(hypotheses.get("H1")))
+    audit.run(run_dir)
+    team = _team(tmp_path)
+    hyp = hypotheses.get("H1")
+    plain = assemble.run(hyp, run_dir, team, tmp_path / "plain.xlsx")
+    mira.build(run_dir)
+    view = assemble.run(hyp, run_dir, team, tmp_path / "view.xlsx")
+    assert _cells(plain) == _cells(view)
+
+    # hand-edit the dropped finding back in, and reword the kept one; both must survive two rebuilds
+    idx = json.loads((run_dir / "mira" / "index.json").read_text())
+    def path(slug):
+        o = idx[slug]
+        return run_dir / "mira" / "records" / o["nsid"] / f"{o['rkey']}.json"
+    evs = sorted(s for s in idx if s.startswith("evd:"))
+    for slug in evs:
+        v = json.loads(path(slug).read_text())
+        if v["meccogFinding"]["audit"]["status"] == "dropped":
+            v["meccogFinding"]["audit"]["status"] = "kept"
+            v["meccogFinding"]["pValue"], v["meccogFinding"]["pValueProvenance"] = "N/A", "not_found_in_source"
+            v["provenance"].pop("excerpt", None)
+        else:
+            v["text"] = "EDITED " + v["text"]
+        path(slug).write_text(json.dumps(v))
+    mira.build(run_dir)
+    mira.build(run_dir)
+    rows = _cells(assemble.run(hyp, run_dir, team, tmp_path / "edited.xlsx"))
+    findings = [r for r in rows[2:] if r[4] and "." in str(r[4])]
+    assert len(findings) == 2
+    assert any(str(r[5]).startswith("EDITED") for r in findings)
+    idx = json.loads((run_dir / "mira" / "index.json").read_text())
+    rels = [json.loads(p.read_text()) for p in (run_dir / "mira" / "records").glob("*.supports/*.json")]
+    assert len(rels) == 2
+    assert {r["subject"]["cid"] for r in rels} == {idx[s]["cid"] for s in evs}

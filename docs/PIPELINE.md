@@ -16,7 +16,8 @@ uv run --python 3.12 meccog all H1      # or step by step:
 | `fetch H1` | shortlist | `fulltext.json`, `pdfs/`, `needs_pdf.md` | PMC S3, OpenAlex, Unpaywall |
 | `extract H1` | shortlist + frame | `extractions/<PMID>.json` (resumable) | Claude, effort high, PDF in |
 | `audit H1` | extractions | `audit.json`, `audit_report.md`, `graph.json` | OLS/HGNC only |
-| `assemble H1` | audit | `meccog_H1_submission.xlsx`, `validator.txt` | none |
+| `mira H1` | audit, frame | `mira/records/`, `index.json`, `records.md` — edit these to fix a run ([extension](MIRA-EXTENSION.md)) | none |
+| `assemble H1` | MIRA records (or audit, if none) | `meccog_H1_submission.xlsx`, `validator.txt` | none |
 | `queue` | every `screen.jsonl` | `runs/access_queue.csv`, `.md` | PMC S3, OpenAlex |
 
 Everything lands in `runs/H1/` (gitignored). Steps are resumable, so a failure on one paper costs only that paper.
