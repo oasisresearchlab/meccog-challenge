@@ -8,6 +8,7 @@ screened.
 from __future__ import annotations
 
 import json
+import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
@@ -54,7 +55,8 @@ def _one(hyp: dict, c: dict) -> dict:
     data, usage = claude.json_call(SYSTEM, [{"type": "text", "text": text}], SCHEMA,
                                    model=claude.SCREEN_MODEL, effort="low", max_tokens=8000)
     data["relevance"] = max(0.0, min(1.0, float(data["relevance"])))
-    return {"key": c["pmid"] or c["doi"] or c["epmc_id"], **data, "model": usage["model"]}
+    return {"key": c["pmid"] or c["doi"] or c["epmc_id"], **data, "model": usage["model"],
+            "input_tokens": usage["input_tokens"], "output_tokens": usage["output_tokens"]}
 
 
 def run(hyp: dict, run_dir: Path, workers: int = 8) -> Path:
@@ -91,4 +93,27 @@ def shortlist(run_dir: Path, hyp: dict, k: int, min_relevance: float) -> list[di
             if (v["include"] and v["is_primary_research"] and v["relevance"] >= min_relevance)
             or v["key"] == hyp["seed_pmid"]]
     keep.sort(key=lambda v: (v["key"] != hyp["seed_pmid"], -v["relevance"]))
-    return [{**cands[v["key"]], "screen": v} for v in keep[:k] if v["key"] in cands]
+    out = [{**cands[v["key"]], "screen": v} for v in keep if v["key"] in cands]
+    return dedupe_versions(out)[:k]
+
+
+def _title_key(t: str) -> set[str]:
+    return set(re.findall(r"[a-z0-9]{4,}", t.lower()))
+
+
+def dedupe_versions(recs: list[dict]) -> list[dict]:
+    """A preprint and its published version are one paper: keep the published one (it has the PMID the
+    sheet needs), and record the preprint DOI on it. Matched on title-word overlap, since titles often
+    change slightly between versions."""
+    published = [r for r in recs if not r.get("is_preprint")]
+    out = []
+    for r in recs:
+        if r.get("is_preprint"):
+            tk = _title_key(r["title"])
+            twin = next((p for p in published
+                         if tk and len(tk & _title_key(p["title"])) / len(tk | _title_key(p["title"])) >= 0.6), None)
+            if twin:
+                twin.setdefault("preprint_dois", []).append(r.get("doi"))
+                continue
+        out.append(r)
+    return out

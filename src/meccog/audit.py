@@ -46,6 +46,40 @@ def norm_effect(v: str) -> str:
     return v
 
 
+TOKEN = re.compile(r"~?\s*(\d+(\.\d+)?\s*%|\d+(\.\d+)?\s*x\b|[a-zA-Z]+\s*=\s*-?\d+(\.\d+)?)", re.I)
+
+
+def repair_effect(f: dict, warnings: list) -> None:
+    """The accepted forms (%, x, d=, qualitative) cannot hold every effect a paper prints, e.g. a pH
+    difference in pH units, or 'A vs B' means. Rather than drop such a finding or convert the value
+    (the rules forbid conversions), keep the first accepted token when the string starts with one;
+    otherwise record 'qualitative' and move the paper's own numbers into the description verbatim."""
+    v, prov = f["effect_size"], f["effect_size_provenance"]
+    if v == "N/A" or any(r.match(v) for r in RE_EFFECT):
+        return
+    if re.match(r"^n/?a\b", v, re.I):
+        f["effect_size"] = "N/A"
+        if prov not in ABSENT:
+            f["effect_size_provenance"] = "not_found_in_source"
+        return
+    m = TOKEN.match(v)
+    if m:
+        tok = norm_effect(m.group(0))
+        if any(r.match(tok) for r in RE_EFFECT):
+            f["effect_size"] = tok
+            if v[m.end():].strip():
+                f["description"] = f["description"].rstrip(". ") + f" (reported: {v})."
+            warnings.append(f"effect size trimmed to {tok!r} from {v!r}")
+            return
+    f["effect_size"] = "qualitative"
+    if prov == "estimated_from_figure":
+        f["effect_size_provenance"] = "visual_only"
+    elif prov in ABSENT:
+        f["effect_size_provenance"] = "printed_in_text"
+    f["description"] = f["description"].rstrip(". ") + f" (reported: {v.lstrip('~').strip()})."
+    warnings.append(f"effect size {v!r} has no accepted form: recorded as qualitative, numbers kept in description")
+
+
 def norm_p(v: str) -> str:
     v = _clean(v)
     v = re.sub(r"^p\s*(?=[<>=])", "", v, flags=re.I).strip()
@@ -135,6 +169,10 @@ def audit_paper(rec: dict, grounder: "entities.Grounder | None" = None, min_quot
             elif t == "minor":
                 warnings.append(f"quote near-verbatim (coverage {cov:.2f})")
 
+        repair_effect(f, warnings)
+        for k in ("p_value", "sample_size"):
+            if f[k] == "N/A" and f[f"{k}_provenance"] not in ABSENT:
+                f[f"{k}_provenance"] = "not_found_in_source"
         check_stat(f, "effect_size", RE_EFFECT, False, text_flat, errors, warnings)
         check_stat(f, "p_value", RE_P, True, text_flat, errors, warnings)
         check_stat(f, "sample_size", RE_N, False, text_flat, errors, warnings)

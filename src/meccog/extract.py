@@ -73,7 +73,22 @@ def _one(hyp: dict, rec: dict, effort: str, frame: str) -> tuple[dict, dict]:
             f"DOI {rec.get('doi')}, PMID {rec.get('pmid')}.\n\n")
     if pdf:
         supps = rec["fulltext"].get("supplements", [])
-        content = [claude.pdf_block(Path(pdf))] + [claude.pdf_block(Path(s)) for s in supps]
+        budget = 30_000_000          # the API's request limit is 32 MB, base64 adds a third
+        docs, used = [], 0
+        for i, path in enumerate([pdf, *supps]):
+            size = Path(path).stat().st_size * 4 // 3
+            if used + size <= budget:
+                docs.append(claude.pdf_block(Path(path)))
+                used += size
+            elif i == 0:            # main paper too big: send its text layer (figures are lost)
+                import pymupdf
+                with pymupdf.open(path) as d:
+                    txt = "\n".join(f"[page {n}]\n{pg.get_text()}" for n, pg in enumerate(d, 1))
+                docs.append(claude.text_block(txt[:600_000], "paper (text layer only; PDF too large)"))
+                head += ("NOTE: the PDF was too large to send, so you have its text layer only: figures are "
+                         "not visible, so do not estimate from figures.\n\n")
+        supps = supps[:len(docs) - 1]
+        content = docs
         if rec["fulltext"].get("version") == "submittedVersion":
             head += ("NOTE: this PDF is the PREPRINT of the paper, not the published version. Cite figure "
                      "panels as they appear in it.\n\n")

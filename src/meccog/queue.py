@@ -51,6 +51,11 @@ def access_now(rec: dict) -> str:
 
 def build(runs: Path, pdf_dir: Path, min_relevance: float = 0.6) -> Path:
     rows: dict[str, dict] = {}
+    fetched: dict[str, str] = {}      # what actually happened when we tried, beats any "is_oa" flag
+    for ftp in runs.glob("H*/fulltext.json"):
+        for f in json.loads(ftp.read_text()):
+            route = f["route"] if f.get("version") != "submittedVersion" else "preprint"
+            fetched[str(f["key"])] = route
     for hdir in sorted(p for p in runs.glob("H*") if (p / "screen.jsonl").exists()):
         cands = {(c["pmid"] or c["doi"] or c.get("epmc_id") or c.get("openalex_id")): c
                  for c in map(json.loads, (hdir / "candidates.jsonl").read_text().splitlines())}
@@ -71,13 +76,21 @@ def build(runs: Path, pdf_dir: Path, min_relevance: float = 0.6) -> Path:
         names = local_names(c)
         if any((pdf_dir / f"{n}.pdf").exists() for n in names):
             continue
-        status = access_now(c)
+        tried = fetched.get(str(c.get("pmid") or c.get("doi")))
+        if tried == "abstract_only":
+            status = "closed (fetch failed)"
+        elif tried == "preprint":
+            status = "preprint only"
+        elif tried:
+            status = "open"
+        else:
+            status = access_now(c)
         if status == "open":
             continue
         best = max(row["rel"].values())
         hyps = sorted(row["rel"], key=lambda h: -row["rel"][h])
         out.append({
-            "priority": round(best + 0.05 * (len(hyps) - 1) + (0.0 if status == "closed" else -0.05), 3),
+            "priority": round(best + 0.05 * (len(hyps) - 1) + (0.0 if status.startswith("closed") else -0.05), 3),
             "relevance": best, "hypotheses": " ".join(hyps),
             "why_relevant": row["why"][hyps[0]], "title": c["title"],
             "first_author": (c.get("authors") or "").split(",")[0], "year": c.get("year"),
@@ -103,6 +116,6 @@ def build(runs: Path, pdf_dir: Path, min_relevance: float = 0.6) -> Path:
         md.append(f"| {i} | {r['relevance']:.2f} | {r['hypotheses']} | {r['access_now']} | "
                   f"{r['first_author']} {r['year']}, {link} | `{r['save_as']}` |")
     (runs / "access_queue.md").write_text("\n".join(md) + "\n")
-    print(f"access queue: {len(out)} papers ({sum(r['access_now'] == 'closed' for r in out)} closed, "
+    print(f"access queue: {len(out)} papers ({sum(r['access_now'].startswith('closed') for r in out)} closed, "
           f"{sum(r['access_now'] == 'preprint only' for r in out)} preprint only) -> {csv_path}")
     return csv_path
