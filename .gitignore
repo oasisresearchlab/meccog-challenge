@@ -1,0 +1,8 @@
+runs/
+pdfs/
+resources/
+team.toml
+__pycache__/
+*.egg-info/
+.venv/
+.env

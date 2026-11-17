@@ -1,0 +1,7 @@
+# Copy to team.toml (gitignored) and fill in. Goes on the Method sheet.
+team = "your team name, exactly as created on the submission page"
+team_leader = "Full Name"
+team_leader_email = "you@institution.edu"
+method_url = "https://github.com/<org>/meccog-challenge"
+# person | agent | both | collab. Use "both" once a person has checked findings.
+who_did_the_work = "agent"
