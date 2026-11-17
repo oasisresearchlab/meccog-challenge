@@ -30,6 +30,15 @@ from .search import UA
 OLS = "https://www.ebi.ac.uk/ols4/api"
 HGNC = "https://rest.genenames.org"
 PREFIXES = {"GO", "CL", "UBERON", "NCBITAXON", "CHEBI", "MONDO", "PR", "HGNC", "HP", "SO"}
+CANON = {"NCBITAXON": "NCBITaxon"}
+
+
+def canon(curie: str) -> str:
+    """Canonical CURIE prefix casing (OLS returns e.g. 'hgnc:659')."""
+    if ":" not in curie:
+        return curie
+    pre, local = curie.split(":", 1)
+    return f"{CANON.get(pre.upper(), pre.upper())}:{local}"
 
 TERM = {"type": "object", "additionalProperties": False, "required": ["label", "id"],
         "properties": {"label": {"type": "string"},
@@ -160,11 +169,11 @@ class Grounder:
             docs = requests.get(f"{OLS}/search", params=params, headers=UA, timeout=30).json()["response"]["docs"]
             docs = [d for d in docs if d.get("obo_id") and (not prefix or d["obo_id"].upper().startswith(prefix + ":"))
                     and d.get("is_defining_ontology", True)]
-            return docs[0]["obo_id"] if docs else ""
+            return canon(docs[0]["obo_id"]) if docs else ""
         return self._memo(f"label:{prefix}:{label.lower()}", f) or None
 
     def ground(self, term: dict) -> dict:
-        label, curie = term["label"].strip(), term["id"].strip()
+        label, curie = term["label"].strip(), canon(term["id"].strip())
         prefix = curie.split(":")[0].upper() if ":" in curie else None
         if curie and prefix in PREFIXES:
             names = self.label_of(curie)
