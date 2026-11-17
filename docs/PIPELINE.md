@@ -20,7 +20,7 @@ uv run --python 3.12 meccog all H1      # or step by step:
 | `assemble H1` | MIRA records (or audit, if none) | `meccog_H1_submission.xlsx`, `validator.txt` | none |
 | `queue` | every `screen.jsonl` | `runs/access_queue.csv`, `.md` | PMC S3, OpenAlex |
 
-Everything lands in `runs/H1/` (gitignored). Steps are resumable, so a failure on one paper costs only that paper.
+Everything lands in `runs/H1/`. Only `mira/` (the record drafts) and `fulltext.json` (the full-text manifest, with sha256 of every PDF read) are committed; PDFs and other intermediates are gitignored. Steps are resumable, so a failure on one paper costs only that paper.
 
 ## The access queue
 

@@ -19,6 +19,7 @@ No route impersonates a browser or works around a publisher's access controls.
 
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
@@ -149,6 +150,37 @@ def fetch(rec: dict, pdf_dir: Path, cache_dir: Path) -> dict:
     return {"route": "abstract_only", "pdf": None, "supplements": [], "tried": tried}
 
 
+ROOT = Path(__file__).resolve().parents[2]
+
+
+def _file_entry(path: str) -> dict:
+    p = Path(path)
+    try:
+        rel = str(p.resolve().relative_to(ROOT))
+    except ValueError:
+        rel = p.name                      # outside the repo: keep the name only, never a home-dir path
+    return {"path": rel, "sha256": hashlib.sha256(p.read_bytes()).hexdigest(), "bytes": p.stat().st_size}
+
+
+def write_manifest(run_dir: Path, recs: list[dict]) -> Path:
+    """fulltext.json: which file was read for each paper, how it was obtained, its license and version, and
+    its sha256. Committed in place of the PDFs: open-access files can be re-fetched with `meccog fetch` and
+    checked against the hashes; hand-supplied (possibly paywalled) files are named and hashed, never shared."""
+    rows = []
+    for r in recs:
+        ft = r["fulltext"]
+        row = {"key": r.get("pmid") or r.get("doi"), "title": r["title"], "doi": r.get("doi"),
+               "pmid": r.get("pmid"), "pmcid": r.get("pmcid"), "route": ft["route"],
+               "license": ft.get("license"), "version": ft.get("version"), "host": ft.get("host"),
+               "retracted": ft.get("retracted"), "tried": ft.get("tried", []),
+               "pdf": _file_entry(ft["pdf"]) if ft.get("pdf") and Path(ft["pdf"]).exists() else None,
+               "supplements": [_file_entry(x) for x in ft.get("supplements", []) if Path(x).exists()]}
+        rows.append({k: v for k, v in row.items() if v not in (None, [])} | {"pdf": row["pdf"]})
+    out = run_dir / "fulltext.json"
+    out.write_text(json.dumps(rows, indent=2, ensure_ascii=False))
+    return out
+
+
 def run(papers: list[dict], run_dir: Path, pdf_dir: Path) -> list[dict]:
     out, missing = [], []
     for rec in papers:
@@ -158,8 +190,7 @@ def run(papers: list[dict], run_dir: Path, pdf_dir: Path) -> list[dict]:
         out.append({**rec, "fulltext": ft})
         if ft["route"] == "abstract_only":
             missing.append(rec)
-    (run_dir / "fulltext.json").write_text(json.dumps(
-        [{"key": r.get("pmid") or r.get("doi"), "title": r["title"], **r["fulltext"]} for r in out], indent=2))
+    write_manifest(run_dir, out)
     lines = ["# Papers extracted from the abstract only", "",
              f"Save each PDF into `{pdf_dir}` as `<PMID>.pdf` (supplements as `<PMID>_supp1.pdf`, ...), "
              "then rerun `meccog extract` for this hypothesis after deleting its "

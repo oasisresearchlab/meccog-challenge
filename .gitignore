@@ -4,6 +4,7 @@ runs/*
 !runs/H*/
 runs/H*/*
 !runs/H*/mira/
+!runs/H*/fulltext.json
 pdfs/
 resources/
 team.toml

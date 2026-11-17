@@ -1,0 +1,657 @@
+[
+  {
+    "key": "10.1101/2025.03.05.641722",
+    "title": "Protective ApoE variants support neuronal function by extracting peroxidated lipids",
+    "doi": "10.1101/2025.03.05.641722",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "10.1101/243097",
+    "title": "The Amyloid Clearance Defect in ApoE4 Astrocytes is Corrected by Epigenetic Restoration of NHE6",
+    "doi": "10.1101/243097",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "10.1101/252122",
+    "title": "A conserved mechanism for regulation of endo-lysosomal pH by histone deacetylases",
+    "doi": "10.1101/252122",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "10.64898/2026.05.12.724612",
+    "title": "Impaired lipoprotein secretion by APOE4 leads to lysosomal and mitochondrial dysfunction in human microglia",
+    "doi": "10.64898/2026.05.12.724612",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "10.64898/2026.09.01.748585",
+    "title": "ApoE4 impairs astrocyte lipid droplet formation via endolysosomal dysfunction",
+    "doi": "10.64898/2026.09.01.748585",
+    "route": "openalex",
+    "version": "submittedVersion",
+    "host": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "retracted": false,
+    "tried": [
+      "local",
+      "openalex"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/10.64898_2026.09.01.748585.pdf",
+      "sha256": "04a4fd9ca0a181881f39d7bb7d1f4019359f863983fc73fa962574251d34cfb4",
+      "bytes": 8308880
+    }
+  },
+  {
+    "key": "11162242",
+    "title": "The Endosomal Trafficking of Apolipoprotein E3 and E4 in Cultured Human Brain Neurons and Astrocytes",
+    "doi": "10.1006/nbdi.2000.0362",
+    "pmid": "11162242",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "20547867",
+    "title": "ApoE4 reduces glutamate receptor function and synaptic plasticity by selectively impairing ApoE receptor recycling.",
+    "doi": "10.1073/pnas.0914984107",
+    "pmid": "20547867",
+    "pmcid": "PMC2900641",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "pmc_s3",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "28957663",
+    "title": "Apolipoprotein E4 Impairs Neuronal Insulin Signaling by Trapping Insulin Receptor in the Endosomes.",
+    "doi": "10.1016/j.neuron.2017.09.003",
+    "pmid": "28957663",
+    "pmcid": "PMC5621659",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "pmc_s3",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "29311783",
+    "title": "The Endosomal-Lysosomal Pathway Is Dysregulated by <i>APOE4</i> Expression <i>in Vivo</i>.",
+    "doi": "10.3389/fnins.2017.00702",
+    "pmid": "29311783",
+    "pmcid": "PMC5733017",
+    "route": "pmc_s3",
+    "license": "CC BY",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC5733017.pdf",
+      "sha256": "fe695284a603e18ea5918613e159143844d5bc043154d933074aed785d56b3f8",
+      "bytes": 2557206
+    },
+    "supplements": [
+      {
+        "path": "runs/H1/pdfs/PMC5733017_supp_Table1.PDF",
+        "sha256": "811b8e75d4e7d2cf9fb4bb9c9304298775f29256d1ffd64451b0784d22dd0488",
+        "bytes": 1288656
+      }
+    ]
+  },
+  {
+    "key": "29567836",
+    "title": "Histone deacetylase-mediated regulation of endolysosomal pH.",
+    "doi": "10.1074/jbc.ra118.002025",
+    "pmid": "29567836",
+    "pmcid": "PMC5936830",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "pmc_s3",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "29861287",
+    "title": "APOE4 Causes Widespread Molecular and Cellular Alterations Associated with Alzheimer’s Disease Phenotypes in Human iPSC-Derived Brain Cell Types",
+    "doi": "10.1016/j.neuron.2018.05.008",
+    "pmid": "29861287",
+    "pmcid": "PMC6023751",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "pmc_s3",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "29946028",
+    "title": "Amyloid clearance defect in ApoE4 astrocytes is reversed by epigenetic correction of endosomal pH.",
+    "doi": "10.1073/pnas.1801612115",
+    "pmid": "29946028",
+    "pmcid": "PMC6048470",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "pmc_s3",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "30375977",
+    "title": "Reversal of ApoE4-induced recycling block as a novel prevention approach for Alzheimer's disease.",
+    "doi": "10.7554/elife.40048",
+    "pmid": "30375977",
+    "pmcid": "PMC6261251",
+    "route": "pmc_s3",
+    "license": "CC BY",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC6261251.pdf",
+      "sha256": "50738d0c155c24ae8409479fa3ed7e54d381a3edac024b685fa10770933eb212",
+      "bytes": 7319853
+    },
+    "supplements": [
+      {
+        "path": "runs/H1/pdfs/PMC6261251_supp_elife-40048-transrepform.pdf",
+        "sha256": "105c0961359a14fef3610783e13a29139c307b14f374e8b9a396b3601c888a34",
+        "bytes": 325978
+      }
+    ]
+  },
+  {
+    "key": "31641056",
+    "title": "ApoE4 Alters ABCA1 Membrane Trafficking in Astrocytes.",
+    "doi": "10.1523/jneurosci.1400-19.2019",
+    "pmid": "31641056",
+    "pmcid": "PMC6880458",
+    "route": "openalex",
+    "version": "publishedVersion",
+    "host": "Journal of Neuroscience",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3",
+      "openalex"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/31641056.pdf",
+      "sha256": "9334b31be125bbdd23342a11dbc6a8746ccb205bc70622dced3294488a9fa207",
+      "bytes": 2869387
+    }
+  },
+  {
+    "key": "32517777",
+    "title": "Sex-dependent calcium hyperactivity due to lysosomal-related dysfunction in astrocytes from APOE4 versus APOE3 gene targeted replacement mice.",
+    "doi": "10.1186/s13024-020-00382-8",
+    "pmid": "32517777",
+    "pmcid": "PMC7285605",
+    "route": "pmc_s3",
+    "license": "CC BY",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC7285605.pdf",
+      "sha256": "50b99c357c9e9cf291afc7a09b2c7ea9aae48d924e86ec2a9352df7893f95318",
+      "bytes": 4539451
+    }
+  },
+  {
+    "key": "32632205",
+    "title": "MicroRNA-195 rescues ApoE4-induced cognitive deficits and lysosomal defects in Alzheimer’s disease pathogenesis",
+    "doi": "10.1038/s41380-020-0824-3",
+    "pmid": "32632205",
+    "pmcid": "PMC7785685",
+    "route": "pmc_s3",
+    "license": "CC BY",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC7785685.pdf",
+      "sha256": "4f666ade807f2f1c0c1b01e32b8f7e73a1140690d172ae5e805be84ad30b1c91",
+      "bytes": 3123139
+    }
+  },
+  {
+    "key": "33027662",
+    "title": "PICALM Rescues Endocytic Defects Caused by the Alzheimer’s Disease Risk Factor APOE4",
+    "doi": "10.1016/j.celrep.2020.108224",
+    "pmid": "33027662",
+    "pmcid": "PMC8190562",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "pmc_s3",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "34617884",
+    "title": "NHE6 depletion corrects ApoE4-mediated synaptic impairments and reduces amyloid plaque load.",
+    "doi": "10.7554/elife.72034",
+    "pmid": "34617884",
+    "pmcid": "PMC8547963",
+    "route": "pmc_s3",
+    "license": "CC BY",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC8547963.pdf",
+      "sha256": "e8210a2a48f575f52df3d39cb7925dc29347b69d13fe2ec935d57e50e7617e2b",
+      "bytes": 12709780
+    }
+  },
+  {
+    "key": "34919811",
+    "title": "APOE2, E3, and E4 differentially modulate cellular homeostasis, cholesterol metabolism, and inflammatory response in isogenic iPSC-derived astrocytes",
+    "doi": "10.1016/j.stemcr.2021.11.007",
+    "pmid": "34919811",
+    "pmcid": "PMC8758949",
+    "route": "pmc_s3",
+    "license": "CC BY",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC8758949.pdf",
+      "sha256": "871849ae5202cdad6e2b0548cebc6153fa34281bbfdca567af62a148acbc0183",
+      "bytes": 4832165
+    },
+    "supplements": [
+      {
+        "path": "runs/H1/pdfs/PMC8758949_supp_mmc1.pdf",
+        "sha256": "0df46edc423c0605be52e4046e64d2ba44d0dbebdb6c1fb73ef6615eb7b6990d",
+        "bytes": 5738445
+      },
+      {
+        "path": "runs/H1/pdfs/PMC8758949_supp_mmc4.pdf",
+        "sha256": "bc4574d0ff1c34c1413d44d728e253c01b630f9039a29d60e5237181640ac730",
+        "bytes": 10571886
+      }
+    ]
+  },
+  {
+    "key": "34982109",
+    "title": "Isoform-dependent lysosomal degradation and internalization of apolipoprotein E requires autophagy proteins.",
+    "doi": "10.1242/jcs.258687",
+    "pmid": "34982109",
+    "pmcid": "PMC8917355",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "pmc_s3",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "35031484",
+    "title": "APOE4 confers transcriptomic and functional alterations to primary mouse microglia.",
+    "doi": "10.1016/j.nbd.2022.105615",
+    "pmid": "35031484",
+    "pmcid": "PMC8934202",
+    "route": "pmc_s3",
+    "license": "CC BY-NC-ND",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC8934202.pdf",
+      "sha256": "4ab63c8da83b71c22a9a9276ab38b5e25f8c1788108fe9b620329c7f915e97ff",
+      "bytes": 3203923
+    }
+  },
+  {
+    "key": "35750033",
+    "title": "Cholesterol and matrisome pathways dysregulated in astrocytes and microglia.",
+    "doi": "10.1016/j.cell.2022.05.017",
+    "pmid": "35750033",
+    "pmcid": "PMC9340815",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "pmc_s3",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "36825945",
+    "title": "The synthetic TRPML1 agonist ML-SA1 rescues Alzheimer-related alterations of the endosomal-autophagic-lysosomal system.",
+    "doi": "10.1242/jcs.259875",
+    "pmid": "36825945",
+    "pmcid": "PMC10112969",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "pmc_s3",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "37668005",
+    "title": "ApoE4 expression disrupts tau uptake, trafficking, and clearance in astrocytes.",
+    "doi": "10.1002/glia.24469",
+    "pmid": "37668005",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "38217595",
+    "title": "The Role of Impaired Receptor Trafficking in Mediating the Pathological Effects of APOE4 in Alzheimer's Disease.",
+    "doi": "10.3233/jad-230514",
+    "pmid": "38217595",
+    "pmcid": "PMC10894586",
+    "route": "pmc_s3",
+    "license": "CC BY-NC",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC10894586.pdf",
+      "sha256": "72d0cea9519544aba7a0e41f804e7b80f7c604b2e80116ddd63cdf6cd690c71c",
+      "bytes": 1614031
+    }
+  },
+  {
+    "key": "38912292",
+    "title": "APOE4 dysregulates autophagy in cultured cells.",
+    "doi": "10.1080/27694127.2022.2040767",
+    "pmid": "38912292",
+    "pmcid": "PMC11192451",
+    "route": "pmc_s3",
+    "license": "CC BY",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC11192451.pdf",
+      "sha256": "f5e7ef4b62ba798ae89d064fb628aad159adee1570ed14e196b6a81ee0730419",
+      "bytes": 870104
+    }
+  },
+  {
+    "key": "39532095",
+    "title": "Decreased lipidated ApoE-receptor interactions confer protection against pathogenicity of ApoE and its lipid cargoes in lysosomes.",
+    "doi": "10.1016/j.cell.2024.10.027",
+    "pmid": "39532095",
+    "pmcid": "PMC11724755",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "pmc_s3",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  },
+  {
+    "key": "40457456",
+    "title": "Inflammation-induced lysosomal dysfunction in human iPSC-derived microglia is exacerbated by APOE 4/4 genotype.",
+    "doi": "10.1186/s12974-025-03470-y",
+    "pmid": "40457456",
+    "pmcid": "PMC12131611",
+    "route": "pmc_s3",
+    "license": "CC BY",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC12131611.pdf",
+      "sha256": "5d11bd45d23f3bf4ae7abb15f8acefbf72ca3dfe3fd547563cda7787c17888cd",
+      "bytes": 7705224
+    },
+    "supplements": [
+      {
+        "path": "runs/H1/pdfs/PMC12131611_supp_12974_2025_3470_MOESM3_ESM.pdf",
+        "sha256": "876a658e43763bcff510ae7a298ba3159f4da601b5da45fa7ded72443ddc6d3f",
+        "bytes": 1330928
+      }
+    ]
+  },
+  {
+    "key": "40675218",
+    "title": "Neuronal endolysosomal alterations induced by Apolipoprotein E4 emerge over time in primary neurons.",
+    "doi": "10.1016/j.jbc.2025.110479",
+    "pmid": "40675218",
+    "pmcid": "PMC12357307",
+    "route": "pmc_s3",
+    "license": "CC BY-NC-ND",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC12357307.pdf",
+      "sha256": "eef98edcd62a47d22898142f8d7d83e485619daeefe21cfc5440c89cd0f6f4f5",
+      "bytes": 46740186
+    },
+    "supplements": [
+      {
+        "path": "runs/H1/pdfs/PMC12357307_supp_mmc1.pdf",
+        "sha256": "a2230c12857f1bad7f9b1bbc96ef7bc73b323d395528296392f68f9128023d37",
+        "bytes": 2521661
+      }
+    ]
+  },
+  {
+    "key": "40845853",
+    "title": "ApoE4 disrupts intracellular trafficking and iron homeostasis in a reproducible iPSC-based model of human brain endothelial cells.",
+    "doi": "10.1016/j.stemcr.2025.102607",
+    "pmid": "40845853",
+    "pmcid": "PMC12447338",
+    "route": "pmc_s3",
+    "license": "CC BY",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC12447338.pdf",
+      "sha256": "b66ff12df1f761810d8cf42a972613cb554ae1d1083a9ba0766d005cf0e29d3f",
+      "bytes": 121322264
+    },
+    "supplements": [
+      {
+        "path": "runs/H1/pdfs/PMC12447338_supp_mmc1.pdf",
+        "sha256": "9ec103a26941fcbe190d9100370d69c434e6e0423b0055a303160dabd8b15358",
+        "bytes": 8586513
+      }
+    ]
+  },
+  {
+    "key": "41102453",
+    "title": "Interaction of sortilin with apolipoprotein E3 enables neurons to use long-chain fatty acids as alternative metabolic fuel.",
+    "doi": "10.1038/s42255-025-01389-5",
+    "pmid": "41102453",
+    "pmcid": "PMC12638250",
+    "route": "pmc_s3",
+    "license": "CC BY-NC-ND",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC12638250.pdf",
+      "sha256": "8d82ba033623524ef0b66735d5e60f6cf52b42a365ed4f15d278fcbb88b8845b",
+      "bytes": 16256584
+    },
+    "supplements": [
+      {
+        "path": "runs/H1/pdfs/PMC12638250_supp_42255_2025_1389_MOESM1_ESM.pdf",
+        "sha256": "9b90c7a76f813bd2d908fe5c8510d28df28bef99c088e965a309ce9f54e7b0e1",
+        "bytes": 5947064
+      },
+      {
+        "path": "runs/H1/pdfs/PMC12638250_supp_42255_2025_1389_MOESM2_ESM.pdf",
+        "sha256": "39e7b2cfdb653d08366846079f79de7268090090ed53ce0ad56873868204127d",
+        "bytes": 2835982
+      }
+    ]
+  },
+  {
+    "key": "41103078",
+    "title": "Lysosomal proteomics reveals mechanisms of neuronal APOE4-associated lysosomal dysfunction.",
+    "doi": "10.1080/15548627.2025.2576613",
+    "pmid": "41103078",
+    "pmcid": "PMC12758178",
+    "route": "pmc_s3",
+    "license": "CC BY",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC12758178.pdf",
+      "sha256": "d2ae96507a7eb12a0aac5b86ef3f98fff9b387574a66251ef903c225c0c9bdf0",
+      "bytes": 4871110
+    }
+  },
+  {
+    "key": "42182449",
+    "title": "Impaired Lipoprotein Secretion by APOE4 Leads to Lysosomal and Mitochondrial Dysfunction in Human Microglia",
+    "doi": "10.2139/ssrn.7520227",
+    "pmid": "42182449",
+    "pmcid": "PMC13192593",
+    "route": "pmc_s3",
+    "license": "CC BY-NC-ND",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC13192593.pdf",
+      "sha256": "eeea59ec68eac27a5daf661b267619d7ea969edea09ef8a1deb015144b8a8118",
+      "bytes": 2988357
+    },
+    "supplements": [
+      {
+        "path": "runs/H1/pdfs/PMC13192593_supp_NIHPP2026.05.12.724612V1-supplement-1.pdf",
+        "sha256": "084ec93e9e5ec8014c7009342072a61b6d165409d49b57b756a88ac2c2ece59a",
+        "bytes": 1432611
+      }
+    ]
+  },
+  {
+    "key": "42239208",
+    "title": "<i>APOE4</i>  and  <i>INPP5D</i>  converge on membrane mechanics to regulate endocytosis in human astrocytes",
+    "doi": "10.64898/2026.05.22.726347",
+    "pmid": "42239208",
+    "pmcid": "PMC13228211",
+    "route": "pmc_s3",
+    "license": "CC BY",
+    "retracted": false,
+    "tried": [
+      "local",
+      "pmc_s3"
+    ],
+    "pdf": {
+      "path": "runs/H1/pdfs/PMC13228211.pdf",
+      "sha256": "81314e175beca00b9204865893048c159592c37b934f9d369a1e8d5c09fb99fe",
+      "bytes": 15057534
+    },
+    "supplements": [
+      {
+        "path": "runs/H1/pdfs/PMC13228211_supp_NIHPP2026.05.22.726347v1-supplement-1.pdf",
+        "sha256": "0226979169503a21f05eaef98b299381659186e9fc0e9d08f8875bec82a8e7d4",
+        "bytes": 2177013
+      }
+    ]
+  },
+  {
+    "key": "42636814",
+    "title": "Cholesterol dysregulation in APOE4 astrocytes promotes α-synuclein pathology in miBrains.",
+    "doi": "10.1016/j.stem.2026.08.001",
+    "pmid": "42636814",
+    "pmcid": "PMC13528747",
+    "route": "abstract_only",
+    "tried": [
+      "local",
+      "pmc_s3",
+      "openalex",
+      "doi"
+    ],
+    "pdf": null
+  }
+]
